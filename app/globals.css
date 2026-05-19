@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-terracotta: #c2553d;
+  --color-terracotta-dark: #a8472f;
+  --color-navy: #1b2a4e;
+  --color-cream: #faf5ee;
+
+  --font-sans: var(--font-dm-sans), system-ui, sans-serif;
+  --font-caveat: var(--font-caveat), cursive;
+}
+
+html,
+body {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+::selection {
+  background-color: var(--color-terracotta);
+  color: var(--color-cream);
+}
