@@ -3,8 +3,8 @@
 @theme {
   --color-terracotta: #c2553d;
   --color-terracotta-dark: #a8472f;
-  --color-navy: #1b2a4e;
-  --color-cream: #faf5ee;
+  --color-navy: #1a2e4e;
+  --color-cream: #f5f0e8;
 
   --font-sans: var(--font-dm-sans), system-ui, sans-serif;
   --font-caveat: var(--font-caveat), cursive;
