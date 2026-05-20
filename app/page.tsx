@@ -223,13 +223,13 @@ export default function Home() {
                 href={CV_MARKETING}
                 className="inline-block bg-terracotta text-cream px-5 py-3 rounded-md font-medium hover:bg-terracotta-dark transition"
               >
-                Rubina – your next senior marketer
+                Rubina - your next senior marketer
               </a>
               <a
                 href={CV_AI}
                 className="inline-block border border-navy text-navy px-5 py-3 rounded-md font-medium hover:bg-navy hover:text-cream transition"
               >
-                Rubina – your next AI builder
+                Rubina - your next AI builder
               </a>
             </div>
           </div>
