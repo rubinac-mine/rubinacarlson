@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Rubina Carlson — Marketing leader. AI builder. Storyteller.",
@@ -127,15 +128,25 @@ export default function Home() {
             body="$5M in pipeline opportunities through inbound lead generation and performance optimisation across HubSpot, paid, and content."
           />
           <ProofCard
-            title="HubSpot Impact Award, Refuel Creative"
-            role="Digital Marketing Manager · 2020 – 2023"
-            body="172% increase in B2B website leads via HubSpot platform optimisation. HubSpot Impact Award for Platform Excellence, 2023. Led a team of four."
+            title="K-TIG, Refuel Creative"
+            role="Digital Marketing Manager · 2023"
+            body="172% increase in B2B website leads via a comprehensive HubSpot rebuild. HubSpot Impact Award for Platform Excellence, 2023."
+            href="/work/k-tig"
           />
           <ProofCard
             title="Digital Adelaide"
             role="Director · 2015 – 2025"
             body="Grew Digital Adelaide 5x, from 40 delegates to 200+, into South Australia's largest marketing conference."
+            href="/work/digital-adelaide"
           />
+        </div>
+        <div className="mt-10 text-center">
+          <Link
+            href="/work"
+            className="inline-block text-sm font-medium text-terracotta hover:underline underline-offset-4"
+          >
+            See all work →
+          </Link>
         </div>
       </section>
 
@@ -250,16 +261,31 @@ function ProofCard({
   title,
   role,
   body,
+  href,
 }: {
   title: string;
   role: string;
   body: string;
+  href?: string;
 }) {
-  return (
-    <div className="border border-navy/15 bg-cream rounded-lg p-8 hover:border-terracotta/50 transition">
-      <h3 className="text-xl font-semibold mb-2 text-navy">{title}</h3>
+  const classes =
+    "block border border-navy/15 bg-cream rounded-lg p-8 hover:border-terracotta/50 transition";
+  const content = (
+    <>
+      <h3 className="text-xl font-semibold mb-2 text-navy">
+        {title}
+        {href ? <span className="ml-1 text-terracotta">→</span> : null}
+      </h3>
       <p className="text-terracotta italic mb-4">{role}</p>
       <p className="text-navy/80 leading-relaxed">{body}</p>
-    </div>
+    </>
   );
+  if (href) {
+    return (
+      <Link href={href} className={classes}>
+        {content}
+      </Link>
+    );
+  }
+  return <div className={classes}>{content}</div>;
 }
