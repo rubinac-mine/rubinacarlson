@@ -118,9 +118,9 @@ export default function Home() {
         </p>
         <div className="grid gap-6 md:grid-cols-2">
           <ProofCard
-            title="GTM OS at 90 Seconds"
-            role="Head of Marketing · 2025 – present"
-            body="Architected the GTM OS, an internal operations platform that combines CRM and SEO data to automate market mapping and content coverage analysis. Built with the VP of Product. In daily use across the global marketing function."
+            title="Building AI tools at 90 Seconds"
+            role="Head of Marketing · 2024 – present"
+            body="Built 90Labs, a sales-enablement workspace hosting 29+ assets and a Pitch Builder used daily by the global sales team. Helping build out the GTM OS, our internal operations platform, alongside our VP of Product."
           />
           <ProofCard
             title="$5M pipeline at 90 Seconds"

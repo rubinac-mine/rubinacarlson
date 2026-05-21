@@ -90,8 +90,8 @@ export default function DigitalAdelaide() {
       <section className="mx-auto max-w-5xl px-6 mb-16">
         <div className="relative aspect-[3/2] w-full rounded-lg overflow-hidden border border-navy/10">
           <Image
-            src="/work/digital-adelaide/rubina-speaker.webp"
-            alt="Rubina Carlson speaking at Digital Adelaide."
+            src="/work/digital-adelaide/rubina-speaking.webp"
+            alt="Rubina Carlson speaking in a breakout session at Digital Adelaide."
             fill
             sizes="(max-width: 1024px) 100vw, 1024px"
             className="object-cover"
