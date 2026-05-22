@@ -56,6 +56,16 @@ const projects: Project[] = [
     metricLabel: "average email open rate",
   },
   {
+    title: "SeaLink",
+    role: "SeaLink Travel Group",
+    year: "2015 – 2020",
+    outcome:
+      "Five years across SeaLink Kangaroo Island, Bruny Island, Adelaide Sightseeing and the PS Murray Princess. Including a launch from −50 to +10 NPS.",
+    href: "/work/sealink",
+    metric: "-50 → +10",
+    metricLabel: "Bruny Island NPS turnaround",
+  },
+  {
     title: "TreesPlease Games",
     role: "Refuel Creative",
     year: "2021 – 2022",

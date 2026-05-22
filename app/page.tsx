@@ -102,7 +102,8 @@ export default function Home() {
               Outside the day job, I&apos;ve been a Director of Digital
               Adelaide since 2015, the largest marketing conference in South
               Australia. I also lecture in marketing at UniSA and TAFE SA on
-              and off since 2011.
+              and off since 2011, where I designed and delivered the first
+              tertiary social media course in Australia.
             </p>
           </div>
         </div>
@@ -130,7 +131,7 @@ export default function Home() {
           <ProofCard
             title="K-TIG, Refuel Creative"
             role="Digital Marketing Manager · 2023"
-            body="172% increase in B2B website leads via a comprehensive HubSpot rebuild. HubSpot Impact Award for Platform Excellence, 2023."
+            body="172% increase in B2B website leads via a comprehensive HubSpot rebuild. Won the HubSpot Impact Award for Platform Excellence, my third Impact Award in three years."
             href="/work/k-tig"
           />
           <ProofCard

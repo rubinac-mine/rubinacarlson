@@ -141,9 +141,11 @@ export default function KTig() {
           </p>
           <p>
             The work won the HubSpot Impact Award for Platform Excellence in
-            2023. More importantly, K-TIG could forecast sales for the first
-            time, and their marketing investment finally had a number next
-            to it.
+            2023. My third Impact Award, after two in 2020 for a SaaS
+            subscription rebuild (Grow Better: Sales and Integrations
+            Innovation). More importantly, K-TIG could forecast sales for
+            the first time, and their marketing investment finally had a
+            number next to it.
           </p>
         </div>
       </section>
