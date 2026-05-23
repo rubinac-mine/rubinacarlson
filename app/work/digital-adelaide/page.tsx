@@ -194,10 +194,34 @@ export default function DigitalAdelaide() {
         </div>
       </section>
 
-      {/* External link */}
+      {/* Pull quote */}
       <section className="bg-navy text-cream">
+        <div className="mx-auto max-w-3xl px-6 py-20 text-center">
+          <p className="text-xl sm:text-2xl leading-snug font-medium">
+            &ldquo;As the MC and host of Digital Adelaide, Rubina does a
+            great job building the tone for the whole event. I&apos;ve
+            attended for the past few years and I&apos;m continuously
+            impressed by the growth each time.&rdquo;
+          </p>
+          <p className="mt-8 text-sm tracking-wide uppercase text-terracotta">
+            Carmen Hutchison Wickman
+          </p>
+          <p className="mt-2 text-sm text-cream/70 leading-relaxed">
+            Brand and Marketing Leader
+          </p>
+          <Link
+            href="/testimonials"
+            className="inline-block mt-6 text-sm text-cream/70 hover:text-terracotta underline-offset-4 hover:underline"
+          >
+            More voices →
+          </Link>
+        </div>
+      </section>
+
+      {/* External link */}
+      <section className="bg-navy/[0.04] border-y border-navy/10">
         <div className="mx-auto max-w-3xl px-6 py-16 text-center">
-          <p className="text-lg text-cream/85">
+          <p className="text-lg text-navy/85">
             Digital Adelaide lives on under Ryan Jones.
           </p>
           <a

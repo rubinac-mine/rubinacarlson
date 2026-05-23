@@ -165,6 +165,12 @@ export default function Home() {
             Founder @ AccuFind.ai | Non-executive Director | former CIO | AI
             Strategy &amp; Execution
           </p>
+          <Link
+            href="/testimonials"
+            className="inline-block mt-8 text-sm text-cream/70 hover:text-terracotta underline-offset-4 hover:underline"
+          >
+            More voices →
+          </Link>
         </div>
       </section>
 

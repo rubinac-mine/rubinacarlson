@@ -179,6 +179,31 @@ export default function SeaLink() {
         </div>
       </section>
 
+      {/* Pull quote */}
+      <section className="bg-navy text-cream">
+        <div className="mx-auto max-w-3xl px-6 py-20 text-center">
+          <p className="text-xl sm:text-2xl leading-snug font-medium">
+            &ldquo;Rubina generously assisted me to take my digital marketing
+            skills to the next level, providing me with guidance while I
+            upskilled in SEO, SEM, influencer marketing and UX. She&apos;s
+            an incredibly passionate marketer who shows so much dedication
+            to the brands she manages.&rdquo;
+          </p>
+          <p className="mt-8 text-sm tracking-wide uppercase text-terracotta">
+            Louise Gleeson
+          </p>
+          <p className="mt-2 text-sm text-cream/70 leading-relaxed">
+            SeaLink colleague, now at the South Australian Museum
+          </p>
+          <Link
+            href="/testimonials"
+            className="inline-block mt-6 text-sm text-cream/70 hover:text-terracotta underline-offset-4 hover:underline"
+          >
+            More voices →
+          </Link>
+        </div>
+      </section>
+
       {/* Footer nav */}
       <section className="mx-auto max-w-5xl px-6 py-16 text-center">
         <Link
