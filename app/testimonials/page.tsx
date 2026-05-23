@@ -71,15 +71,6 @@ const testimonials: Testimonial[] = [
     ],
   },
   {
-    name: "Ryan Jones",
-    role: "CEO, Refuel Creative · Director, Digital Adelaide",
-    relationship: "Former CEO at Refuel",
-    date: "Earlier",
-    quote: [
-      "Rubina possesses exceptional, natural leadership qualities. Rubina's enthusiasm for what she does is infectious. The hands-on leadership she provided our delivery team as I transitioned to a less hands-on CEO role has been a huge help. When the opportunity arose for Rubina to take on a tactical leader role, she didn't hesitate and kept operations running.",
-    ],
-  },
-  {
     name: "Laurie Fletcher Martin",
     role: "User Acquisition at TreesPlease Games",
     relationship: "Client at Refuel Creative",
