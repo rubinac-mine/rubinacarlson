@@ -20,13 +20,13 @@ export default function CADL() {
         <div className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between gap-4">
           <Link
             href="/"
-            className="font-semibold tracking-tight text-navy hover:text-terracotta transition"
+            className="font-semibold tracking-tight text-navy hover:text-crimson transition"
           >
             ← Rubina Carlson
           </Link>
           <a
             href={MAILTO}
-            className="text-sm font-medium text-terracotta hover:underline underline-offset-4"
+            className="text-sm font-medium text-crimson hover:underline underline-offset-4"
           >
             Get in touch →
           </a>
@@ -37,7 +37,7 @@ export default function CADL() {
       <div className="mx-auto max-w-5xl px-6 pt-8">
         <Link
           href="/work"
-          className="text-sm text-navy/60 hover:text-terracotta transition"
+          className="text-sm text-navy/60 hover:text-crimson transition"
         >
           ← All work
         </Link>
@@ -45,7 +45,7 @@ export default function CADL() {
 
       {/* Hero */}
       <section className="mx-auto max-w-5xl px-6 pt-8 pb-12">
-        <p className="text-sm uppercase tracking-wider text-terracotta font-semibold">
+        <p className="text-sm uppercase tracking-wider text-crimson font-semibold">
           Refuel Creative · 2022 – 2023
         </p>
         <h1 className="mt-4 text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[0.95] text-navy">
@@ -54,7 +54,7 @@ export default function CADL() {
         <p className="mt-8 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
           End-to-end digital transformation for a regional SA non-profit.
           Brand, website, social and email,{" "}
-          <span className="text-terracotta">rebuilt as a single ecosystem.</span>
+          <span className="text-crimson">rebuilt as a single ecosystem.</span>
         </p>
       </section>
 
@@ -100,7 +100,7 @@ export default function CADL() {
             so each one would compound the others rather than launch in
             isolation.
           </p>
-          <ul className="space-y-3 list-disc list-outside ml-6 marker:text-terracotta">
+          <ul className="space-y-3 list-disc list-outside ml-6 marker:text-crimson">
             <li>
               <strong className="text-navy">Brand refresh.</strong> New
               logo, accessible colour palette, applied consistently across
@@ -165,7 +165,7 @@ export default function CADL() {
             href={REFUEL_URL}
             target="_blank"
             rel="noopener"
-            className="inline-block mt-6 bg-terracotta text-cream px-6 py-3 rounded-md font-medium hover:bg-terracotta-dark transition"
+            className="inline-block mt-6 bg-crimson text-cream px-6 py-3 rounded-md font-medium hover:bg-crimson-dark transition"
           >
             Read the full case study on refuelcreative.com.au ↗
           </a>
@@ -176,7 +176,7 @@ export default function CADL() {
       <section className="mx-auto max-w-5xl px-6 py-16 text-center">
         <Link
           href="/work"
-          className="text-sm font-medium text-terracotta hover:underline underline-offset-4"
+          className="text-sm font-medium text-crimson hover:underline underline-offset-4"
         >
           ← Back to all work
         </Link>
@@ -195,7 +195,7 @@ export default function CADL() {
 function Metric({ value, label }: { value: string; label: string }) {
   return (
     <div>
-      <p className="text-5xl sm:text-6xl font-bold tracking-tight text-terracotta">
+      <p className="text-5xl sm:text-6xl font-bold tracking-tight text-crimson-light">
         {value}
       </p>
       <p className="mt-2 text-sm uppercase tracking-wider text-cream/70">

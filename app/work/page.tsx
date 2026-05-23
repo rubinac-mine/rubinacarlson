@@ -130,13 +130,13 @@ export default function WorkIndex() {
         <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between gap-4">
           <Link
             href="/"
-            className="font-semibold tracking-tight text-navy hover:text-terracotta transition"
+            className="font-semibold tracking-tight text-navy hover:text-crimson transition"
           >
             ← Rubina Carlson
           </Link>
           <a
             href={MAILTO}
-            className="text-sm font-medium text-terracotta hover:underline underline-offset-4"
+            className="text-sm font-medium text-crimson hover:underline underline-offset-4"
           >
             Get in touch →
           </a>
@@ -185,7 +185,7 @@ function ProjectCard({ project }: { project: Project }) {
   return (
     <Wrapper
       {...wrapperProps}
-      className="group block border border-navy/15 bg-cream rounded-lg overflow-hidden hover:border-terracotta/60 hover:shadow-sm transition"
+      className="group block border border-navy/15 bg-cream rounded-lg overflow-hidden hover:border-crimson/60 hover:shadow-sm transition"
     >
       {/* Media */}
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-navy">
@@ -199,7 +199,7 @@ function ProjectCard({ project }: { project: Project }) {
           />
         ) : (
           <div className="flex flex-col items-center justify-center h-full text-cream px-6 text-center">
-            <p className="text-5xl sm:text-6xl font-bold tracking-tight text-terracotta">
+            <p className="text-5xl sm:text-6xl font-bold tracking-tight text-crimson-light">
               {project.metric}
             </p>
             <p className="mt-3 text-sm uppercase tracking-wider text-cream/70">
@@ -213,11 +213,11 @@ function ProjectCard({ project }: { project: Project }) {
       <div className="p-6">
         <h2 className="text-xl font-semibold text-navy">
           {project.title}
-          <span className="ml-1 text-terracotta">
+          <span className="ml-1 text-crimson">
             {project.external ? " ↗" : " →"}
           </span>
         </h2>
-        <p className="text-sm text-terracotta italic mt-1">
+        <p className="text-sm text-crimson italic mt-1">
           {project.role} · {project.year}
         </p>
         <p className="text-navy/80 leading-relaxed mt-3">{project.outcome}</p>

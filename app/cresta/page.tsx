@@ -25,7 +25,7 @@ export default function CrestaPage() {
           </span>
           <a
             href={CV_PATH}
-            className="text-sm font-medium text-terracotta hover:underline underline-offset-4"
+            className="text-sm font-medium text-crimson hover:underline underline-offset-4"
           >
             Download CV →
           </a>
@@ -53,7 +53,7 @@ export default function CrestaPage() {
         <div className="mt-12 flex flex-wrap gap-4">
           <a
             href={CV_PATH}
-            className="inline-block bg-terracotta text-cream px-6 py-3 rounded-md font-medium hover:bg-terracotta-dark transition"
+            className="inline-block bg-crimson text-cream px-6 py-3 rounded-md font-medium hover:bg-crimson-dark transition"
           >
             Download CV
           </a>
@@ -290,7 +290,7 @@ export default function CrestaPage() {
           <li>
             <a
               href={`mailto:${EMAIL}`}
-              className="hover:text-terracotta underline-offset-4 hover:underline"
+              className="hover:text-crimson underline-offset-4 hover:underline"
             >
               {EMAIL}
             </a>
@@ -301,7 +301,7 @@ export default function CrestaPage() {
               href="https://www.linkedin.com/in/rubinacarlson"
               target="_blank"
               rel="noopener"
-              className="hover:text-terracotta underline-offset-4 hover:underline"
+              className="hover:text-crimson underline-offset-4 hover:underline"
             >
               linkedin.com/in/rubinacarlson
             </a>
@@ -312,7 +312,7 @@ export default function CrestaPage() {
         </ul>
         <a
           href={MAILTO}
-          className="inline-block bg-terracotta text-cream px-8 py-4 rounded-md font-medium hover:bg-terracotta-dark transition"
+          className="inline-block bg-crimson text-cream px-8 py-4 rounded-md font-medium hover:bg-crimson-dark transition"
         >
           Email me about Cresta
         </a>
@@ -340,9 +340,9 @@ function BuildCard({
   body: string;
 }) {
   return (
-    <div className="border border-navy/15 bg-cream rounded-lg p-8 hover:border-terracotta/50 transition">
+    <div className="border border-navy/15 bg-cream rounded-lg p-8 hover:border-crimson/50 transition">
       <h3 className="text-xl font-semibold mb-2 text-navy">{title}</h3>
-      <p className="text-terracotta italic mb-4">{tagline}</p>
+      <p className="text-crimson italic mb-4">{tagline}</p>
       <p className="text-navy/80 leading-relaxed">{body}</p>
     </div>
   );
@@ -359,7 +359,7 @@ function DayBlock({
 }) {
   return (
     <div>
-      <p className="text-terracotta font-semibold tracking-wide uppercase text-xs mb-3">
+      <p className="text-crimson-light font-semibold tracking-wide uppercase text-xs mb-3">
         {range}
       </p>
       <h3 className="text-xl font-semibold mb-4">{heading}</h3>
@@ -370,6 +370,6 @@ function DayBlock({
 
 function Credential({ text }: { text: string }) {
   return (
-    <li className="border-l-2 border-terracotta pl-4 leading-snug">{text}</li>
+    <li className="border-l-2 border-crimson pl-4 leading-snug">{text}</li>
   );
 }

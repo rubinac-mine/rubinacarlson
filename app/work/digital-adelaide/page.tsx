@@ -48,13 +48,13 @@ export default function DigitalAdelaide() {
         <div className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between gap-4">
           <Link
             href="/"
-            className="font-semibold tracking-tight text-navy hover:text-terracotta transition"
+            className="font-semibold tracking-tight text-navy hover:text-crimson transition"
           >
             ← Rubina Carlson
           </Link>
           <a
             href={MAILTO}
-            className="text-sm font-medium text-terracotta hover:underline underline-offset-4"
+            className="text-sm font-medium text-crimson hover:underline underline-offset-4"
           >
             Get in touch →
           </a>
@@ -65,7 +65,7 @@ export default function DigitalAdelaide() {
       <div className="mx-auto max-w-5xl px-6 pt-8">
         <Link
           href="/work"
-          className="text-sm text-navy/60 hover:text-terracotta transition"
+          className="text-sm text-navy/60 hover:text-crimson transition"
         >
           ← All work
         </Link>
@@ -73,7 +73,7 @@ export default function DigitalAdelaide() {
 
       {/* Hero */}
       <section className="mx-auto max-w-5xl px-6 pt-8 pb-12">
-        <p className="text-sm uppercase tracking-wider text-terracotta font-semibold">
+        <p className="text-sm uppercase tracking-wider text-crimson font-semibold">
           Director · 2015 – 2025
         </p>
         <h1 className="mt-4 text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[0.95] text-navy">
@@ -203,7 +203,7 @@ export default function DigitalAdelaide() {
             attended for the past few years and I&apos;m continuously
             impressed by the growth each time.&rdquo;
           </p>
-          <p className="mt-8 text-sm tracking-wide uppercase text-terracotta">
+          <p className="mt-8 text-sm tracking-wide uppercase text-crimson-light">
             Carmen Hutchison Wickman
           </p>
           <p className="mt-2 text-sm text-cream/70 leading-relaxed">
@@ -211,7 +211,7 @@ export default function DigitalAdelaide() {
           </p>
           <Link
             href="/testimonials"
-            className="inline-block mt-6 text-sm text-cream/70 hover:text-terracotta underline-offset-4 hover:underline"
+            className="inline-block mt-6 text-sm text-cream/70 hover:text-crimson-light underline-offset-4 hover:underline"
           >
             More voices →
           </Link>
@@ -228,7 +228,7 @@ export default function DigitalAdelaide() {
             href="https://digitaladl.au/"
             target="_blank"
             rel="noopener"
-            className="inline-block mt-6 bg-terracotta text-cream px-6 py-3 rounded-md font-medium hover:bg-terracotta-dark transition"
+            className="inline-block mt-6 bg-crimson text-cream px-6 py-3 rounded-md font-medium hover:bg-crimson-dark transition"
           >
             Visit digitaladl.au ↗
           </a>
@@ -239,7 +239,7 @@ export default function DigitalAdelaide() {
       <section className="mx-auto max-w-5xl px-6 py-16 text-center">
         <Link
           href="/work"
-          className="text-sm font-medium text-terracotta hover:underline underline-offset-4"
+          className="text-sm font-medium text-crimson hover:underline underline-offset-4"
         >
           ← Back to all work
         </Link>

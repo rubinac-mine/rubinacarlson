@@ -25,7 +25,7 @@ export default function Home() {
           </span>
           <a
             href={MAILTO}
-            className="text-sm font-medium text-terracotta hover:underline underline-offset-4"
+            className="text-sm font-medium text-crimson hover:underline underline-offset-4"
           >
             Get in touch →
           </a>
@@ -41,7 +41,7 @@ export default function Home() {
             </h1>
             <p className="mt-8 text-2xl sm:text-3xl leading-snug text-navy">
               Marketing leader.{" "}
-              <span className="text-terracotta">AI builder.</span> Storyteller.
+              <span className="text-crimson">AI builder.</span> Storyteller.
             </p>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-navy/80">
               15+ years of marketing experience across tech, tourism and higher
@@ -52,7 +52,7 @@ export default function Home() {
             <div className="mt-10 flex flex-wrap gap-4">
               <a
                 href={MAILTO}
-                className="inline-block bg-terracotta text-cream px-6 py-3 rounded-md font-medium hover:bg-terracotta-dark transition"
+                className="inline-block bg-crimson text-cream px-6 py-3 rounded-md font-medium hover:bg-crimson-dark transition"
               >
                 Get in touch
               </a>
@@ -64,7 +64,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-terracotta/20 mx-auto md:mx-0">
+          <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-crimson/20 mx-auto md:mx-0">
             <Image
               src="/rubina-portrait-square.jpg"
               alt="Rubina Carlson, smiling, in a black top and black fascinator."
@@ -144,7 +144,7 @@ export default function Home() {
         <div className="mt-10 text-center">
           <Link
             href="/work"
-            className="inline-block text-sm font-medium text-terracotta hover:underline underline-offset-4"
+            className="inline-block text-sm font-medium text-crimson hover:underline underline-offset-4"
           >
             See all work →
           </Link>
@@ -158,7 +158,7 @@ export default function Home() {
             &ldquo;Rubina is a strategic thinker and someone you can bounce
             ideas off. Adaptable, reliable, and a life-long learner.&rdquo;
           </p>
-          <p className="mt-8 text-sm tracking-wide uppercase text-terracotta">
+          <p className="mt-8 text-sm tracking-wide uppercase text-crimson-light">
             Hamish Cameron
           </p>
           <p className="mt-2 text-sm text-cream/70 leading-relaxed">
@@ -167,7 +167,7 @@ export default function Home() {
           </p>
           <Link
             href="/testimonials"
-            className="inline-block mt-8 text-sm text-cream/70 hover:text-terracotta underline-offset-4 hover:underline"
+            className="inline-block mt-8 text-sm text-cream/70 hover:text-crimson-light underline-offset-4 hover:underline"
           >
             More voices →
           </Link>
@@ -216,7 +216,7 @@ export default function Home() {
               <li>
                 <a
                   href={MAILTO}
-                  className="hover:text-terracotta underline-offset-4 hover:underline"
+                  className="hover:text-crimson underline-offset-4 hover:underline"
                 >
                   {EMAIL}
                 </a>
@@ -226,7 +226,7 @@ export default function Home() {
                   href={LINKEDIN}
                   target="_blank"
                   rel="noopener"
-                  className="hover:text-terracotta underline-offset-4 hover:underline"
+                  className="hover:text-crimson underline-offset-4 hover:underline"
                 >
                   linkedin.com/in/rubinacarlson
                 </a>
@@ -239,7 +239,7 @@ export default function Home() {
             <div className="flex flex-wrap gap-4">
               <a
                 href={CV_MARKETING}
-                className="inline-block bg-terracotta text-cream px-5 py-3 rounded-md font-medium hover:bg-terracotta-dark transition"
+                className="inline-block bg-crimson text-cream px-5 py-3 rounded-md font-medium hover:bg-crimson-dark transition"
               >
                 Rubina - your next senior marketer
               </a>
@@ -276,14 +276,14 @@ function ProofCard({
   href?: string;
 }) {
   const classes =
-    "block border border-navy/15 bg-cream rounded-lg p-8 hover:border-terracotta/50 transition";
+    "block border border-navy/15 bg-cream rounded-lg p-8 hover:border-crimson/50 transition";
   const content = (
     <>
       <h3 className="text-xl font-semibold mb-2 text-navy">
         {title}
-        {href ? <span className="ml-1 text-terracotta">→</span> : null}
+        {href ? <span className="ml-1 text-crimson">→</span> : null}
       </h3>
-      <p className="text-terracotta italic mb-4">{role}</p>
+      <p className="text-crimson italic mb-4">{role}</p>
       <p className="text-navy/80 leading-relaxed">{body}</p>
     </>
   );

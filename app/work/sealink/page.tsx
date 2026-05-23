@@ -18,13 +18,13 @@ export default function SeaLink() {
         <div className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between gap-4">
           <Link
             href="/"
-            className="font-semibold tracking-tight text-navy hover:text-terracotta transition"
+            className="font-semibold tracking-tight text-navy hover:text-crimson transition"
           >
             ← Rubina Carlson
           </Link>
           <a
             href={MAILTO}
-            className="text-sm font-medium text-terracotta hover:underline underline-offset-4"
+            className="text-sm font-medium text-crimson hover:underline underline-offset-4"
           >
             Get in touch →
           </a>
@@ -35,7 +35,7 @@ export default function SeaLink() {
       <div className="mx-auto max-w-5xl px-6 pt-8">
         <Link
           href="/work"
-          className="text-sm text-navy/60 hover:text-terracotta transition"
+          className="text-sm text-navy/60 hover:text-crimson transition"
         >
           ← All work
         </Link>
@@ -43,7 +43,7 @@ export default function SeaLink() {
 
       {/* Hero */}
       <section className="mx-auto max-w-5xl px-6 pt-8 pb-12">
-        <p className="text-sm uppercase tracking-wider text-terracotta font-semibold">
+        <p className="text-sm uppercase tracking-wider text-crimson font-semibold">
           SeaLink Travel Group · 2015 – 2020
         </p>
         <h1 className="mt-4 text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[0.95] text-navy">
@@ -52,7 +52,7 @@ export default function SeaLink() {
         <p className="mt-8 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
           Five years across SeaLink Kangaroo Island, Bruny Island, Adelaide
           Sightseeing and the PS Murray Princess.{" "}
-          <span className="text-terracotta">
+          <span className="text-crimson">
             Brand, digital, sponsorship, and the launch of a brand-new tourism
             service.
           </span>
@@ -189,7 +189,7 @@ export default function SeaLink() {
             an incredibly passionate marketer who shows so much dedication
             to the brands she manages.&rdquo;
           </p>
-          <p className="mt-8 text-sm tracking-wide uppercase text-terracotta">
+          <p className="mt-8 text-sm tracking-wide uppercase text-crimson-light">
             Louise Gleeson
           </p>
           <p className="mt-2 text-sm text-cream/70 leading-relaxed">
@@ -197,7 +197,7 @@ export default function SeaLink() {
           </p>
           <Link
             href="/testimonials"
-            className="inline-block mt-6 text-sm text-cream/70 hover:text-terracotta underline-offset-4 hover:underline"
+            className="inline-block mt-6 text-sm text-cream/70 hover:text-crimson-light underline-offset-4 hover:underline"
           >
             More voices →
           </Link>
@@ -208,7 +208,7 @@ export default function SeaLink() {
       <section className="mx-auto max-w-5xl px-6 py-16 text-center">
         <Link
           href="/work"
-          className="text-sm font-medium text-terracotta hover:underline underline-offset-4"
+          className="text-sm font-medium text-crimson hover:underline underline-offset-4"
         >
           ← Back to all work
         </Link>
@@ -227,7 +227,7 @@ export default function SeaLink() {
 function Metric({ value, label }: { value: string; label: string }) {
   return (
     <div>
-      <p className="text-4xl sm:text-5xl font-bold tracking-tight text-terracotta">
+      <p className="text-4xl sm:text-5xl font-bold tracking-tight text-crimson-light">
         {value}
       </p>
       <p className="mt-2 text-sm uppercase tracking-wider text-cream/70">

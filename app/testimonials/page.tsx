@@ -136,13 +136,13 @@ export default function Testimonials() {
         <div className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between gap-4">
           <Link
             href="/"
-            className="font-semibold tracking-tight text-navy hover:text-terracotta transition"
+            className="font-semibold tracking-tight text-navy hover:text-crimson transition"
           >
             ← Rubina Carlson
           </Link>
           <a
             href={MAILTO}
-            className="text-sm font-medium text-terracotta hover:underline underline-offset-4"
+            className="text-sm font-medium text-crimson hover:underline underline-offset-4"
           >
             Get in touch →
           </a>
@@ -174,7 +174,7 @@ export default function Testimonials() {
       <section className="mx-auto max-w-5xl px-6 py-8 text-center">
         <Link
           href="/"
-          className="text-sm font-medium text-terracotta hover:underline underline-offset-4"
+          className="text-sm font-medium text-crimson hover:underline underline-offset-4"
         >
           ← Back to home
         </Link>
@@ -192,8 +192,8 @@ export default function Testimonials() {
 
 function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
   return (
-    <article className="border-l-2 border-terracotta pl-6 sm:pl-8">
-      <p className="text-xs uppercase tracking-wider text-terracotta font-semibold">
+    <article className="border-l-2 border-crimson pl-6 sm:pl-8">
+      <p className="text-xs uppercase tracking-wider text-crimson font-semibold">
         {testimonial.relationship} · {testimonial.date}
       </p>
       <div className="mt-4 space-y-4 text-lg leading-relaxed text-navy/85">

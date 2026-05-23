@@ -20,13 +20,13 @@ export default function KTig() {
         <div className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between gap-4">
           <Link
             href="/"
-            className="font-semibold tracking-tight text-navy hover:text-terracotta transition"
+            className="font-semibold tracking-tight text-navy hover:text-crimson transition"
           >
             ← Rubina Carlson
           </Link>
           <a
             href={MAILTO}
-            className="text-sm font-medium text-terracotta hover:underline underline-offset-4"
+            className="text-sm font-medium text-crimson hover:underline underline-offset-4"
           >
             Get in touch →
           </a>
@@ -37,7 +37,7 @@ export default function KTig() {
       <div className="mx-auto max-w-5xl px-6 pt-8">
         <Link
           href="/work"
-          className="text-sm text-navy/60 hover:text-terracotta transition"
+          className="text-sm text-navy/60 hover:text-crimson transition"
         >
           ← All work
         </Link>
@@ -45,7 +45,7 @@ export default function KTig() {
 
       {/* Hero */}
       <section className="mx-auto max-w-5xl px-6 pt-8 pb-12">
-        <p className="text-sm uppercase tracking-wider text-terracotta font-semibold">
+        <p className="text-sm uppercase tracking-wider text-crimson font-semibold">
           Refuel Creative · 2023 · HubSpot Impact Award winner
         </p>
         <h1 className="mt-4 text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[0.95] text-navy">
@@ -54,7 +54,7 @@ export default function KTig() {
         <p className="mt-8 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
           A comprehensive HubSpot rebuild for an aerospace and defence
           welding manufacturer.{" "}
-          <span className="text-terracotta">172% lead lift in three months.</span>
+          <span className="text-crimson">172% lead lift in three months.</span>
         </p>
       </section>
 
@@ -98,7 +98,7 @@ export default function KTig() {
             I led the rebuild from the Refuel side as Digital Marketing
             Manager, with a team of four. Five workstreams ran in parallel.
           </p>
-          <ul className="space-y-3 list-disc list-outside ml-6 marker:text-terracotta">
+          <ul className="space-y-3 list-disc list-outside ml-6 marker:text-crimson">
             <li>
               <strong className="text-navy">Data hygiene.</strong> Stripped
               the obvious mess. 132 duplicate properties removed.
@@ -161,7 +161,7 @@ export default function KTig() {
             href={REFUEL_URL}
             target="_blank"
             rel="noopener"
-            className="inline-block mt-6 bg-terracotta text-cream px-6 py-3 rounded-md font-medium hover:bg-terracotta-dark transition"
+            className="inline-block mt-6 bg-crimson text-cream px-6 py-3 rounded-md font-medium hover:bg-crimson-dark transition"
           >
             Read the full case study on refuelcreative.com.au ↗
           </a>
@@ -172,7 +172,7 @@ export default function KTig() {
       <section className="mx-auto max-w-5xl px-6 py-16 text-center">
         <Link
           href="/work"
-          className="text-sm font-medium text-terracotta hover:underline underline-offset-4"
+          className="text-sm font-medium text-crimson hover:underline underline-offset-4"
         >
           ← Back to all work
         </Link>
@@ -191,7 +191,7 @@ export default function KTig() {
 function Metric({ value, label }: { value: string; label: string }) {
   return (
     <div>
-      <p className="text-5xl sm:text-6xl font-bold tracking-tight text-terracotta">
+      <p className="text-5xl sm:text-6xl font-bold tracking-tight text-crimson-light">
         {value}
       </p>
       <p className="mt-2 text-sm uppercase tracking-wider text-cream/70">
