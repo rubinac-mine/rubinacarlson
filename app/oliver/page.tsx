@@ -127,7 +127,7 @@ export default function OliverPage() {
           <BuildCard
             title="90Labs"
             tagline="Live sales-enablement platform built in Replit."
-            body="Hosts 29+ active assets and a Pitch Builder used by the global 90 Seconds sales team every day. Built and maintained by me from the marketing seat, with the design team for the visual layer. Time-to-pitch reduced from hours to under 30 minutes."
+            body="Workspace hosts 29+ active assets used by the field team. The custom Pitch Builder, the marquee tool inside it, is currently in beta rollout with the global 90 Seconds sales team. Built and maintained by me from the marketing seat, with the design team for the visual layer. Early users report time-to-pitch dropping from hours to closer to 30 minutes."
           />
           <BuildCard
             title="GTM OS"
@@ -225,9 +225,10 @@ export default function OliverPage() {
               API. Working with our VP of Product I helped architect an
               internal GTM operations platform that integrates CRM and SEMrush
               data to automate market mapping and content coverage. I built
-              90Labs, a live sales-enablement platform hosting 29+ assets and
-              a Pitch Builder the global sales team uses every day. I
-              configured the HubSpot Customer Agent so it now handles incoming
+              90Labs, a live sales-enablement workspace hosting 29+ assets,
+              with a custom Pitch Builder currently in beta rollout with the
+              global sales team. I configured the HubSpot Customer Agent so it
+              now handles incoming
               customer service queries with AI in production. I migrated a
               300+ page website using an AI-scored content inventory and an
               automated migrator. My lane is problem framing and rapid
