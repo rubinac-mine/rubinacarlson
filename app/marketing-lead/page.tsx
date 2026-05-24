@@ -9,9 +9,9 @@ export const metadata: Metadata = {
 const EMAIL = "rubina.carlson@gmail.com";
 const EMAIL_SUBJECT = "Marketing Lead (JR102982) - BDO";
 const MAILTO = `mailto:${EMAIL}?subject=${encodeURIComponent(EMAIL_SUBJECT)}`;
-const CV_PATH = "/bdo/Rubina-Carlson-CV.pdf";
+const CV_PATH = "/marketing-lead/Rubina-Carlson-CV.pdf";
 
-export default function BdoPage() {
+export default function MarketingLeadPage() {
   return (
     <main className="flex-1">
       {/* Header */}
