@@ -41,7 +41,7 @@ export default function Home() {
             </h1>
             <p className="mt-8 text-2xl sm:text-3xl leading-snug text-navy">
               Marketing leader.{" "}
-              <span className="text-crimson">AI builder.</span> Storyteller.
+              <span className="text-soft-blue">AI builder.</span> Storyteller.
             </p>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-navy/80">
               15+ years of marketing experience across tech, tourism and higher
@@ -122,6 +122,7 @@ export default function Home() {
             title="Building AI tools at 90 Seconds"
             role="Head of Marketing · 2024 – present"
             body="Built 90Labs, a sales-enablement workspace hosting 29+ assets and a Pitch Builder used daily by the global sales team. Helping build out the GTM OS, our internal operations platform, alongside our VP of Product."
+            accent="soft-blue"
           />
           <ProofCard
             title="$5M pipeline at 90 Seconds"
@@ -269,21 +270,29 @@ function ProofCard({
   role,
   body,
   href,
+  accent = "crimson",
 }: {
   title: string;
   role: string;
   body: string;
   href?: string;
+  accent?: "crimson" | "soft-blue";
 }) {
-  const classes =
-    "block border border-navy/15 bg-cream rounded-lg p-8 hover:border-crimson/50 transition";
+  const isBlue = accent === "soft-blue";
+  const classes = isBlue
+    ? "block border border-navy/15 bg-cream rounded-lg p-8 hover:border-soft-blue/60 transition"
+    : "block border border-navy/15 bg-cream rounded-lg p-8 hover:border-crimson/50 transition";
+  const arrowClass = isBlue ? "ml-1 text-soft-blue" : "ml-1 text-crimson";
+  const roleClass = isBlue
+    ? "text-soft-blue italic mb-4"
+    : "text-crimson italic mb-4";
   const content = (
     <>
       <h3 className="text-xl font-semibold mb-2 text-navy">
         {title}
-        {href ? <span className="ml-1 text-crimson">→</span> : null}
+        {href ? <span className={arrowClass}>→</span> : null}
       </h3>
-      <p className="text-crimson italic mb-4">{role}</p>
+      <p className={roleClass}>{role}</p>
       <p className="text-navy/80 leading-relaxed">{body}</p>
     </>
   );
