@@ -23,12 +23,26 @@ export default function Home() {
           <span className="font-semibold tracking-tight text-navy">
             Rubina Carlson
           </span>
-          <a
-            href={MAILTO}
-            className="text-sm font-medium text-crimson hover:underline underline-offset-4"
-          >
-            Get in touch →
-          </a>
+          <nav className="flex items-center gap-5 text-sm">
+            <Link
+              href="/work"
+              className="text-navy/70 hover:text-crimson transition"
+            >
+              Work
+            </Link>
+            <Link
+              href="/about"
+              className="text-navy/70 hover:text-crimson transition"
+            >
+              About
+            </Link>
+            <a
+              href={MAILTO}
+              className="font-medium text-crimson hover:underline underline-offset-4"
+            >
+              Get in touch →
+            </a>
+          </nav>
         </div>
       </header>
 
@@ -208,6 +222,12 @@ export default function Home() {
                 marketing team punch well above its weight. Less template,
                 more bespoke. Less throughput pressure, more thinking time.
               </p>
+              <Link
+                href="/about"
+                className="inline-block mt-4 text-sm font-medium text-crimson hover:underline underline-offset-4"
+              >
+                Read the longer story →
+              </Link>
             </div>
 
             <h3 className="text-xl font-semibold text-navy mt-12 mb-4">
