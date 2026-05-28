@@ -24,6 +24,7 @@ const stack = [
       "Replit",
       "FigmaMake",
       "Midjourney",
+      "Kling",
       "OpusClip",
     ],
   },
@@ -40,15 +41,9 @@ const stack = [
     ],
   },
   {
-    group: "Process and craft",
+    group: "Project management",
     accent: "crimson" as const,
-    items: [
-      "Scrum (SMC certified)",
-      "ClickUp",
-      "Figma",
-      "DM Sans / brand systems",
-      "Australian English copy craft",
-    ],
+    items: ["Linear", "Notion"],
   },
 ];
 
