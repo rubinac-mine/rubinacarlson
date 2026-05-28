@@ -82,6 +82,50 @@ export default function LinktreePage() {
         </div>
       </section>
 
+      {/* Section 1.5 - Linktree-style link stack */}
+      <section className="mx-auto max-w-5xl px-6 pb-20 sm:pb-24">
+        <p className="text-sm font-medium tracking-wide uppercase text-crimson text-center mb-3">
+          A small nod to the product
+        </p>
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-navy text-center mb-12 max-w-2xl mx-auto">
+          If I built a Linktree for this application, it would look like this.
+        </h2>
+        <div className="mx-auto max-w-sm">
+          <div className="bg-navy rounded-3xl p-8 shadow-2xl border border-navy/20">
+            <div className="text-center mb-6">
+              <div className="relative w-24 h-24 mx-auto rounded-full overflow-hidden border-2 border-crimson-light mb-4">
+                <Image
+                  src="/rubina-portrait-square.jpg"
+                  alt="Rubina Carlson"
+                  fill
+                  sizes="6rem"
+                  className="object-cover"
+                />
+              </div>
+              <p className="font-semibold text-cream text-lg">
+                @rubinacarlson
+              </p>
+              <p className="text-cream/70 text-sm mt-1">
+                AI builder. Content strategist. CPM SMC.
+              </p>
+            </div>
+            <div className="space-y-3">
+              <LinkPill href={CV_PATH} label="Download my CV" />
+              <LinkPill href={MAILTO} label="Email Rubina" />
+              <LinkPill
+                href="https://www.linkedin.com/in/rubinacarlson"
+                label="LinkedIn"
+                external
+              />
+              <LinkPill href="https://rubinacarlson.com" label="rubinacarlson.com" />
+            </div>
+            <p className="text-center text-cream/50 text-xs mt-6 tracking-wide">
+              Built with the brand tokens of the actual site.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Section 2 - Three pillars */}
       <section className="bg-navy/[0.04] border-y border-navy/10">
         <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
@@ -388,5 +432,25 @@ function DayBlock({
 function Credential({ text }: { text: string }) {
   return (
     <li className="border-l-2 border-crimson pl-4 leading-snug">{text}</li>
+  );
+}
+
+function LinkPill({
+  href,
+  label,
+  external = false,
+}: {
+  href: string;
+  label: string;
+  external?: boolean;
+}) {
+  return (
+    <a
+      href={href}
+      {...(external ? { target: "_blank", rel: "noopener" } : {})}
+      className="block w-full bg-cream text-navy text-center py-3 px-4 rounded-full font-medium hover:bg-crimson-light hover:text-navy transition border border-cream/0 hover:border-crimson-light"
+    >
+      {label}
+    </a>
   );
 }
