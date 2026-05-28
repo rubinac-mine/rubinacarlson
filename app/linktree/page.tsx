@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "For Linktree. Rubina Carlson.",
   description:
-    "Rubina Carlson on the Growth Marketing Manager (SEO, AEO) seat at Linktree. A content strategist who builds with AI, not just writes about it.",
+    "Rubina Carlson in the Growth Marketing Manager (SEO, AEO) seat at Linktree. A content strategist who builds with AI, not just writes about it.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -38,7 +38,7 @@ export default function LinktreePage() {
           For Linktree.
         </h1>
         <p className="mt-10 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
-          Rubina Carlson on the Growth Marketing Manager (SEO, AEO) seat.
+          Rubina Carlson in the Growth Marketing Manager (SEO, AEO) seat.
           <br />
           <span className="text-navy/70">
             A content strategist who builds with AI, not just writes about it.
