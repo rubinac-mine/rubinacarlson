@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "For Linktree. Rubina Carlson.",
@@ -34,35 +35,50 @@ export default function LinktreePage() {
 
       {/* Hero */}
       <section className="mx-auto max-w-5xl px-6 pt-20 pb-24 sm:pt-28 sm:pb-32">
-        <h1 className="text-7xl sm:text-9xl font-bold tracking-tight leading-[0.95] text-navy">
-          For Linktree.
-        </h1>
-        <p className="mt-10 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
-          Rubina Carlson in the Growth Marketing Manager (SEO, AEO) seat.
-          <br />
-          <span className="text-navy/70">
-            A content strategist who builds with AI, not just writes about it.
-          </span>
-        </p>
-        <p className="mt-10 max-w-2xl text-lg leading-relaxed text-navy/80">
-          The application is a resume plus a portfolio link, no cover letter
-          field. So I built one. Treat it as a working sample of how I would
-          approach the AEO programme: AI-fluent, customer-led, shipped fast,
-          using the tools answer engines actually run on.
-        </p>
-        <div className="mt-12 flex flex-wrap gap-4">
-          <a
-            href={CV_PATH}
-            className="inline-block bg-crimson text-cream px-6 py-3 rounded-md font-medium hover:bg-crimson-dark transition"
-          >
-            Download CV
-          </a>
-          <a
-            href={MAILTO}
-            className="inline-block border border-navy text-navy px-6 py-3 rounded-md font-medium hover:bg-navy hover:text-cream transition"
-          >
-            Email me
-          </a>
+        <div className="grid gap-12 sm:gap-16 md:grid-cols-[1fr_auto] md:items-center">
+          <div>
+            <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.95] text-navy">
+              For Linktree.
+            </h1>
+            <p className="mt-8 text-2xl sm:text-3xl leading-snug text-navy">
+              Rubina Carlson in the Growth Marketing Manager (SEO, AEO) seat.
+              <br />
+              <span className="text-navy/70">
+                A content strategist who builds with AI, not just writes about
+                it.
+              </span>
+            </p>
+            <p className="mt-8 max-w-xl text-lg leading-relaxed text-navy/80">
+              The application is a resume plus a portfolio link, no cover
+              letter field. So I built one. Treat it as a working sample of
+              how I would approach the AEO programme: AI-fluent, customer-led,
+              shipped fast, using the tools answer engines actually run on.
+            </p>
+            <div className="mt-10 flex flex-wrap gap-4">
+              <a
+                href={CV_PATH}
+                className="inline-block bg-crimson text-cream px-6 py-3 rounded-md font-medium hover:bg-crimson-dark transition"
+              >
+                Download CV
+              </a>
+              <a
+                href={MAILTO}
+                className="inline-block border border-navy text-navy px-6 py-3 rounded-md font-medium hover:bg-navy hover:text-cream transition"
+              >
+                Email me
+              </a>
+            </div>
+          </div>
+          <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-crimson/20 mx-auto md:mx-0">
+            <Image
+              src="/rubina-portrait-square.jpg"
+              alt="Rubina Carlson, smiling, in a black top and black fascinator."
+              fill
+              sizes="(max-width: 640px) 12rem, (max-width: 768px) 16rem, 20rem"
+              className="object-cover"
+              priority
+            />
+          </div>
         </div>
       </section>
 
@@ -78,10 +94,10 @@ export default function LinktreePage() {
                 AI builder, not just AI marketer.
               </h3>
               <p className="text-navy/80 leading-relaxed">
-                Two years building practical AI tooling with Replit, Claude
-                Code and the Anthropic API. Live in the stack that AEO requires
-                you to understand from the inside. Curious by default about how
-                answer engines cite, rank and recommend.
+                Two years building practical AI tooling in Replit, Claude Code
+                and the Anthropic API. Live in the stack answer engines run
+                on. Curious by default about how AI models cite, rank and
+                recommend.
               </p>
             </div>
             <div>
@@ -89,10 +105,10 @@ export default function LinktreePage() {
                 Content systems at scale.
               </h3>
               <p className="text-navy/80 leading-relaxed">
-                Shipped a 300+ page website migration on the Anthropic API,
-                with pages crawled, classified, scored and migrated by agents.
-                Direct mirror of what a Marketing Engineer partnership is meant
-                to unlock.
+                Shipped a 300+ page website migration on the Anthropic API.
+                Pages crawled, classified, scored and migrated by agents. The
+                same shape as the Marketing Engineer partnership this role is
+                designed around.
               </p>
             </div>
             <div>
@@ -100,8 +116,8 @@ export default function LinktreePage() {
                 Organic growth depth.
               </h3>
               <p className="text-navy/80 leading-relaxed">
-                15+ years across HubSpot, inbound, lifecycle, conversion. Three
-                HubSpot Impact Awards. Briefed editorial direction across
+                15+ years across HubSpot, inbound, lifecycle and conversion.
+                Three HubSpot Impact Awards. Briefed editorial direction across
                 creator, B2B SaaS and consumer ICPs. Trained to think in buyer
                 moments, not keywords.
               </p>
