@@ -44,7 +44,7 @@ const stack = [
   {
     group: "Project management",
     accent: "crimson" as const,
-    items: ["Linear", "Notion"],
+    items: ["Linear", "Notion", "Figma"],
   },
 ];
 
