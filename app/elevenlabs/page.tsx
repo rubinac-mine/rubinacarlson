@@ -41,17 +41,13 @@ export default function ElevenLabsPage() {
           Rubina Carlson on the B2B Marketing ANZ seat.
           <br />
           <span className="text-navy/70">
-            A marketer who lives inside the AI stack she would be hired to
-            market.
+            I market AI products today, and I build with AI every day.
           </span>
         </p>
         <p className="mt-10 max-w-2xl text-lg leading-relaxed text-navy/80">
-          The Ashby form takes a resume and a few questions. No cover letter
-          field. So I built this page as the long-form pitch I share when I
-          reach out on LinkedIn. Treat it as a working sample of how I would
-          approach the Oceania pipeline: AI-fluent, full-funnel,
-          owner-mentality, shipped fast, using the tools ElevenLabs
-          customers are already buying.
+          The Ashby form takes a resume and a few questions. No cover
+          letter field. So I built this page as the longer pitch I share
+          when I reach out to people at ElevenLabs on LinkedIn.
         </p>
         <div className="mt-12 flex flex-wrap gap-4">
           <a
@@ -78,35 +74,37 @@ export default function ElevenLabsPage() {
           <div className="grid gap-12 md:grid-cols-3">
             <div>
               <h3 className="text-xl font-semibold mb-3 text-navy">
-                AI builder, not just AI marketer.
+                AI builder, hands-on.
               </h3>
               <p className="text-navy/80 leading-relaxed">
-                Two years building practical AI tooling in Replit, Claude Code
-                and the Anthropic API. I market AI products today and I build
-                with AI daily. For a company defining the voice AI category,
-                this is the doubly relevant combination.
+                Two years building practical AI tooling in Replit, Claude
+                Code and the Anthropic API. I market AI products at 90
+                Seconds and I build with AI daily. The stack ElevenLabs
+                customers are buying is the stack I already live in.
               </p>
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-3 text-navy">
-                Full-funnel owner, $5M pipeline.
+                $5M in opportunities, full-funnel.
               </h3>
               <p className="text-navy/80 leading-relaxed">
-                Since June 2024, I have generated $5M in opportunities at 90
-                Seconds across inbound, paid, ABM, lifecycle, partner and
-                field. Owner mentality is not a phrase for me; it is how the
-                regional number gets carried.
+                Generated $5M in opportunities at 90 Seconds since June
+                2024 across inbound, paid, ABM, lifecycle, partner and
+                field. Brief a regional ABM programme in the morning,
+                write the lifecycle copy in the afternoon, run the field
+                event the next week.
               </p>
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-3 text-navy">
-                Events, outbound and ABM at enterprise tier.
+                Events and ABM at enterprise tier.
               </h3>
               <p className="text-navy/80 leading-relaxed">
-                Nine years building Digital Adelaide from 40 marketers to 200+
-                delegates. End-to-end events, sponsor programmes, executive
-                roundtables. ABM for CEO and MD audiences at 3.8x over MQL
-                target. The full Oceania playbook lives in my hands already.
+                Nine years as a Director of Digital Adelaide, grown from
+                40 marketers to over 200 delegates. End-to-end events,
+                sponsor sales, speaker programmes. 3.8x over MQL target on
+                an executive-audience ABM programme at the University of
+                South Australia.
               </p>
             </div>
           </div>
@@ -132,7 +130,7 @@ export default function ElevenLabsPage() {
           <BuildCard
             title="HubSpot Customer Agent"
             tagline="AI in production marketing, with real customer load."
-            body="Configured and shipped HubSpot's AI Customer Agent at 90 Seconds. Live, handling incoming customer service queries with AI-led triage. Proof I can move AI from experiment to production marketing system."
+            body="Configured and shipped HubSpot's AI Customer Agent at 90 Seconds. Live, handling incoming customer service queries with AI-led triage. Vendor AI capability moved into a live workflow, with the change management to make it stick."
           />
           <BuildCard
             title="GTM OS"
@@ -196,102 +194,90 @@ export default function ElevenLabsPage() {
           </h2>
           <div className="space-y-6 text-lg leading-relaxed text-navy/85">
             <p>
-              ElevenLabs is defining the voice AI category at the moment
-              voice becomes the next layer of how brands talk to their
-              audiences. Owning the Oceania B2B pipeline for that product,
-              against a regional number, against an enterprise buyer just
-              waking up to what is possible, is the role I want next.
+              I read the JD twice because it sounded too aligned to be
+              true. Full-funnel B2B growth in Oceania for a
+              category-defining voice AI product. AI-native workflows as a
+              bonus, not a stretch. Owner mentality as the requirement,
+              not the aspiration. That is the work I have been doing
+              inside my current company for the past two years.
             </p>
             <p>
               I am a Certified Practising Marketer with 15+ years of
               marketing experience. Today I am Head of Marketing at 90
-              Seconds, a global B2B SaaS video platform. I lead an APAC
-              marketing team with two direct reports in the region and
-              collaborate with sales and marketing counterparts across US, UK
-              and EMEA. Since June 2024 I have generated $5M in opportunities
-              through inbound, paid, ABM, lifecycle, partner and field. That
-              is the brief on this role: Oceania pipeline, outbound mastery,
-              event execution, creative content, performance, vendor and
-              partner management.
+              Seconds, a global B2B SaaS video platform. Two direct
+              reports in APAC. Daily collaboration with sales and
+              marketing counterparts across the US, UK and EMEA. Since
+              June 2024 I have generated $5M in opportunities through
+              inbound, paid, ABM, lifecycle, partner and field.
             </p>
             <p>
-              Three things I would bring to the Oceania seat that are harder
-              to find together.
+              Three parts of my work map straight onto the Oceania brief.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
-              AI builder, in the stack your customers are buying.
+              AI builder, hands-on.
             </h3>
             <p>
-              This is the differentiator. ElevenLabs is voice AI. I market
-              AI products at 90 Seconds and I build with AI every day.
-              Beyond running the marketing function I have spent the past
-              two years building practical AI tooling in Replit, Claude Code
-              and the Anthropic API. I built 90Labs, a sales-enablement
-              workspace hosting 29+ assets with a Pitch Builder in beta
-              rollout to the global sales team. I configured and shipped the
-              HubSpot Customer Agent, now handling incoming customer
-              service queries with AI in production. I designed the 300+
-              page website migration system on the Anthropic API, with
-              rollout in flight. Working with our VP of Product I contribute
-              to the internal GTM operations platform he architected, which
+              I have spent the past two years building practical AI
+              tooling in Replit, Claude Code and the Anthropic API. I
+              built 90Labs, a sales-enablement workspace hosting 29+
+              assets, with a custom Pitch Builder in beta rollout to the
+              global sales team. I configured and shipped the HubSpot
+              Customer Agent, now handling incoming customer service
+              queries with AI in production. I designed the 300+ page
+              website migration system on the Anthropic API, with rollout
+              in flight. Working with our VP of Product I contribute to
+              the internal GTM operations platform he architected, which
               integrates HubSpot and SEMrush data to automate market
-              mapping. My lane is problem framing and rapid prototyping with
-              AI, not deep engineering. For a category-defining AI product,
-              having an Oceania marketer who lives in the same stack your
-              customers are using is a doubly relevant combination.
+              mapping. My lane is problem framing and rapid prototyping
+              with AI, not deep engineering. ElevenLabs sells voice AI.
+              The stack the team recommends to customers is the stack I
+              already live in.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
-              Full-funnel owner, with the pipeline number to prove it.
+              Full-funnel Oceania pipeline.
             </h3>
             <p>
-              The JD asks for "owner mentality" and a "powerhouse" who can
-              pivot from high-level campaign planning to setting up complex
-              outbound sequences in the same afternoon. That is exactly the
-              shape of my day at 90 Seconds. $5M in opportunities since June
-              2024 across inbound, paid, ABM, lifecycle, partner and field.
-              The work spans full-funnel: brief and ship a regional ABM
-              programme in the morning, write the lifecycle copy in the
-              afternoon, run the field event the next week. No-fixed-function
-              by necessity, by choice, and by the size of the brief.
+              My day at 90 Seconds spans full-funnel. Brief and ship a
+              regional ABM programme in the morning. Write the lifecycle
+              copy in the afternoon. Run the field event the next week.
+              $5M in opportunities since June 2024 across inbound, paid,
+              ABM, lifecycle, partner and field. No-fixed-function by
+              necessity, by choice, and by the size of the brief.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
-              Events, outbound and ABM at the enterprise tier.
+              Events, outbound and partnerships at the enterprise tier.
             </h3>
             <p>
               Nine years as a Director of Digital Adelaide, South
               Australia&apos;s largest marketing conference, grown from
               about 40 marketers to over 200 delegates. End-to-end event
-              delivery, sponsor sales and speaker programmes. 3.8x over MQL
-              target on an executive-audience ABM programme at the
+              delivery, sponsor sales and speaker programmes. 3.8x over
+              MQL target on an executive-audience ABM programme at the
               University of South Australia. 172% lead lift for an
-              industrial B2B SaaS client through a HubSpot platform rebuild
-              that won the 2023 HubSpot Impact Award for Platform
-              Excellence. Fluent in MSAs, regional supplier agreements and
-              Statements of Work through enterprise customer work at 90
-              Seconds. Comfortable building partnerships with regional
-              cloud, CX and creative ecosystems for co-marketing.
+              industrial B2B SaaS client through a HubSpot platform
+              rebuild that won the 2023 HubSpot Impact Award for Platform
+              Excellence. Fluent in MSAs, regional supplier agreements
+              and Statements of Work through enterprise customer work at
+              90 Seconds.
             </p>
 
             <p>
-              An honest read on the location. The JD prefers Sydney 3+
-              days/week with Melbourne as a travel-frequent backup. I am
-              Adelaide-based, remote-friendly, Australian citizen. The
-              reason to make a remote-AU exception is the AI-builder
-              differentiator above. Career B2B marketers are still
-              learning to prompt. I have spent two years inside the stack
-              ElevenLabs customers are buying. Happy to travel for the
+              On the location. I am Adelaide-based, remote-friendly,
+              Australian citizen. The JD prefers Sydney 3+ days a week
+              with Melbourne as the travel-frequent backup. I would be
+              asking for a remote-AU exception, with travel for the
               moments that matter: Sydney customer days, ANZ
-              conferences, partner events, team offsites. I would rather
-              be the first remote-AU exception in this seat than not have
-              the conversation at all.
+              conferences, partner events, team offsites. The trade is
+              the AI-builder profile above. Career B2B marketers are
+              still learning to prompt. I have spent two years inside the
+              stack ElevenLabs customers are buying.
             </p>
 
             <p>
-              I would welcome a conversation about the first 90 days of the
-              Oceania plan.
+              Happy to talk about the first 90 days of the Oceania plan.
             </p>
           </div>
         </div>
