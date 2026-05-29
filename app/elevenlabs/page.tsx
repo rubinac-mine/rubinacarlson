@@ -46,11 +46,12 @@ export default function ElevenLabsPage() {
           </span>
         </p>
         <p className="mt-10 max-w-2xl text-lg leading-relaxed text-navy/80">
-          The Ashby form takes a resume and a few questions. So I built this
-          page to do the work a cover letter cannot. Treat it as a working
-          sample of how I would approach the Oceania pipeline: AI-fluent,
-          full-funnel, owner-mentality, shipped fast, using the tools
-          ElevenLabs customers are already buying.
+          The Ashby form takes a resume and a few questions. No cover letter
+          field. So I built this page as the long-form pitch I share when I
+          reach out on LinkedIn. Treat it as a working sample of how I would
+          approach the Oceania pipeline: AI-fluent, full-funnel,
+          owner-mentality, shipped fast, using the tools ElevenLabs
+          customers are already buying.
         </p>
         <div className="mt-12 flex flex-wrap gap-4">
           <a
