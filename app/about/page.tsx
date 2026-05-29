@@ -25,6 +25,7 @@ const stack = [
       "FigmaMake",
       "Midjourney",
       "Kling",
+      "ElevenLabs",
       "OpusClip",
     ],
   },
