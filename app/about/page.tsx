@@ -22,12 +22,16 @@ const stack = [
       "Claude (Sonnet, Opus, Code)",
       "Anthropic API",
       "Replit",
-      "FigmaMake",
       "Midjourney",
       "Kling",
       "ElevenLabs",
       "OpusClip",
     ],
+  },
+  {
+    group: "Design and prototyping",
+    accent: "crimson" as const,
+    items: ["FigmaMake", "Figma"],
   },
   {
     group: "Marketing platforms",
@@ -44,7 +48,7 @@ const stack = [
   {
     group: "Project management",
     accent: "crimson" as const,
-    items: ["Linear", "Notion", "Figma"],
+    items: ["Linear", "Notion"],
   },
 ];
 
