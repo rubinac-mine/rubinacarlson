@@ -45,9 +45,12 @@ export default function ElevenLabsPage() {
           </span>
         </p>
         <p className="mt-10 max-w-2xl text-lg leading-relaxed text-navy/80">
-          The Ashby form takes a resume and a few questions. No cover
-          letter field. So I built this page as the longer pitch I share
-          when I reach out to people at ElevenLabs on LinkedIn.
+          I read this JD twice because it sounded too aligned to be true.
+          Full-funnel B2B growth in Oceania for a category-defining voice
+          AI product. AI-native workflows as a bonus, not a stretch.
+          Owner mentality as the requirement, not the aspiration. That is
+          the work I have been doing inside 90 Seconds for the past two
+          years.
         </p>
         <div className="mt-12 flex flex-wrap gap-4">
           <a
@@ -118,8 +121,7 @@ export default function ElevenLabsPage() {
         </h2>
         <p className="text-lg text-navy/70 mb-12 max-w-2xl">
           A short tour of the AI tooling I have shipped from the marketing
-          seat. Same stack ElevenLabs customers are stitching together every
-          day.
+          seat at 90 Seconds.
         </p>
         <div className="grid gap-6 md:grid-cols-2">
           <BuildCard
@@ -194,21 +196,13 @@ export default function ElevenLabsPage() {
           </h2>
           <div className="space-y-6 text-lg leading-relaxed text-navy/85">
             <p>
-              I read the JD twice because it sounded too aligned to be
-              true. Full-funnel B2B growth in Oceania for a
-              category-defining voice AI product. AI-native workflows as a
-              bonus, not a stretch. Owner mentality as the requirement,
-              not the aspiration. That is the work I have been doing
-              inside my current company for the past two years.
-            </p>
-            <p>
-              I am a Certified Practising Marketer with 15+ years of
-              marketing experience. Today I am Head of Marketing at 90
-              Seconds, a global B2B SaaS video platform. Two direct
-              reports in APAC. Daily collaboration with sales and
-              marketing counterparts across the US, UK and EMEA. Since
-              June 2024 I have generated $5M in opportunities through
-              inbound, paid, ABM, lifecycle, partner and field.
+              15+ years of marketing experience. Certified Practising
+              Marketer. Today Head of Marketing at 90 Seconds, a global
+              B2B SaaS video platform. Two direct reports in APAC. Daily
+              collaboration with sales and marketing counterparts across
+              the US, UK and EMEA. Since June 2024 I have generated $5M
+              in opportunities through inbound, paid, ABM, lifecycle,
+              partner and field.
             </p>
             <p>
               Three parts of my work map straight onto the Oceania brief.

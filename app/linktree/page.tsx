@@ -49,9 +49,12 @@ export default function LinktreePage() {
               </span>
             </p>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-navy/80">
-              The application is a resume plus a portfolio link, no cover
-              letter field. So I built this page as the longer pitch on
-              the AEO programme.
+              I read this JD twice because it sounded too aligned to be
+              true. Owning the seat where creators, musicians,
+              podcasters, realtors and SMBs meet AI Search. Content
+              systems at scale. ICP-led segmentation across diverse
+              audiences. That is the work I have been shipping at 90
+              Seconds for the past two years.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
@@ -251,21 +254,13 @@ export default function LinktreePage() {
           </h2>
           <div className="space-y-6 text-lg leading-relaxed text-navy/85">
             <p>
-              I read the JD twice because it sounded too aligned to be
-              true. Owning the seat where what creators, musicians,
-              podcasters, realtors and SMBs search for meets what
-              Linktree offers, including how that translation lands
-              inside AI Search. That is the role I want next.
-            </p>
-            <p>
-              I am a Certified Practising Marketer with 15+ years of
-              marketing experience. Today I am Head of Marketing at 90
-              Seconds, a global B2B SaaS video platform. Two direct
-              reports in APAC. Daily collaboration with sales and
-              marketing counterparts across the US, UK and EMEA. The
-              work that matches this role is the AI-fluent content
-              operations work I have been shipping for the past two
-              years.
+              15+ years of marketing experience. Certified Practising
+              Marketer. Today Head of Marketing at 90 Seconds, a global
+              B2B SaaS video platform. Two direct reports in APAC.
+              Daily collaboration with sales and marketing counterparts
+              across the US, UK and EMEA. The work that matches this
+              role is the AI-fluent content operations work I have been
+              shipping for the past two years.
             </p>
             <p>
               Three parts of my work map straight onto the AEO brief.

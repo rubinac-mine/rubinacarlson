@@ -45,8 +45,11 @@ export default function CrestaPage() {
           </span>
         </p>
         <p className="mt-10 max-w-2xl text-lg leading-relaxed text-navy/80">
-          The Greenhouse form does not take a cover letter. So I built
-          this page as the longer pitch on the founding APAC role.
+          I read this JD twice because it sounded too aligned to be true.
+          Founding the APAC marketing function for a category-defining
+          enterprise AI product. Regional pipeline owned end to end.
+          Building the muscle from first principles. APAC is the build I
+          am running today at 90 Seconds, without the dedicated budget.
         </p>
         <div className="mt-12 flex flex-wrap gap-4">
           <a
@@ -191,20 +194,13 @@ export default function CrestaPage() {
           </h2>
           <div className="space-y-6 text-lg leading-relaxed text-navy/85">
             <p>
-              I read the JD twice because it sounded too aligned to be
-              true. Founding the APAC marketing function for a
-              category-defining enterprise AI product, against a regional
-              pipeline number, with the autonomy to build the muscle from
-              first principles. That is the role I want next.
-            </p>
-            <p>
-              I am a Certified Practising Marketer with 15+ years of
-              marketing experience. Today I am Head of Marketing at 90
-              Seconds, a global B2B SaaS video platform. Two direct
-              reports in APAC. Daily collaboration with sales and
-              marketing counterparts across the US, UK and EMEA. Since
-              June 2024 I have generated $5M in opportunities through
-              inbound, paid, ABM, lifecycle and field.
+              15+ years of marketing experience. Certified Practising
+              Marketer. Today Head of Marketing at 90 Seconds, a global
+              B2B SaaS video platform. Two direct reports in APAC. Daily
+              collaboration with sales and marketing counterparts across
+              the US, UK and EMEA. Since June 2024 I have generated $5M
+              in opportunities through inbound, paid, ABM, lifecycle and
+              field.
             </p>
             <p>
               Two parts of my work map straight onto the Cresta brief.
