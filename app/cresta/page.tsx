@@ -45,10 +45,8 @@ export default function CrestaPage() {
           </span>
         </p>
         <p className="mt-10 max-w-2xl text-lg leading-relaxed text-navy/80">
-          This page exists because the Greenhouse form does not take a cover
-          letter. So I built one. Treat it as a working sample of how I would
-          approach the founding APAC role: tailored, on-brand, shipped fast,
-          using the tools Cresta sells against.
+          The Greenhouse form does not take a cover letter. So I built
+          this page as the longer pitch on the founding APAC role.
         </p>
         <div className="mt-12 flex flex-wrap gap-4">
           <a
@@ -98,13 +96,13 @@ export default function CrestaPage() {
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-3 text-navy">
-                AI builder, not just AI marketer.
+                AI builder, hands-on.
               </h3>
               <p className="text-navy/80 leading-relaxed">
                 Two years building practical AI tooling with Replit, Claude
-                Code and the Anthropic API. I market AI products and I build
-                with AI. For a category-defining product like Cresta, this is
-                a doubly relevant combination.
+                Code and the Anthropic API. I market AI products at 90
+                Seconds and I build with AI daily. The stack Cresta sells
+                against is the stack I already live in.
               </p>
             </div>
           </div>
@@ -193,89 +191,87 @@ export default function CrestaPage() {
           </h2>
           <div className="space-y-6 text-lg leading-relaxed text-navy/85">
             <p>
-              Cresta sells enterprise AI to the part of the business where AI
-              either earns its keep or does not. Founding the APAC marketing
-              function for that product, against a regional pipeline number,
-              is the role I am looking for.
+              I read the JD twice because it sounded too aligned to be
+              true. Founding the APAC marketing function for a
+              category-defining enterprise AI product, against a regional
+              pipeline number, with the autonomy to build the muscle from
+              first principles. That is the role I want next.
             </p>
             <p>
-              I am a Certified Practising Marketer with 15+ years of marketing
-              experience. Today I am Head of Marketing at 90 Seconds, a global
-              B2B SaaS video platform. I lead an APAC marketing team with two
-              direct reports in the region and collaborate with sales and
-              marketing counterparts across US, UK and EMEA. Since June 2024 I
-              have generated $5M in opportunities through inbound, paid, ABM,
-              lifecycle and field. That is the brief on this role: regional
-              plan aligned to pipeline and revenue, adapted global campaigns,
-              field events, ABM, digital, sponsorships, daily liaison between
-              regional sales and global marketing.
+              I am a Certified Practising Marketer with 15+ years of
+              marketing experience. Today I am Head of Marketing at 90
+              Seconds, a global B2B SaaS video platform. Two direct
+              reports in APAC. Daily collaboration with sales and
+              marketing counterparts across the US, UK and EMEA. Since
+              June 2024 I have generated $5M in opportunities through
+              inbound, paid, ABM, lifecycle and field.
             </p>
             <p>
-              Two things I would bring to a Cresta APAC seat that are harder
-              to find together.
+              Two parts of my work map straight onto the Cresta brief.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
               APAC built from the ground up.
             </h3>
             <p>
-              My current APAC remit at 90 Seconds is the same build Cresta is
-              hiring for, without the dedicated regional budget. I run the
-              regional plan end to end, own the pipeline number, adapt global
-              brand and demand programmes for the market, and act as the daily
-              bridge between regional sales and the global function. I am
-              comfortable being the only marketer in a region and creating the
-              muscle from first principles. A Manager title with a fully
-              resourced APAC remit is a build I want to lead, not a step down.
+              My current APAC remit at 90 Seconds is the same build,
+              without the dedicated regional budget. I run the regional
+              plan end to end, own the pipeline number, adapt global
+              brand and demand programmes for the market, and act as the
+              daily bridge between regional sales and the global function.
+              Comfortable being the only marketer in a region and
+              creating the muscle from first principles.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
-              AI builder, not just AI marketer.
+              AI builder, hands-on.
             </h3>
             <p>
-              This is the differentiator. Beyond running the marketing
-              function, I have spent the past two years building practical AI
-              tooling in Replit, Claude Code and the Anthropic API. Working
-              with our VP of Product I helped architect an internal GTM
-              operations platform that integrates CRM and SEMrush data to
-              automate market mapping and content coverage. I built 90Labs, a
-              live sales-enablement platform hosting 29+ assets and a Pitch
-              Builder the global sales team uses every day. I migrated a 300+
+              Beyond running the marketing function I have spent the past
+              two years building practical AI tooling in Replit, Claude
+              Code and the Anthropic API. Working with our VP of Product
+              I contribute to an internal GTM operations platform that
+              integrates CRM and SEMrush data to automate market mapping
+              and content coverage. I built 90Labs, a sales-enablement
+              workspace hosting 29+ assets, with a custom Pitch Builder
+              in beta rollout to the global sales team. I migrated a 300+
               page website using an AI-scored content inventory and an
-              automated migrator. My lane is problem framing and rapid
-              prototyping with AI tooling, not deep engineering. For a
-              category-defining AI product, having someone in the regional
-              marketing seat who can build with the technology her customers
-              are buying is a doubly relevant combination.
+              automated migrator on the Anthropic API. My lane is problem
+              framing and rapid prototyping with AI, not deep
+              engineering. Cresta sells enterprise AI. The stack the team
+              recommends to customers is the stack I already live in.
             </p>
 
             <p>
-              Against the rest of the JD: nine years as a Director of Digital
-              Adelaide, South Australia&apos;s largest marketing conference,
-              grown from about 40 marketers to over 200 delegates. Field
-              events at scale, end to end. 3.8x over MQL target on an
-              executive-audience ABM programme at the University of South
-              Australia. 172% lead lift for an industrial B2B SaaS client
-              through a HubSpot platform rebuild that won the 2023 HubSpot
-              Impact Award for Platform Excellence. Fluent in MSAs, regional
-              supplier agreements and Statements of Work through enterprise
-              customer work at 90 Seconds.
+              On the rest of the brief: nine years as a Director of
+              Digital Adelaide, South Australia&apos;s largest marketing
+              conference, grown from about 40 marketers to over 200
+              delegates. Field events at scale, end to end. 3.8x over MQL
+              target on an executive-audience ABM programme at the
+              University of South Australia. 172% lead lift for an
+              industrial B2B SaaS client through a HubSpot platform
+              rebuild that won the 2023 HubSpot Impact Award for Platform
+              Excellence. Fluent in MSAs, regional supplier agreements
+              and Statements of Work through enterprise customer work at
+              90 Seconds.
             </p>
 
             <p>
-              On contact centre and CX automation, I will be honest. I have
-              not bought, sold or sat inside one. The bridge is enterprise B2B
-              SaaS at 90 Seconds, AI fluency from two years of hands-on
-              building, and a track record of getting up the curve fast on a
-              new buyer and a new category. Useful in week one on regional
-              planning, events and demand. Ramped on the contact centre buyer
-              and the AI agent product inside the first quarter.
+              On contact centre and CX automation, I will be honest. I
+              have not bought, sold or sat inside one. The bridge is
+              enterprise B2B SaaS at 90 Seconds, AI fluency from two
+              years of hands-on building, and a track record of getting
+              up the curve fast on a new buyer. Useful in week one on
+              regional planning, events and demand. Ramped on the
+              contact centre buyer and the AI agent product inside the
+              first quarter.
             </p>
 
             <p>
-              Adelaide-based, remote-friendly, Australian citizen. Happy to
-              travel for the regional moments that matter. I would welcome a
-              conversation about the first 90 days of the APAC plan.
+              Adelaide-based, remote-friendly, Australian citizen. Happy
+              to travel for the regional moments that matter. I would
+              welcome a conversation about the first 90 days of the APAC
+              plan.
             </p>
           </div>
         </div>

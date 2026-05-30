@@ -50,9 +50,8 @@ export default function LinktreePage() {
             </p>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-navy/80">
               The application is a resume plus a portfolio link, no cover
-              letter field. So I built one. Treat it as a working sample of
-              how I would approach the AEO programme: AI-fluent, customer-led,
-              shipped fast, using the tools answer engines actually run on.
+              letter field. So I built this page as the longer pitch on
+              the AEO programme.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
@@ -149,10 +148,10 @@ export default function LinktreePage() {
                 Content systems at scale.
               </h3>
               <p className="text-navy/80 leading-relaxed">
-                Shipped a 300+ page website migration on the Anthropic API.
-                Pages crawled, classified, scored and migrated by agents. The
-                same shape as the Marketing Engineer partnership this role is
-                designed around.
+                Shipped a 300+ page website migration at 90 Seconds on
+                the Anthropic API. Pages crawled, classified, scored and
+                migrated by agents. The pattern is the one a Marketing
+                Engineer partnership runs on.
               </p>
             </div>
             <div>
@@ -183,12 +182,12 @@ export default function LinktreePage() {
           <BuildCard
             title="300-page migration"
             tagline="Website migration with an AI-scored content inventory."
-            body="Migrated 300+ pages from the legacy 90 Seconds site to the new multilingual site. Built an AI-scored content inventory and an automated migrator on the Anthropic API. Same shape as the content operations and Marketing Engineer partnership this role is designed around."
+            body="Migrated 300+ pages from the legacy 90 Seconds site to the new multilingual site. Built an AI-scored content inventory and an automated migrator on the Anthropic API. Pages crawled, classified, scored and migrated by agents."
           />
           <BuildCard
             title="HubSpot Customer Agent"
             tagline="AI in production marketing, with real customer load."
-            body="Configured and shipped HubSpot's AI Customer Agent at 90 Seconds. Live, handling incoming customer service queries with AI-led triage. Proof I can move AI from experiment to production marketing system."
+            body="Configured and shipped HubSpot's AI Customer Agent at 90 Seconds. Live, handling incoming customer service queries with AI-led triage. Vendor AI moved into a live workflow, with the change management to make it stick."
           />
           <BuildCard
             title="GTM OS"
@@ -252,91 +251,88 @@ export default function LinktreePage() {
           </h2>
           <div className="space-y-6 text-lg leading-relaxed text-navy/85">
             <p>
-              Linktree is the household-name layer that creators, musicians,
-              podcasters, realtors and SMBs reach for first. Owning the seat
-              where what those customers search for meets what Linktree
-              offers, including how that translation lands inside AI Search,
-              is the role I want to do next.
+              I read the JD twice because it sounded too aligned to be
+              true. Owning the seat where what creators, musicians,
+              podcasters, realtors and SMBs search for meets what
+              Linktree offers, including how that translation lands
+              inside AI Search. That is the role I want next.
             </p>
             <p>
-              I am a Certified Practising Marketer with 15+ years of marketing
-              experience. Today I am Head of Marketing at 90 Seconds, a global
-              B2B SaaS video platform. I lead an APAC marketing team with two
-              direct reports in the region and partner with sales and
-              marketing counterparts across US, UK and EMEA. The work that
-              matches this role is the AI-fluent content operations work I
-              have been shipping for the past two years.
+              I am a Certified Practising Marketer with 15+ years of
+              marketing experience. Today I am Head of Marketing at 90
+              Seconds, a global B2B SaaS video platform. Two direct
+              reports in APAC. Daily collaboration with sales and
+              marketing counterparts across the US, UK and EMEA. The
+              work that matches this role is the AI-fluent content
+              operations work I have been shipping for the past two
+              years.
             </p>
             <p>
-              Three things I would bring to the AEO seat that are harder to
-              find together.
+              Three parts of my work map straight onto the AEO brief.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
-              AI builder, in the stack the answer engines run on.
+              AI builder, hands-on.
             </h3>
             <p>
-              This is the differentiator. AEO is a brand-new specialism.
-              Career SEOs are still learning to prompt. I have spent the past
-              two years building practical AI tooling in Replit, Claude Code
-              and the Anthropic API. My lane is problem framing and prompting,
-              not deep engineering. The JD asks for &quot;genuine curiosity
-              about AI Search and the ability to turn that curiosity into
-              experiments, formats and playbooks.&quot; That is exactly the
-              operator I have been training myself to be.
+              AEO is a brand-new specialism. Career SEOs are still
+              learning to prompt. I have spent the past two years
+              building practical AI tooling in Replit, Claude Code and
+              the Anthropic API. My lane is problem framing and
+              prompting, not deep engineering. The stack the answer
+              engines run on is the stack I already live in.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
               Content systems that scale, not handcrafted pages.
             </h3>
             <p>
-              I shipped a 300+ page website migration at 90 Seconds using an
-              AI-scored content inventory and an automated migrator on the
-              Anthropic API. Pages get crawled, classified, scored and migrated
-              by agents. I configured the HubSpot Customer Agent for AI-led
-              service triage, now live in production. With our VP of Product I
-              contribute to GTM OS, an internal AI operations tool that
-              integrates CRM and SEMrush data to automate market mapping and
-              content coverage. The Marketing Engineer partnership in this JD
-              is the same shape as the work I already do.
+              I shipped a 300+ page website migration at 90 Seconds
+              using an AI-scored content inventory and an automated
+              migrator on the Anthropic API. Pages get crawled,
+              classified, scored and migrated by agents. I configured
+              the HubSpot Customer Agent for AI-led service triage, now
+              live in production. With our VP of Product I contribute to
+              GTM OS, an internal AI operations tool that integrates
+              CRM and SEMrush data to automate market mapping and
+              content coverage.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
               Customer empathy across diverse ICPs.
             </h3>
             <p>
-              The JD asks for someone who thinks in ICPs and search moments,
-              not keywords. At 90 Seconds I segment by enterprise vertical and
+              At 90 Seconds I segment by enterprise vertical and
               customer status. At Refuel Creative I briefed editorial
               direction across industrial B2B SaaS (K-TIG), professional
-              services (ACBG, BDO), national consumer travel (a hostel chain),
-              accessible services (Carers and Disability Link), gaming
-              consumer (TreesPlease Games), property tech (FlatRateNow) and
-              public-sector innovation (Lot Fourteen). At SeaLink I segmented
-              by buyer type and geography across Kangaroo Island, Bruny
-              Island and the Murray. Creators, musicians, podcasters, realtors
-              and SMBs is a different audience set; ICP-led segmentation is
-              the same discipline.
+              services (ACBG, BDO), national consumer travel (a hostel
+              chain), accessible services (Carers and Disability Link),
+              gaming consumer (TreesPlease Games), property tech
+              (FlatRateNow) and public-sector innovation (Lot Fourteen).
+              At SeaLink I segmented by buyer type and geography across
+              Kangaroo Island, Bruny Island and the Murray. Creators,
+              musicians, podcasters, realtors and SMBs is a different
+              audience set; ICP-led segmentation is the same discipline.
             </p>
 
             <p>
-              An honest read on the specialism. The JD asks for 5+ years in
-              SEO content strategy, content marketing, or organic growth. My
-              15+ years sit in the organic growth lane: HubSpot, inbound,
-              lifecycle, conversion, three HubSpot Impact Awards. I have not
-              been a career SEO content strategist. The bridge is the
-              organic-growth depth, the AI-builder fluency that career SEOs do
-              not have yet, and a track record of getting up the curve fast on
-              a new buyer and a new discipline. Useful in week one on AEO
-              experiments, content operations and ICP mapping. Ramped on the
-              Linktree organic surface area and the creator economy inside
-              the first quarter.
+              An honest read on the specialism. My 15+ years sit in the
+              organic growth lane: HubSpot, inbound, lifecycle,
+              conversion, three HubSpot Impact Awards. I have not been a
+              career SEO content strategist. The bridge is the
+              organic-growth depth, the AI-builder fluency that career
+              SEOs do not have yet, and a track record of getting up
+              the curve fast on a new buyer and a new discipline.
+              Useful in week one on AEO experiments, content operations
+              and ICP mapping. Ramped on the Linktree organic surface
+              area and the creator economy inside the first quarter.
             </p>
 
             <p>
-              Adelaide-based, remote-friendly, Australian citizen. Happy to
-              travel for the moments that matter. I would welcome a
-              conversation about the first 90 days of the AEO programme.
+              Adelaide-based, remote-friendly, Australian citizen.
+              Happy to travel for the moments that matter. I would
+              welcome a conversation about the first 90 days of the AEO
+              programme.
             </p>
           </div>
         </div>
