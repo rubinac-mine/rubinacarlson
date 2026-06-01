@@ -104,7 +104,7 @@ export default function CrestaPage() {
               </h3>
               <p className="text-navy/80 leading-relaxed">
                 Two years building practical AI tooling with Replit, Claude
-                Code and the Anthropic API. I market AI products at 90
+                Code and the Anthropic API. I market AI-enabled products at 90
                 Seconds and I build with AI daily. The stack Cresta sells
                 against is the stack I already live in.
               </p>

@@ -41,7 +41,7 @@ export default function ElevenLabsPage() {
           Rubina Carlson on the B2B Marketing ANZ seat.
           <br />
           <span className="text-navy/70">
-            I market AI products today, and I build with AI every day.
+            I market AI-enabled products today, and I build with AI every day.
           </span>
         </p>
         <p className="mt-10 max-w-2xl text-lg leading-relaxed text-navy/80">
@@ -81,7 +81,7 @@ export default function ElevenLabsPage() {
               </h3>
               <p className="text-navy/80 leading-relaxed">
                 Two years building practical AI tooling in Replit, Claude
-                Code and the Anthropic API. I market AI products at 90
+                Code and the Anthropic API. I market AI-enabled products at 90
                 Seconds and I build with AI daily. The stack ElevenLabs
                 customers are buying is the stack I already live in.
               </p>
