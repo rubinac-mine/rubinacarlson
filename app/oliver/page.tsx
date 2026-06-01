@@ -183,7 +183,7 @@ export default function OliverPage() {
           <Credential text="15+ years of marketing experience" />
           <Credential text="Certified Practising Marketer, AMI" />
           <Credential text="2023 HubSpot Impact Award, Platform Excellence (172% lead lift)" />
-          <Credential text="Director, Digital Adelaide (40 to 200+ delegates over 9 years)" />
+          <Credential text="Director, Digital Adelaide (40 to 200+ delegates over 10 years)" />
           <Credential text="B. Media in Marketing, University of Adelaide" />
         </ul>
       </section>
@@ -267,7 +267,7 @@ export default function OliverPage() {
             </p>
 
             <p>
-              Against the rest of the JD: nine years as a Director of Digital
+              Against the rest of the JD: ten years as a Director of Digital
               Adelaide, South Australia&apos;s largest marketing conference,
               grown from about 40 marketers to over 200 delegates. Field
               events at scale, end to end. 3.8x over MQL target on an

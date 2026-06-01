@@ -45,12 +45,12 @@ export default function ElevenLabsPage() {
           </span>
         </p>
         <p className="mt-10 max-w-2xl text-lg leading-relaxed text-navy/80">
-          I read this JD twice because it sounded too aligned to be true.
-          Full-funnel B2B growth in Oceania for a category-defining voice
-          AI product. AI-native workflows as a bonus, not a stretch.
-          Owner mentality as the requirement, not the aspiration. That is
-          the work I have been doing inside 90 Seconds for the past two
-          years.
+          $5M in opportunities at 90 Seconds since June 2024 across
+          inbound, paid, ABM, lifecycle, partner and field. HubSpot
+          Customer Agent shipped and live in production. 90Labs
+          sales-enablement platform built solo in Replit, with a Pitch
+          Builder in beta with the global sales team. Ten years building
+          Digital Adelaide from 40 marketers to over 200 delegates.
         </p>
         <div className="mt-12 flex flex-wrap gap-4">
           <a
@@ -69,10 +69,10 @@ export default function ElevenLabsPage() {
       </section>
 
       {/* Section 2 - Three pillars */}
-      <section className="bg-navy/[0.04] border-y border-navy/10">
+      <section className="bg-cream-light border-y border-navy/10">
         <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-14 max-w-2xl">
-            Why I am the right hire for the Oceania seat.
+            Why I am the right hire for the ANZ seat.
           </h2>
           <div className="grid gap-12 md:grid-cols-3">
             <div>
@@ -103,11 +103,11 @@ export default function ElevenLabsPage() {
                 Events and ABM at enterprise tier.
               </h3>
               <p className="text-navy/80 leading-relaxed">
-                Nine years as a Director of Digital Adelaide, grown from
+                Ten years as a Director of Digital Adelaide, grown from
                 40 marketers to over 200 delegates. End-to-end events,
-                sponsor sales, speaker programmes. 3.8x over MQL target on
-                an executive-audience ABM programme at the University of
-                South Australia.
+                sponsor sales, speaker programmes. 3.8x over MQL target
+                on an executive-audience ABM programme at the University
+                of South Australia.
               </p>
             </div>
           </div>
@@ -161,12 +161,12 @@ export default function ElevenLabsPage() {
             <DayBlock
               range="Days 1 to 30"
               heading="Listen and inventory."
-              body="Spend the first month with the Growth team, Oceania Sales, the global demand engine and any in-market partners. Map the existing Oceania pipeline, named accounts, partner ecosystem and event calendar. Audit which global campaigns can be lifted into Oceania as-is and what needs regional adaptation. Document the ElevenLabs buyer across ElevenAgents, ElevenCreative and ElevenAPI from inside the room, not from the JD."
+              body="Spend the first month with the Growth team, ANZ Sales, the global demand engine and any in-market partners. Map the existing ANZ pipeline, named accounts, partner ecosystem and event calendar. Audit which global campaigns can be lifted into ANZ as-is and what needs regional adaptation. Document the ElevenLabs buyer across ElevenAgents, ElevenCreative and ElevenAPI from inside the room, not from the JD."
             />
             <DayBlock
               range="Days 31 to 60"
               heading="Pick three plays."
-              body="Three regional plays that compound. First guesses, subject to inventory: an outbound sequence at enterprise content and CX leaders for ElevenAgents, an ABM motion on a named-account list for ElevenCreative with a category-defining creative wedge, and an Oceania developer event series for ElevenAPI co-marketed with a regional cloud partner. Stand each up with a measurement frame against pipeline."
+              body="Three regional plays that compound. First guesses, subject to inventory: an outbound sequence at enterprise content and CX leaders for ElevenAgents, an ABM motion on a named-account list for ElevenCreative with a category-defining creative wedge, and an ANZ developer event series for ElevenAPI co-marketed with a regional cloud partner. Stand each up with a measurement frame against pipeline."
             />
             <DayBlock
               range="Days 61 to 90"
@@ -183,13 +183,13 @@ export default function ElevenLabsPage() {
           <Credential text="15+ years of marketing experience" />
           <Credential text="Certified Practising Marketer, AMI" />
           <Credential text="2023 HubSpot Impact Award, Platform Excellence (172% lead lift)" />
-          <Credential text="Director, Digital Adelaide (40 to 200+ delegates over 9 years)" />
+          <Credential text="Director, Digital Adelaide (40 to 200+ delegates over 10 years)" />
           <Credential text="B. Media in Marketing, University of Adelaide" />
         </ul>
       </section>
 
       {/* Section 6 - The full pitch */}
-      <section className="bg-navy/[0.04] border-y border-navy/10">
+      <section className="bg-cream-light border-y border-navy/10">
         <div className="mx-auto max-w-3xl px-6 py-20 sm:py-24">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-12">
             The full pitch.
@@ -205,7 +205,7 @@ export default function ElevenLabsPage() {
               partner and field.
             </p>
             <p>
-              Three parts of my work map straight onto the Oceania brief.
+              Three parts of my work map straight onto the ANZ brief.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
@@ -230,7 +230,7 @@ export default function ElevenLabsPage() {
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
-              Full-funnel Oceania pipeline.
+              Full-funnel ANZ pipeline.
             </h3>
             <p>
               My day at 90 Seconds spans full-funnel. Brief and ship a
@@ -245,35 +245,45 @@ export default function ElevenLabsPage() {
               Events, outbound and partnerships at the enterprise tier.
             </h3>
             <p>
-              Nine years as a Director of Digital Adelaide, South
+              Ten years as a Director of Digital Adelaide, South
               Australia&apos;s largest marketing conference, grown from
-              about 40 marketers to over 200 delegates. End-to-end event
-              delivery, sponsor sales and speaker programmes. 3.8x over
-              MQL target on an executive-audience ABM programme at the
-              University of South Australia. 172% lead lift for an
-              industrial B2B SaaS client through a HubSpot platform
-              rebuild that won the 2023 HubSpot Impact Award for Platform
-              Excellence. Fluent in MSAs, regional supplier agreements
-              and Statements of Work through enterprise customer work at
-              90 Seconds.
+              about 40 marketers to over 200 delegates. End-to-end
+              event delivery, sponsor sales and speaker programmes.
+              3.8x over MQL target on an executive-audience ABM
+              programme at the University of South Australia. 172%
+              lead lift for an industrial B2B SaaS client through a
+              HubSpot platform rebuild that won the 2023 HubSpot
+              Impact Award for Platform Excellence. Fluent in MSAs,
+              regional supplier agreements and Statements of Work
+              through enterprise customer work at 90 Seconds.
             </p>
 
             <p>
-              On the location. I am Adelaide-based, remote-friendly,
-              Australian citizen. The JD prefers Sydney 3+ days a week
-              with Melbourne as the travel-frequent backup. I would be
-              asking for a remote-AU exception, with travel for the
-              moments that matter: Sydney customer days, ANZ
-              conferences, partner events, team offsites. The trade is
-              the AI-builder profile above. Career B2B marketers are
-              still learning to prompt. I have spent two years inside the
-              stack ElevenLabs customers are buying.
-            </p>
-
-            <p>
-              Happy to talk about the first 90 days of the Oceania plan.
+              Happy to talk about the first 90 days of the ANZ plan.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Section 6.5 - On the location */}
+      <section className="mx-auto max-w-3xl px-6 py-20 sm:py-24">
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-8">
+          On the location.
+        </h2>
+        <div className="space-y-6 text-lg leading-relaxed text-navy/85">
+          <p>
+            I am Adelaide-based, remote-friendly, Australian citizen.
+            The JD prefers Sydney 3+ days a week with Melbourne as the
+            travel-frequent backup. I would be asking for a remote-AU
+            exception, with travel for the moments that matter: Sydney
+            customer days, ANZ conferences, partner events, team
+            offsites.
+          </p>
+          <p>
+            The trade is the AI-builder profile above. Career B2B
+            marketers are still learning to prompt. I have spent two
+            years inside the stack ElevenLabs customers are buying.
+          </p>
         </div>
       </section>
 

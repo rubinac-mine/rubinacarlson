@@ -253,7 +253,7 @@ export default function MarketingLeadPage() {
               I built and run 90Labs, a live sales enablement workspace
               hosting 29+ active assets used by the global sales team. The
               marquee tool, a Pitch Builder, is in beta rollout with promising
-              early signals. For nine years, I have co-directed Digital
+              early signals. For ten years, I have co-directed Digital
               Adelaide, growing it from about 40 marketers to 200+ delegates
               and into South Australia&apos;s largest marketing conference. I
               also developed and delivered Australia&apos;s first tertiary

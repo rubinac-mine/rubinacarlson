@@ -49,12 +49,12 @@ export default function LinktreePage() {
               </span>
             </p>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-navy/80">
-              I read this JD twice because it sounded too aligned to be
-              true. Owning the seat where creators, musicians,
-              podcasters, realtors and SMBs meet AI Search. Content
-              systems at scale. ICP-led segmentation across diverse
-              audiences. That is the work I have been shipping at 90
-              Seconds for the past two years.
+              300+ page website migration shipped on the Anthropic API
+              at 90 Seconds. HubSpot Customer Agent configured and live
+              in production. GTM OS built with our VP of Product. Three
+              HubSpot Impact Awards across HubSpot platform work. Ten
+              years building Digital Adelaide from 40 marketers to over
+              200 delegates.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
@@ -129,7 +129,7 @@ export default function LinktreePage() {
       </section>
 
       {/* Section 2 - Three pillars */}
-      <section className="bg-navy/[0.04] border-y border-navy/10">
+      <section className="bg-cream-light border-y border-navy/10">
         <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-14 max-w-2xl">
             Why I am the right hire for the AEO seat.
@@ -241,13 +241,13 @@ export default function LinktreePage() {
           <Credential text="15+ years of marketing experience" />
           <Credential text="Certified Practising Marketer, AMI" />
           <Credential text="2023 HubSpot Impact Award, Platform Excellence (172% lead lift)" />
-          <Credential text="Director, Digital Adelaide (40 to 200+ delegates over 9 years)" />
+          <Credential text="Director, Digital Adelaide (40 to 200+ delegates over 10 years)" />
           <Credential text="B. Media in Marketing, University of Adelaide" />
         </ul>
       </section>
 
       {/* Section 6 - The full pitch */}
-      <section className="bg-navy/[0.04] border-y border-navy/10">
+      <section className="bg-cream-light border-y border-navy/10">
         <div className="mx-auto max-w-3xl px-6 py-20 sm:py-24">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-12">
             The full pitch.

@@ -7,6 +7,7 @@
   --color-soft-blue: #7699d4;
   --color-navy: #1a2e4e;
   --color-cream: #f5f0e8;
+  --color-cream-light: #fbf9f5;
 
   --font-sans: var(--font-dm-sans), system-ui, sans-serif;
   --font-caveat: var(--font-caveat), cursive;

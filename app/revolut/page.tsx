@@ -189,7 +189,7 @@ export default function RevolutPage() {
           <Credential text="15+ years of marketing experience" />
           <Credential text="Certified Practising Marketer, AMI" />
           <Credential text="2023 HubSpot Impact Award, Platform Excellence (172% lead lift)" />
-          <Credential text="Director, Digital Adelaide (40 to 270+ delegates over 9 years)" />
+          <Credential text="Director, Digital Adelaide (40 to 270+ delegates over 10 years)" />
           <Credential text="B. Media in Marketing, University of Adelaide" />
         </ul>
       </section>
@@ -244,7 +244,7 @@ export default function RevolutPage() {
               Impact Award. At Nucleus, B2B digital strategy for Adelaide
               Bank delivering 30 new lender leads per month. At UniSA, a 3.8x
               over MQL target on an executive-audience LinkedIn and Meta
-              programme. Nine years as a Director of Digital Adelaide, growing
+              programme. Ten years as a Director of Digital Adelaide, growing
               the conference from 40 marketers to over 270 delegates. Field
               and community activations are not theoretical work for me.
             </p>

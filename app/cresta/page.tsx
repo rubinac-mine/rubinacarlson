@@ -45,11 +45,12 @@ export default function CrestaPage() {
           </span>
         </p>
         <p className="mt-10 max-w-2xl text-lg leading-relaxed text-navy/80">
-          I read this JD twice because it sounded too aligned to be true.
-          Founding the APAC marketing function for a category-defining
-          enterprise AI product. Regional pipeline owned end to end.
-          Building the muscle from first principles. APAC is the build I
-          am running today at 90 Seconds, without the dedicated budget.
+          $5M in opportunities at 90 Seconds since June 2024 across
+          inbound, paid, ABM, lifecycle and field. APAC pipeline owned
+          end to end. 90Labs sales-enablement platform built solo in
+          Replit, with a Pitch Builder in beta with the global sales
+          team. Ten years building Digital Adelaide from 40 marketers to
+          over 200 delegates.
         </p>
         <div className="mt-12 flex flex-wrap gap-4">
           <a
@@ -68,7 +69,7 @@ export default function CrestaPage() {
       </section>
 
       {/* Section 2 -Three pillars */}
-      <section className="bg-navy/[0.04] border-y border-navy/10">
+      <section className="bg-cream-light border-y border-navy/10">
         <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-14 max-w-2xl">
             Why I am the right founding APAC hire.
@@ -181,13 +182,13 @@ export default function CrestaPage() {
           <Credential text="15+ years of marketing experience" />
           <Credential text="Certified Practising Marketer, AMI" />
           <Credential text="2023 HubSpot Impact Award, Platform Excellence (172% lead lift)" />
-          <Credential text="Director, Digital Adelaide (40 to 200+ delegates over 9 years)" />
+          <Credential text="Director, Digital Adelaide (40 to 200+ delegates over 10 years)" />
           <Credential text="B. Media in Marketing, University of Adelaide" />
         </ul>
       </section>
 
       {/* Section 6 -The full pitch */}
-      <section className="bg-navy/[0.04] border-y border-navy/10">
+      <section className="bg-cream-light border-y border-navy/10">
         <div className="mx-auto max-w-3xl px-6 py-20 sm:py-24">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-12">
             The full pitch.
@@ -239,7 +240,7 @@ export default function CrestaPage() {
             </p>
 
             <p>
-              On the rest of the brief: nine years as a Director of
+              On the rest of the brief: ten years as a Director of
               Digital Adelaide, South Australia&apos;s largest marketing
               conference, grown from about 40 marketers to over 200
               delegates. Field events at scale, end to end. 3.8x over MQL
