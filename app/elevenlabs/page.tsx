@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "For ElevenLabs. Rubina Carlson.",
   description:
-    "Rubina Carlson on the B2B Marketing - ANZ seat at ElevenLabs. A marketer who lives inside the AI stack she would be hired to market.",
+    "Rubina Carlson in the B2B Marketing - ANZ seat at ElevenLabs. A marketer who lives inside the AI stack she would be hired to market.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -38,7 +38,7 @@ export default function ElevenLabsPage() {
           For ElevenLabs.
         </h1>
         <p className="mt-10 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
-          Rubina Carlson on the B2B Marketing ANZ seat.
+          Rubina Carlson in the B2B Marketing ANZ seat.
           <br />
           <span className="text-navy/70">
             I market AI-enabled products today, and I build with AI every day.

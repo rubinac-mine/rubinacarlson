@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "For Revolut. Rubina Carlson.",
   description:
-    "Rubina Carlson on the Marketing Manager seat for Revolut Business, Australia. A senior B2B growth marketer choosing closer to the campaigns, not further away.",
+    "Rubina Carlson in the Marketing Manager seat for Revolut Business, Australia. A senior B2B growth marketer choosing closer to the campaigns, not further away.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -38,7 +38,7 @@ export default function RevolutPage() {
           For Revolut.
         </h1>
         <p className="mt-10 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
-          Rubina Carlson on the Marketing Manager seat for Revolut Business,
+          Rubina Carlson in the Marketing Manager seat for Revolut Business,
           Australia.
           <br />
           <span className="text-navy/70">

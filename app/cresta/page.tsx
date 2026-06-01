@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "For Cresta. Rubina Carlson.",
   description:
-    "Rubina Carlson on the APAC Marketing Manager seat at Cresta. A marketer who builds with the technology her customers are buying.",
+    "Rubina Carlson in the APAC Marketing Manager seat at Cresta. A marketer who builds with the technology her customers are buying.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -38,7 +38,7 @@ export default function CrestaPage() {
           For Cresta.
         </h1>
         <p className="mt-10 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
-          Rubina Carlson on the APAC Marketing Manager seat.
+          Rubina Carlson in the APAC Marketing Manager seat.
           <br />
           <span className="text-navy/70">
             A marketer who builds with the technology her customers are buying.

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "For Canva. Rubina Carlson.",
   description:
-    "Rubina Carlson on the Senior B2B Product Marketing Manager, Vertical Strategy seat at Canva. A vertical GTM strategist with direct buyer-side credibility in Higher Education and Government, plus AI-builder credentials.",
+    "Rubina Carlson in the Senior B2B Product Marketing Manager, Vertical Strategy seat at Canva. A vertical GTM strategist with direct buyer-side credibility in Higher Education and Government, plus AI-builder credentials.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -38,7 +38,7 @@ export default function CanvaPage() {
           For Canva.
         </h1>
         <p className="mt-10 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
-          Rubina Carlson on the Senior B2B PMM, Vertical Strategy seat.
+          Rubina Carlson in the Senior B2B PMM, Vertical Strategy seat.
           <br />
           <span className="text-navy/70">
             A vertical GTM strategist who has spent her career on the buyer

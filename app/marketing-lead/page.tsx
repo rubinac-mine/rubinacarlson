@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "For BDO. Rubina Carlson.",
   description:
-    "Rubina Carlson on the Marketing Lead seat at BDO. A B2B marketing leader who builds disciplined programmes, lifts capability, and ships with AI.",
+    "Rubina Carlson in the Marketing Lead seat at BDO. A B2B marketing leader who builds disciplined programmes, lifts capability, and ships with AI.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -38,7 +38,7 @@ export default function MarketingLeadPage() {
           For BDO.
         </h1>
         <p className="mt-10 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
-          Rubina Carlson on the Marketing Lead seat.
+          Rubina Carlson in the Marketing Lead seat.
           <br />
           <span className="text-navy/70">
             A B2B marketing leader who scales programmes, lifts capability, and
