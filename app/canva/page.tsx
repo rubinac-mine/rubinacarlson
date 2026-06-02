@@ -109,7 +109,7 @@ export default function CanvaPage() {
           />
           <VerticalTile
             label="Government"
-            note="SeaLink, Lot Fourteen, Adelaide Bank"
+            note="Lot Fourteen + state-gov tourism partners"
             tone="crimson"
           />
         </div>
