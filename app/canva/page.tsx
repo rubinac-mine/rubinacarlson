@@ -81,8 +81,10 @@ export default function CanvaPage() {
             <p>
               Canva has been on my wish-list employer shortlist for years.
               I have watched the brand redefine how the world experiences
-              design, and I have used the product across every role on the
-              CV below.
+              design. I have used the product across every role on the CV
+              below, and worked inside a Canva partner agency (Refuel
+              Creative, 2020 – 2023) where the platform sat at the centre
+              of daily client production and pitch work.
             </p>
             <p>
               The Vertical Strategy seat is the rare PMM brief where the
