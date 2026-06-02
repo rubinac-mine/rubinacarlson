@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "For Canva. Rubina Carlson.",
@@ -33,41 +34,84 @@ export default function CanvaPage() {
       </header>
 
       {/* Hero */}
-      <section className="mx-auto max-w-5xl px-6 pt-20 pb-24 sm:pt-28 sm:pb-32">
-        <h1 className="text-7xl sm:text-9xl font-bold tracking-tight leading-[0.95] text-navy">
-          For Canva.
-        </h1>
-        <p className="mt-10 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
-          Rubina Carlson in the Senior B2B PMM, Vertical Strategy seat.
-          <br />
-          <span className="text-navy/70">
-            A vertical GTM strategist who has spent her career on the buyer
-            side of two of the three verticals you are hiring this role to
-            own.
-          </span>
+      <section className="mx-auto max-w-5xl px-6 pt-20 pb-16 sm:pt-28 sm:pb-20">
+        <div className="grid gap-12 sm:gap-16 md:grid-cols-[1fr_auto] md:items-start">
+          <div>
+            <h1 className="text-6xl sm:text-8xl lg:text-9xl font-bold tracking-tight leading-[0.95] text-navy">
+              For Canva.
+            </h1>
+            <p className="mt-8 text-2xl sm:text-3xl leading-snug text-navy">
+              Rubina Carlson in the Senior B2B PMM, Vertical Strategy seat.
+              <br />
+              <span className="text-navy/70">
+                A vertical GTM strategist who has spent her career on the
+                buyer side of two of the three verticals you are hiring
+                this role to own.
+              </span>
+            </p>
+            <p className="mt-8 max-w-xl text-lg leading-relaxed text-navy/80">
+              Higher Education and Government are not adjacent for me. They
+              are where I have done the work. Three years on faculty across
+              UniSA Creative and TAFE SA, with a seat on the UniSA School
+              of Communication Industry Advisory Panel. State-government
+              tourism partnerships at SeaLink across Tasmania and South
+              Australia. Regulated financial services GTM at Adelaide Bank.
+              The vertical empathy this role calls for is the empathy I
+              bring with me.
+            </p>
+            <div className="mt-10 flex flex-wrap gap-4">
+              <a
+                href={CV_PATH}
+                className="inline-block bg-crimson text-cream px-6 py-3 rounded-md font-medium hover:bg-crimson-dark transition"
+              >
+                Download CV
+              </a>
+              <a
+                href={MAILTO}
+                className="inline-block border border-navy text-navy px-6 py-3 rounded-md font-medium hover:bg-navy hover:text-cream transition"
+              >
+                Email me
+              </a>
+            </div>
+          </div>
+          <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-crimson/20 mx-auto md:mx-0 md:mt-4">
+            <Image
+              src="/rubina-portrait-square.jpg"
+              alt="Rubina Carlson, smiling, in a black top and black fascinator."
+              fill
+              sizes="(max-width: 640px) 12rem, (max-width: 768px) 16rem, 18rem"
+              className="object-cover"
+              priority
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Section 1.5 - A small nod to the product (vertical cards in Canva-style aesthetic) */}
+      <section className="mx-auto max-w-5xl px-6 pb-20 sm:pb-24">
+        <p className="text-sm font-medium tracking-wide uppercase text-crimson text-center mb-3">
+          The three verticals
         </p>
-        <p className="mt-10 max-w-2xl text-lg leading-relaxed text-navy/80">
-          Higher Education and Government are not adjacent for me. They are
-          where I have done the work. Three years on faculty across UniSA
-          Creative and TAFE SA, with a seat on the UniSA School of
-          Communication Industry Advisory Panel. State-government tourism
-          partnerships at SeaLink across Tasmania and South Australia.
-          Regulated financial services GTM at Adelaide Bank. The vertical
-          empathy this role calls for is the empathy I bring with me.
+        <p className="text-center text-navy/70 mb-8 text-base">
+          A small nod to the product. Two of three with direct buyer-side
+          credibility.
         </p>
-        <div className="mt-12 flex flex-wrap gap-4">
-          <a
-            href={CV_PATH}
-            className="inline-block bg-crimson text-cream px-6 py-3 rounded-md font-medium hover:bg-crimson-dark transition"
-          >
-            Download CV
-          </a>
-          <a
-            href={MAILTO}
-            className="inline-block border border-navy text-navy px-6 py-3 rounded-md font-medium hover:bg-navy hover:text-cream transition"
-          >
-            Email me
-          </a>
+        <div className="grid gap-4 sm:grid-cols-3">
+          <VerticalTile
+            label="Higher Education"
+            note="On faculty 2011 – 2018"
+            tone="navy"
+          />
+          <VerticalTile
+            label="Real Estate"
+            note="Ramping in Q1"
+            tone="crimson-light"
+          />
+          <VerticalTile
+            label="Government"
+            note="SeaLink, Lot Fourteen, Adelaide Bank"
+            tone="crimson"
+          />
         </div>
       </section>
 
@@ -438,6 +482,40 @@ export default function CanvaPage() {
         </div>
       </footer>
     </main>
+  );
+}
+
+function VerticalTile({
+  label,
+  note,
+  tone,
+}: {
+  label: string;
+  note: string;
+  tone: "navy" | "crimson" | "crimson-light";
+}) {
+  const toneClasses =
+    tone === "navy"
+      ? "bg-navy text-cream"
+      : tone === "crimson"
+      ? "bg-crimson text-cream"
+      : "bg-crimson-light text-navy";
+  const noteOpacity =
+    tone === "crimson-light" ? "text-navy/75" : "text-cream/75";
+  return (
+    <div
+      className={`${toneClasses} rounded-xl p-6 sm:p-8 aspect-[4/3] flex flex-col justify-between`}
+    >
+      <p className="text-xs font-semibold tracking-wide uppercase opacity-80">
+        Vertical
+      </p>
+      <div>
+        <p className="text-2xl sm:text-3xl font-bold tracking-tight leading-tight">
+          {label}
+        </p>
+        <p className={`mt-2 text-sm ${noteOpacity}`}>{note}</p>
+      </div>
+    </div>
   );
 }
 
