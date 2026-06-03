@@ -52,11 +52,12 @@ export default function CanvaPage() {
               Higher Education and Government are not adjacent for me. They
               are where I have done the work. Three years on faculty across
               UniSA Creative and TAFE SA, with a seat on the UniSA School
-              of Communication Industry Advisory Panel in 2015. State
-              tourism launches at SeaLink built with Tasmanian and SA
-              agencies. Adelaide Bank B2B strategy in regulated financial
-              services at Nucleus. The vertical empathy this role calls
-              for is the empathy I bring with me.
+              of Communication Industry Advisory Panel in 2015.
+              State-government stakeholder management at SeaLink through a
+              contested Bruny Island ferry change in Tasmania. Adelaide
+              Bank B2B strategy in regulated financial services at Nucleus.
+              The vertical empathy this role calls for is the empathy I
+              bring with me.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
@@ -132,9 +133,10 @@ export default function CanvaPage() {
               The role owns Higher Education, Real Estate and Government.
               I have been the buyer in two of those rooms. I have lectured
               inside two SA universities. I have sat on the UniSA Industry
-              Advisory Panel. I have built launches with Tasmanian and SA
-              state tourism agencies. I have run campaigns for a regulated
-              bank. Real Estate is the one I would ramp on.
+              Advisory Panel. I have managed state-government stakeholders
+              through a contested ferry-service change at SeaLink. I have
+              run campaigns for a regulated bank. Real Estate is the one
+              I would ramp on.
             </p>
             <p>
               Then the AI-builder layer. Canva is a creative AI platform.
@@ -158,11 +160,11 @@ export default function CanvaPage() {
             <p className="text-navy/80 leading-relaxed">
               Three years on faculty across UniSA Creative and TAFE SA.
               UniSA School of Communication Industry Advisory Panel
-              member. State tourism launches at SeaLink built with
-              Tasmanian and SA agencies. Adelaide Bank B2B strategy in
-              regulated financial services at Nucleus. Lot Fourteen
-              social media strategy across SA's state-government-owned
-              innovation precinct.
+              member. State-government stakeholder management at SeaLink
+              through a contested Bruny Island ferry change. Adelaide
+              Bank B2B strategy in regulated financial services at
+              Nucleus. Lot Fourteen social media strategy across SA's
+              state-government-owned innovation precinct.
             </p>
           </div>
           <div>
@@ -194,10 +196,11 @@ export default function CanvaPage() {
       <section className="bg-navy/[0.04] border-y border-navy/10">
         <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
-            Vertical receipts.
+            Relevant industry experience.
           </h2>
           <p className="text-lg text-navy/70 mb-12 max-w-2xl">
-            The buyer-side work behind the vertical claim.
+            Government, education and regulated industries, across the
+            past fifteen years.
           </p>
           <div className="grid gap-6 md:grid-cols-2">
             <VerticalCard
@@ -222,13 +225,13 @@ export default function CanvaPage() {
             />
             <VerticalCard
               vertical="Government"
-              title="SeaLink Bruny Island launch with Tasmanian state agencies (2018)"
-              body="Launched the SeaLink Bruny Island digital presence with state government tourism stakeholders. Acted as official spokesperson within local Facebook communities. Lifted NPS from -50 to +10 through a community-led launch programme."
+              title="SeaLink Bruny Island launch (2018)"
+              body="Stood up the SeaLink Bruny Island digital presence through a contested ferry-service change the local community didn't want. State-government and council stakeholders engaged on reputation management. Acted as official spokesperson inside local Facebook communities. Lifted NPS from -50 to +10."
             />
             <VerticalCard
-              vertical="Government"
-              title="Kangaroo Island three-day sale with SA Tourism Commission (2018)"
-              body="Multi-channel campaign blending digital and above-the-line, delivered with state tourism partners. $326,000+ in online sales over three days, up 97% year-on-year."
+              vertical="Tourism"
+              title="SeaLink Kangaroo Island three-day sale (2018)"
+              body="SeaLink-led multi-channel sale across digital and above-the-line. $326,000+ in online sales over three days, up 97% year-on-year. Ran inside the broader Kangaroo Island destination programme where SA Tourism Commission was a stakeholder."
             />
             <VerticalCard
               vertical="Regulated"
@@ -355,10 +358,14 @@ export default function CanvaPage() {
               South Australia at Refuel Creative.
             </p>
             <p>
-              Then Government and regulated. State tourism launches at
-              SeaLink built with Tasmanian and SA agencies: NPS lift -50
-              to +10 at Bruny Island, $326K three-day sale up 97% YoY at
-              Kangaroo Island. Lot Fourteen social media strategy at
+              Then Government and regulated. At SeaLink in Tasmania, I
+              stood up the Bruny Island digital launch through a contested
+              ferry-service change the local community didn't want, with
+              state-government and council stakeholders engaged on
+              reputation management. NPS -50 to +10. At SeaLink in SA, I
+              ran the Kangaroo Island three-day sale ($326K, up 97% YoY)
+              inside the broader destination programme SA Tourism
+              Commission stakeheld. Lot Fourteen social media strategy at
               Refuel Creative across SA's state-government-owned
               innovation precinct. Adelaide Bank B2B strategy at Nucleus
               in regulated financial services (30 new lender leads per
