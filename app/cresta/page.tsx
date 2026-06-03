@@ -95,11 +95,12 @@ export default function CrestaPage() {
                 APAC built from the ground up.
               </h3>
               <p className="text-navy/80 leading-relaxed">
-                I run the APAC marketing function at 90 Seconds today. Pipeline
-                number, regional adaptation of global campaigns, field and ABM,
-                sales partnership, daily liaison with the global team.
-                Comfortable being the only marketer in a region and building
-                the muscle from first principles.
+                I lead 90 Seconds&apos; global marketing function from APAC
+                today. Pipeline number, regional adaptation of global
+                campaigns, field and ABM, sales partnership, daily liaison
+                with counterparts across US, UK and EMEA. Comfortable being
+                the marketing lead in a region and building the muscle from
+                first principles.
               </p>
             </div>
             <div>
@@ -141,7 +142,7 @@ export default function CrestaPage() {
           <BuildCard
             title="90Labs"
             tagline="Live sales-enablement platform built in Replit."
-            body="Hosts 29+ active assets and a Pitch Builder tool. Used by the global 90 Seconds sales team every day. Built and maintained by me from the marketing seat, with the design team for the visual layer."
+            body="Hosts 29+ active assets and a Pitch Builder tool. In beta rollout to the global 90 Seconds sales team. Initial signals promising. Built and maintained by me from the marketing seat, with the design team for the visual layer."
           />
           <BuildCard
             title="GTM OS"
@@ -151,7 +152,7 @@ export default function CrestaPage() {
           <BuildCard
             title="Pitch Builder"
             tagline="Sales-pitch composer built into 90Labs."
-            body="Lets sales reps compose tailored pitches in minutes by pulling from a structured asset library. Built so the field can move at the speed an enterprise deal actually demands."
+            body="Lets sales reps compose tailored pitches in minutes by pulling from a structured asset library. Built so the field can move at the speed an enterprise deal actually demands. In beta with the global sales team."
           />
           <BuildCard
             title="The 300-page migration"
@@ -212,11 +213,12 @@ export default function CrestaPage() {
             <p>
               15+ years of marketing experience. Certified Practising
               Marketer. Today Head of Marketing at 90 Seconds, a global
-              B2B SaaS video platform. Two direct reports in APAC. Daily
-              collaboration with sales and marketing counterparts across
-              the US, UK and EMEA. Since June 2024 I have generated $5M
-              in opportunities through inbound, paid, ABM, lifecycle and
-              field.
+              B2B SaaS video platform. I lead the global marketing
+              function from APAC. Two direct reports in the region.
+              Daily collaboration with sales and marketing counterparts
+              across the US, UK and EMEA. Since June 2024 I have
+              generated $5M in opportunities through inbound, paid, ABM,
+              lifecycle and field.
             </p>
             <p>
               Two parts of my work map straight onto the Cresta brief.
