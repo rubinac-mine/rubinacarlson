@@ -44,20 +44,19 @@ export default function CanvaPage() {
               Rubina Carlson in the Senior B2B PMM, Vertical Strategy seat.
               <br />
               <span className="text-navy/70">
-                A vertical GTM strategist who has spent her career on the
-                buyer side of two of the three verticals you are hiring
-                this role to own.
+                I have spent my career on the buyer side of two of the
+                three verticals this role owns.
               </span>
             </p>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-navy/80">
               Higher Education and Government are not adjacent for me. They
               are where I have done the work. Three years on faculty across
               UniSA Creative and TAFE SA, with a seat on the UniSA School
-              of Communication Industry Advisory Panel. State-government
-              tourism partnerships at SeaLink across Tasmania and South
-              Australia. Regulated financial services GTM at Adelaide Bank.
-              The vertical empathy this role calls for is the empathy I
-              bring with me.
+              of Communication Industry Advisory Panel in 2015. State
+              tourism launches at SeaLink built with Tasmanian and SA
+              agencies. Adelaide Bank B2B strategy in regulated financial
+              services at Nucleus. The vertical empathy this role calls
+              for is the empathy I bring with me.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
@@ -93,8 +92,7 @@ export default function CanvaPage() {
           The three verticals
         </p>
         <p className="text-center text-navy/70 mb-8 text-base">
-          A small nod to the product. Two of three with direct buyer-side
-          credibility.
+          A small nod to the product. Two of three I have lived in.
         </p>
         <div className="grid gap-4 sm:grid-cols-3">
           <VerticalTile
@@ -131,21 +129,17 @@ export default function CanvaPage() {
               of daily client production and pitch work.
             </p>
             <p>
-              The Vertical Strategy seat is the rare PMM brief where the
-              fit is in the verticals themselves, not the title. The role
-              owns Higher Education, Real Estate and Government. I have
-              been the buyer in two of those rooms. I have sat on a
-              university Industry Advisory Panel. I have built
-              digital launches with state tourism authorities. I have run
-              campaigns for a regulated bank. That is the kind of vertical
-              context career PMMs typically have to ramp into. I would be
-              ramping on Real Estate only.
+              The role owns Higher Education, Real Estate and Government.
+              I have been the buyer in two of those rooms. I have lectured
+              inside two SA universities. I have sat on the UniSA Industry
+              Advisory Panel. I have built launches with Tasmanian and SA
+              state tourism agencies. I have run campaigns for a regulated
+              bank. Real Estate is the one I would ramp on.
             </p>
             <p>
-              And the AI-builder layer. Canva is a creative AI platform.
+              Then the AI-builder layer. Canva is a creative AI platform.
               The stack Canva is built on, and the stack your enterprise
               buyers are evaluating, is the stack I already live in.
-              That is where the differentiation sits.
             </p>
           </div>
         </div>
@@ -159,27 +153,27 @@ export default function CanvaPage() {
         <div className="grid gap-12 md:grid-cols-3">
           <div>
             <h3 className="text-xl font-semibold mb-3 text-navy">
-              Vertical buyer empathy in Higher Ed and Government.
+              Higher Ed, Government and regulated, from inside the room.
             </h3>
             <p className="text-navy/80 leading-relaxed">
               Three years on faculty across UniSA Creative and TAFE SA.
               UniSA School of Communication Industry Advisory Panel
-              member. SeaLink digital launches built with Tasmanian and
-              SA state tourism authorities. Adelaide Bank B2B strategy
-              in regulated financial services. I have been inside the
-              rooms Canva is hiring this role to win.
+              member. State tourism launches at SeaLink built with
+              Tasmanian and SA agencies. Adelaide Bank B2B strategy in
+              regulated financial services at Nucleus. Lot Fourteen
+              social media strategy across SA's state-government-owned
+              innovation precinct.
             </p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-3 text-navy">
-              Sales enablement and pitch positioning at scale.
+              Sales enablement and positioning, already shipped.
             </h3>
             <p className="text-navy/80 leading-relaxed">
-              Built 90Labs, a sales enablement workspace hosting 29+
-              assets. The custom Pitch Builder inside it is in beta
-              rollout with the global sales team. The PMM-adjacent core
-              of this Canva role, already shipped from the marketing
-              seat at 90 Seconds.
+              I built 90Labs, a sales enablement workspace with 29+
+              assets. The Pitch Builder inside it is in beta with the
+              global sales team. Positioning, qualification and demo
+              enablement, live in the field today.
             </p>
           </div>
           <div>
@@ -190,7 +184,7 @@ export default function CanvaPage() {
               Two years building practical AI tooling in Replit, Claude
               Code and the Anthropic API. The stack Canva is built on,
               and the stack your enterprise buyers are evaluating, is
-              the stack I already live in. The moat against career PMMs.
+              the stack I already live in.
             </p>
           </div>
         </div>
@@ -237,14 +231,14 @@ export default function CanvaPage() {
               body="Multi-channel campaign blending digital and above-the-line, delivered with state tourism partners. $326,000+ in online sales over three days, up 97% year-on-year."
             />
             <VerticalCard
-              vertical="Government / regulated"
+              vertical="Regulated"
               title="Adelaide Bank B2B strategy (Nucleus, 2013 – 2015)"
-              body="B2B digital strategy for Adelaide Bank in regulated financial services. 30 new lender leads per month. Same procurement-and-compliance shape as the institutional buyers in Canva's vertical mix."
+              body="B2B digital strategy for Adelaide Bank in regulated financial services. 30 new lender leads per month. The same procurement and compliance shape as the institutional buyers in Canva's vertical mix."
             />
             <VerticalCard
-              vertical="Government / innovation precinct"
+              vertical="Government"
               title="Lot Fourteen social media strategy (Refuel Creative, 2021 – 2023)"
-              body="Won and delivered the social media strategy contract for Lot Fourteen, South Australia's innovation neighbourhood. Multi-stakeholder government and innovation precinct."
+              body="Won and delivered the social media strategy contract for Lot Fourteen, SA's state-government-owned innovation precinct. Multi-stakeholder, multi-tenant, all the usual."
             />
           </div>
         </div>
@@ -256,8 +250,8 @@ export default function CanvaPage() {
           Build receipts.
         </h2>
         <p className="text-lg text-navy/70 mb-12 max-w-2xl">
-          The PMM-adjacent and AI-builder work I have shipped from the
-          marketing seat at 90 Seconds.
+          The AI tooling and sales enablement I have shipped from inside
+          the marketing function at 90 Seconds.
         </p>
         <div className="grid gap-6 md:grid-cols-2">
           <BuildCard
@@ -348,52 +342,49 @@ export default function CanvaPage() {
               Vertical buyer empathy in two of three.
             </h3>
             <p>
-              Higher Education is the strongest hook. Three years on
-              faculty across UniSA Creative (Lecturer, 2016 – 2018) and
-              TAFE SA School of Business and Marketing (Lecturer, 2011 –
-              2018). Industry Advisory Panel Member at the UniSA School
-              of Communication in 2015. I have written curriculum, run
-              tutorials, sat in faculty meetings, and watched institutional
-              procurement up close. The Canva Campus pitch lands
-              differently when the person carrying it has stood at the
-              front of a university tutorial room. Then 3.8x over MQL
-              target on an executive-audience ABM programme for the
-              University of South Australia at Refuel Creative.
+              Higher Education first. Three years on faculty across UniSA
+              Creative (Lecturer, 2016 – 2018) and TAFE SA School of
+              Business and Marketing (Lecturer, 2011 – 2018). Industry
+              Advisory Panel Member at the UniSA School of Communication
+              in 2015. I have written curriculum, run tutorials, sat in
+              faculty meetings, and watched institutional procurement up
+              close. The Canva Campus pitch lands differently when the
+              person carrying it has stood at the front of a university
+              tutorial room. Plus 3.8x over MQL target on an
+              executive-audience ABM programme for the University of
+              South Australia at Refuel Creative.
             </p>
             <p>
-              Government is the second. SeaLink Bruny Island and Kangaroo
-              Island launches built with Tasmanian and SA state tourism
-              authorities. NPS lift -50 to +10 at Bruny. $326K three-day
-              sale up 97% YoY at KI. Adelaide Bank B2B strategy at Nucleus
+              Then Government and regulated. State tourism launches at
+              SeaLink built with Tasmanian and SA agencies: NPS lift -50
+              to +10 at Bruny Island, $326K three-day sale up 97% YoY at
+              Kangaroo Island. Lot Fourteen social media strategy at
+              Refuel Creative across SA's state-government-owned
+              innovation precinct. Adelaide Bank B2B strategy at Nucleus
               in regulated financial services (30 new lender leads per
-              month). Lot Fourteen social media strategy at Refuel
-              Creative across a multi-stakeholder government and
-              innovation precinct. A written testimonial in the back
-              pocket from Hamish Cameron, Executive Director, Information
-              Systems and Technology, South Australian Police.
+              month). A written testimonial in the back pocket from
+              Hamish Cameron, Executive Director, Information Systems and
+              Technology, South Australian Police.
             </p>
             <p>
-              Real Estate is the one I would ramp on. My place-based
-              experience runs through tourism rather than enterprise
-              property. Honest gap. Bridgeable inside the first quarter.
+              Real Estate is the one I would ramp on. My property
+              experience is tourism-side, not enterprise. Honest gap.
+              Bridgeable inside the first quarter.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
-              Sales enablement and PMM-adjacent positioning, already
-              shipped.
+              Sales enablement and positioning, already shipped.
             </h3>
             <p>
-              At 90 Seconds I built 90Labs, a sales enablement workspace
-              hosting 29+ assets. The Pitch Builder inside it is in beta
-              rollout with the global sales team, designed to give reps
-              tailored pitches by vertical and use case in minutes. I
-              contribute to GTM OS, the internal market-mapping platform
-              architected by our VP of Product, which sizes vertical
-              opportunities by segment. This is the PMM-adjacent
-              infrastructure work the Canva brief calls for, shipped from
-              the marketing seat. I have also worked inside enterprise
-              customer procurement at 90 Seconds across MSAs, regional
-              supplier agreements and Statements of Work.
+              I built 90Labs at 90 Seconds, a sales enablement workspace
+              with 29+ assets. The Pitch Builder inside it is in beta
+              with the global sales team, giving reps tailored pitches by
+              vertical and use case in minutes. I also contribute to GTM
+              OS, the internal market-mapping platform our VP of Product
+              architected, which sizes vertical opportunities by segment.
+              And I have worked inside enterprise customer procurement
+              across MSAs, regional supplier agreements and Statements of
+              Work.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
@@ -408,28 +399,25 @@ export default function CanvaPage() {
               system on the Anthropic API. My lane is problem framing and
               rapid prototyping with AI, not deep engineering. Canva is
               a creative AI platform. The stack the team recommends to
-              customers is the stack I already live in. That is the
-              differentiation I bring vs a career PMM.
+              customers is the stack I already live in.
             </p>
 
             <p>
-              On the lane. I am not a career product marketer. The JD
-              calls for 5+ years of direct PMM or solutions marketing
-              experience. The honest read is that the case for me sits
-              in the verticals (two of three with direct buyer-side
-              credibility) and the AI-builder layer (rare among PMM
-              candidates), with the sales enablement and pitch positioning
-              work at 90 Seconds as the bridge into the PMM craft. I am
-              applying because Canva is a wish-list employer and because
-              the fit on the verticals is the kind that does not show up
-              twice.
+              On the title. I am not a career product marketer, and the
+              JD asks for 5+ years of direct PMM or solutions marketing
+              experience. So this is a lane stretch. I am applying anyway
+              because Canva has been on my wish-list for years, and
+              because the fit on the verticals is the kind that does not
+              show up twice. What I am asking you to weigh: vertical
+              buyer-side credibility in two of three, AI-builder fluency
+              rare in the PMM pool today, and the sales enablement work
+              I have already shipped.
             </p>
 
             <p>
               Adelaide-based, Canvanaut co-working space available, happy
               to travel for the moments that matter. Australian citizen.
-              I would welcome a conversation about the first 90 days of
-              the Vertical Strategy plan.
+              Happy to talk about the first 90 days.
             </p>
           </div>
         </div>
