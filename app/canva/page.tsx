@@ -139,6 +139,11 @@ export default function CanvaPage() {
               I would ramp on.
             </p>
             <p>
+              Underneath that, five years inside B2B tech and SaaS at 90
+              Seconds and Refuel Creative. The Canva-company context the
+              role needs to live in day to day.
+            </p>
+            <p>
               Then the AI-builder layer. Canva is a creative AI platform.
               The stack Canva is built on, and the stack your enterprise
               buyers are evaluating, is the stack I already live in.
@@ -375,8 +380,11 @@ export default function CanvaPage() {
             </p>
             <p>
               Real Estate is the one I would ramp on. My property
-              experience is tourism-side, not enterprise. Honest gap.
-              Bridgeable inside the first quarter.
+              exposure is tourism-side, not enterprise. Honest gap.
+              Bridgeable inside the first quarter, and softened by the
+              other thing I bring: five years inside B2B tech and SaaS
+              at 90 Seconds and Refuel Creative. That is the Canva-company
+              context that not every PMM candidate has.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
@@ -433,7 +441,7 @@ export default function CanvaPage() {
       {/* Section 9 - Contact */}
       <section className="mx-auto max-w-3xl px-6 py-20 sm:py-24 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-10">
-          Let&apos;s talk about Higher Ed, Government and the first 90 days.
+          Let&apos;s talk about the first 90 days.
         </h2>
         <ul className="space-y-3 text-lg text-navy/85 mb-12">
           <li>
