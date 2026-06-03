@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "For Cresta. Rubina Carlson.",
@@ -33,38 +34,52 @@ export default function CrestaPage() {
       </header>
 
       {/* Hero */}
-      <section className="mx-auto max-w-5xl px-6 pt-20 pb-24 sm:pt-28 sm:pb-32">
-        <h1 className="text-7xl sm:text-9xl font-bold tracking-tight leading-[0.95] text-navy">
-          For Cresta.
-        </h1>
-        <p className="mt-10 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
-          Rubina Carlson in the APAC Marketing Manager seat.
-          <br />
-          <span className="text-navy/70">
-            A marketer who builds with the technology her customers are buying.
-          </span>
-        </p>
-        <p className="mt-10 max-w-2xl text-lg leading-relaxed text-navy/80">
-          $5M in opportunities at 90 Seconds since June 2024 across
-          inbound, paid, ABM, lifecycle and field. APAC pipeline owned
-          end to end. 90Labs sales-enablement platform built solo in
-          Replit, with a Pitch Builder in beta with the global sales
-          team. Ten years building Digital Adelaide from 40 marketers to
-          over 200 delegates.
-        </p>
-        <div className="mt-12 flex flex-wrap gap-4">
-          <a
-            href={CV_PATH}
-            className="inline-block bg-crimson text-cream px-6 py-3 rounded-md font-medium hover:bg-crimson-dark transition"
-          >
-            Download CV
-          </a>
-          <a
-            href={MAILTO}
-            className="inline-block border border-navy text-navy px-6 py-3 rounded-md font-medium hover:bg-navy hover:text-cream transition"
-          >
-            Email me
-          </a>
+      <section className="mx-auto max-w-5xl px-6 pt-20 pb-16 sm:pt-28 sm:pb-20">
+        <div className="grid gap-12 sm:gap-16 md:grid-cols-[1fr_auto] md:items-start">
+          <div>
+            <h1 className="text-6xl sm:text-8xl lg:text-9xl font-bold tracking-tight leading-[0.95] text-navy">
+              For Cresta.
+            </h1>
+            <p className="mt-8 text-2xl sm:text-3xl leading-snug text-navy">
+              Rubina Carlson in the APAC Marketing Manager seat.
+              <br />
+              <span className="text-navy/70">
+                A marketer who builds with the technology her customers are buying.
+              </span>
+            </p>
+            <p className="mt-8 max-w-xl text-lg leading-relaxed text-navy/80">
+              $5M in opportunities at 90 Seconds since June 2024 across
+              inbound, paid, ABM, lifecycle and field. APAC pipeline owned
+              end to end. 90Labs sales-enablement platform built solo in
+              Replit, with a Pitch Builder in beta with the global sales
+              team. Ten years building Digital Adelaide from 40 marketers to
+              over 200 delegates.
+            </p>
+            <div className="mt-10 flex flex-wrap gap-4">
+              <a
+                href={CV_PATH}
+                className="inline-block bg-crimson text-cream px-6 py-3 rounded-md font-medium hover:bg-crimson-dark transition"
+              >
+                Download CV
+              </a>
+              <a
+                href={MAILTO}
+                className="inline-block border border-navy text-navy px-6 py-3 rounded-md font-medium hover:bg-navy hover:text-cream transition"
+              >
+                Email me
+              </a>
+            </div>
+          </div>
+          <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-crimson/20 mx-auto md:mx-0 md:mt-4">
+            <Image
+              src="/rubina-portrait-square.jpg"
+              alt="Rubina Carlson, smiling, in a black top and black fascinator."
+              fill
+              sizes="(max-width: 640px) 12rem, (max-width: 768px) 16rem, 18rem"
+              className="object-cover"
+              priority
+            />
+          </div>
         </div>
       </section>
 
