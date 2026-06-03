@@ -177,10 +177,13 @@ export default function CanvaPage() {
               Sales enablement and positioning, already shipped.
             </h3>
             <p className="text-navy/80 leading-relaxed">
-              I built 90Labs, a sales enablement workspace with 29+
-              assets. The Pitch Builder inside it is in beta with the
-              global sales team. Positioning, qualification and demo
-              enablement, live in the field today.
+              I built 90Labs at 90 Seconds, a sales enablement workspace
+              with 29+ assets. The Pitch Builder inside it is in beta
+              with the global sales team, giving reps tailored pitches by
+              vertical and use case in minutes. I contribute to GTM OS,
+              our internal market-mapping platform that sizes vertical
+              opportunities by segment. Positioning, qualification and
+              demo enablement, all live in the field today.
             </p>
           </div>
           <div>
@@ -189,9 +192,12 @@ export default function CanvaPage() {
             </h3>
             <p className="text-navy/80 leading-relaxed">
               Two years building practical AI tooling in Replit, Claude
-              Code and the Anthropic API. The stack Canva is built on,
-              and the stack your enterprise buyers are evaluating, is
-              the stack I already live in.
+              Code and the Anthropic API. I configured and shipped the
+              HubSpot Customer Agent at 90 Seconds, now handling customer
+              service queries with AI in production. I designed the 300+
+              page website migration on the Anthropic API. The stack
+              Canva is built on, and the stack your enterprise buyers
+              are evaluating, is the stack I already live in.
             </p>
           </div>
         </div>
