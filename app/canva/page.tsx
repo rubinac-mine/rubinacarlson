@@ -4,7 +4,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "For Canva. Rubina Carlson.",
   description:
-    "Rubina Carlson in the Senior B2B Product Marketing Manager, Vertical Strategy seat at Canva. A vertical GTM strategist with direct buyer-side credibility in Higher Education and Government, plus AI-builder credentials.",
+    "Rubina Carlson in the Senior B2B Product Marketing Manager, Vertical Strategy seat at Canva. A vertical GTM strategist with direct credibility across all three of Canva's target verticals (Higher Education, Real Estate, Government) plus AI-builder credentials.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -44,20 +44,21 @@ export default function CanvaPage() {
               Rubina Carlson in the Senior B2B PMM, Vertical Strategy seat.
               <br />
               <span className="text-navy/70">
-                I have spent my career on the buyer side of two of the
-                three verticals this role owns.
+                I have lived inside all three of the verticals this role
+                owns.
               </span>
             </p>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-navy/80">
-              Higher Education and Government are not adjacent for me. They
-              are where I have done the work. Three years on faculty across
-              UniSA Creative and TAFE SA, with a seat on the UniSA School
-              of Communication Industry Advisory Panel in 2015.
-              State-government stakeholder management at SeaLink through a
-              contested Bruny Island ferry change in Tasmania. Adelaide
-              Bank B2B strategy in regulated financial services at Nucleus.
-              The vertical empathy this role calls for is the empathy I
-              bring with me.
+              Higher Education, Real Estate and Government are not
+              adjacent for me. They are where I have done the work. Three
+              years on faculty across UniSA Creative and TAFE SA, with a
+              seat on the UniSA School of Communication Industry Advisory
+              Panel in 2015. Client-specific sales enablement for global
+              enterprise commercial real estate customers at 90 Seconds
+              today. State-government stakeholder management at SeaLink
+              through a contested Bruny Island ferry change in Tasmania.
+              Adelaide Bank B2B strategy in regulated financial services
+              at Nucleus.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
@@ -93,7 +94,7 @@ export default function CanvaPage() {
           The three verticals
         </p>
         <p className="text-center text-navy/70 mb-8 text-base">
-          A small nod to the product. Two of three I have lived in.
+          A small nod to the product. All three, from inside the room.
         </p>
         <div className="grid gap-4 sm:grid-cols-3">
           <VerticalTile
@@ -103,7 +104,7 @@ export default function CanvaPage() {
           />
           <VerticalTile
             label="Real Estate"
-            note="Ramping in Q1"
+            note="Enterprise customers at 90 Seconds today"
             tone="crimson-light"
           />
           <VerticalTile
@@ -131,12 +132,14 @@ export default function CanvaPage() {
             </p>
             <p>
               The role owns Higher Education, Real Estate and Government.
-              I have been the buyer in two of those rooms. I have lectured
-              inside two SA universities. I have sat on the UniSA Industry
-              Advisory Panel. I have managed state-government stakeholders
-              through a contested ferry-service change at SeaLink. I have
-              run campaigns for a regulated bank. Real Estate is the one
-              I would ramp on.
+              I have lived inside all three. I have lectured at two SA
+              universities and sat on the UniSA Industry Advisory Panel.
+              I have managed state-government stakeholders through a
+              contested ferry-service change at SeaLink. I have run
+              campaigns for a regulated bank. And at 90 Seconds today, I
+              deliver client-specific sales enablement for global
+              enterprise customers in commercial real estate and
+              financial services.
             </p>
             <p>
               Underneath that, five years inside B2B tech and SaaS at 90
@@ -160,16 +163,17 @@ export default function CanvaPage() {
         <div className="grid gap-12 md:grid-cols-3">
           <div>
             <h3 className="text-xl font-semibold mb-3 text-navy">
-              Higher Ed, Government and regulated, from inside the room.
+              All three verticals, from inside the room.
             </h3>
             <p className="text-navy/80 leading-relaxed">
-              Three years on faculty across UniSA Creative and TAFE SA.
-              UniSA School of Communication Industry Advisory Panel
-              member. State-government stakeholder management at SeaLink
-              through a contested Bruny Island ferry change. Adelaide
-              Bank B2B strategy in regulated financial services at
-              Nucleus. Lot Fourteen social media strategy across SA's
-              state-government-owned innovation precinct.
+              Three years on faculty at UniSA Creative and TAFE SA. UniSA
+              Industry Advisory Panel member. State-government
+              stakeholder management at SeaLink through a contested Bruny
+              Island ferry change. Lot Fourteen social media strategy
+              across SA's state-government-owned innovation precinct.
+              Adelaide Bank B2B strategy at Nucleus. Enterprise sales
+              enablement for global commercial real estate and financial
+              services customers at 90 Seconds today.
             </p>
           </div>
           <div>
@@ -233,6 +237,16 @@ export default function CanvaPage() {
               vertical="Higher Education"
               title="UniSA executive growth programme (Refuel Creative)"
               body="ABM campaign for the University of South Australia targeting CEOs, MDs and Business Owners. 3.8x over MQL target across four months."
+            />
+            <VerticalCard
+              vertical="Real Estate"
+              title="Enterprise commercial real estate customers (90 Seconds, 2023 – current)"
+              body="Deliver client-specific sales enablement and account-based marketing for global enterprise customers in commercial real estate, including some of the largest commercial property firms in the world. Relationship-led GTM, with vertical-specific assets built per account."
+            />
+            <VerticalCard
+              vertical="Regulated / Financial Services"
+              title="Enterprise financial services customers (90 Seconds, 2023 – current)"
+              body="Same relationship-led GTM and account-specific sales enablement model applied to enterprise financial services customers at 90 Seconds. The procurement-and-compliance shape familiar from the Adelaide Bank work years earlier, now at a larger scale."
             />
             <VerticalCard
               vertical="Government"
@@ -353,7 +367,7 @@ export default function CanvaPage() {
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
-              Vertical buyer empathy in two of three.
+              Vertical credibility across all three.
             </h3>
             <p>
               Higher Education first. Three years on faculty across UniSA
@@ -381,16 +395,21 @@ export default function CanvaPage() {
               innovation precinct. Adelaide Bank B2B strategy at Nucleus
               in regulated financial services (30 new lender leads per
               month). A written testimonial in the back pocket from
-              Hamish Cameron, Executive Director, Information Systems and
-              Technology, South Australian Police.
+              Hamish Cameron, now founder of AccuFind.ai (formerly
+              Executive Director, Information Systems and Technology at
+              South Australian Police).
             </p>
             <p>
-              Real Estate is the one I would ramp on. My property
-              exposure is tourism-side, not enterprise. Honest gap.
-              Bridgeable inside the first quarter, and softened by the
-              other thing I bring: five years inside B2B tech and SaaS
-              at 90 Seconds and Refuel Creative. That is the Canva-company
-              context that not every PMM candidate has.
+              And Real Estate. At 90 Seconds today, I deliver
+              client-specific sales enablement and account-based
+              marketing for global enterprise customers in commercial
+              real estate, including some of the largest commercial
+              property firms in the world. Relationship-led GTM,
+              vertical-specific assets built per account. The same shape
+              this Canva role would carry into the Real Estate vertical.
+              Same model again for enterprise financial services
+              customers at 90 Seconds, which sits under the JD's
+              regulated-industries strong plus.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
@@ -426,13 +445,13 @@ export default function CanvaPage() {
             <p>
               On the title. I am not a career product marketer, and the
               JD asks for 5+ years of direct PMM or solutions marketing
-              experience. So this is a lane stretch. I am applying anyway
-              because Canva has been on my wish-list for years, and
-              because the fit on the verticals is the kind that does not
-              show up twice. What I am asking you to weigh: vertical
-              buyer-side credibility in two of three, AI-builder fluency
-              rare in the PMM pool today, and the sales enablement work
-              I have already shipped.
+              experience. That is the lane stretch. The verticals
+              themselves are not, I have lived inside all three. I am
+              applying anyway because Canva has been on my wish-list for
+              years, and because what I bring (vertical credibility
+              across all three, AI-builder fluency rare in the PMM pool
+              today, and sales enablement work already shipped) is the
+              kind of stack that does not show up twice.
             </p>
 
             <p>
