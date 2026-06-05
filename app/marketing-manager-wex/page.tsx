@@ -54,8 +54,8 @@ export default function WexPage() {
               for a 172% lead lift on an industrial B2B SaaS rebuild. Four
               production AI builds shipped from the marketing seat, including
               a HubSpot Customer Agent that handles inbound queries today.
-              Genuinely curious about closed-loop payment infrastructure and
-              the rails the Mobility business runs on.
+              Reads in deeply before walking in. Category notes further down
+              the page.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
@@ -119,14 +119,15 @@ export default function WexPage() {
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-3 text-navy">
-                Curious about the rails.
+                Does the homework.
               </h3>
               <p className="text-navy/80 leading-relaxed">
-                Closed-loop payment infrastructure is one of those categories
-                most people walk past. I find it genuinely interesting. Fuel
-                cards are one half of the picture. Owning the rails the
-                largest petrol retailers run their own programs on is the
-                other half. That is a marketing problem I want to work on.
+                I treat every new category like fieldwork. Before applying I
+                read into closed-loop payments, the difference between open-
+                and closed-loop rails, the data layer fuel cards generate,
+                and how the buying committee sits across fleet, finance and
+                procurement. Notes below. Discipline, not pre-existing
+                passion.
               </p>
             </div>
           </div>
@@ -167,15 +168,16 @@ export default function WexPage() {
         </div>
       </section>
 
-      {/* Sector research — what I found interesting */}
+      {/* Sector research — first-pass framing observations */}
       <section className="bg-cream-light border-y border-navy/10">
         <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
-            What I found interesting about WEX Mobility.
+            Notes from reading into the category.
           </h2>
           <p className="text-lg text-navy/70 mb-12 max-w-2xl">
-            A short note on the category I read into, and what makes it the
-            kind of marketing problem I want to work on.
+            A first pass on WEX Mobility from outside the room. Framing
+            observations to test inside the first month, not claims to
+            expertise.
           </p>
           <div className="grid gap-10 md:grid-cols-2">
             <div>
@@ -207,7 +209,7 @@ export default function WexPage() {
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-3 text-navy">
-                The data layer is genuinely rich.
+                The data layer is the product.
               </h3>
               <p className="text-navy/80 leading-relaxed">
                 Every closed-loop transaction generates litres, location,
