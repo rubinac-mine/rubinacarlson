@@ -236,6 +236,91 @@ export default function WexPage() {
         </div>
       </section>
 
+      {/* A closer look at the category — technical reading */}
+      <section className="mx-auto max-w-3xl px-6 py-20 sm:py-24">
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
+          A closer look at the category.
+        </h2>
+        <p className="text-lg text-navy/70 mb-12">
+          A short note on the technical reading. Treat as week-one
+          calibration, not a claim to fluency. The deeper read happens once I
+          am inside the room and looking at the actual product, contracts
+          and reports.
+        </p>
+        <div className="space-y-10 text-lg leading-relaxed text-navy/85">
+          <div>
+            <h3 className="text-2xl font-semibold text-navy mb-3">
+              Closed-loop is the whole game.
+            </h3>
+            <p>
+              Open-loop cards (Visa, Mastercard) run on networks where the
+              issuer cannot see line-item detail. Closed-loop cards are
+              issued by the network owner and only work at participating
+              sites. Every transaction comes back with litres, fuel grade,
+              odometer reading, vehicle and driver. That data ownership is
+              the difference between a corporate credit card and a fuel
+              card. It is what businesses are actually paying for.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold text-navy mb-3">
+              The data is the moat.
+            </h3>
+            <p>
+              A corporate credit card sees &quot;$87.40 at BP Welland&quot;.
+              A WEX-issued card sees 53.2 litres of 91 octane at pump 4,
+              vehicle XYZ-123, driver ID 47, 08:32 on Tuesday. That
+              structured operational data is what feeds fleet management
+              software, fuel-economy reporting and Scope 3 emissions
+              tracking. The card is the data collection mechanism. The
+              marketing job is helping buyers see that before they default
+              to the corporate Visa they already have.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold text-navy mb-3">
+              The buyer is a committee.
+            </h3>
+            <p>
+              Fleet manager wants control and visibility. CFO wants spend
+              caps and exception reporting. Operations director wants
+              integration with the fleet management software. Procurement
+              wants the MSA, the data residency, the regional supplier
+              agreement. Long cycle, RFP-driven, multi-stakeholder. The
+              marketing motion needs assets for each of those audiences,
+              not a single landing page.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold text-navy mb-3">
+              EV charging is the same problem, new substrate.
+            </h3>
+            <p>
+              Fleet electrification does not retire closed-loop logic. It
+              transplants it. EV charging needs the same spend controls,
+              the same operational data capture and the same fleet
+              management integration as fuel. The card adapts. The
+              underlying business does not change. The category compounds
+              with EV adoption, not against it.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold text-navy mb-3">
+              Marketing teaches before it converts.
+            </h3>
+            <p>
+              Closed-loop has to be sold on its data and control upside,
+              which means content, field events and lifecycle nurture do
+              the heavy lifting before paid acquisition can close. That
+              maps onto how I run growth at 90 Seconds today:
+              education-led nurture into a complex enterprise sales motion,
+              with performance channels tightened around the moments
+              ready-to-convert buyers reveal themselves.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* First 90 days */}
       <section className="bg-navy text-cream">
         <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
