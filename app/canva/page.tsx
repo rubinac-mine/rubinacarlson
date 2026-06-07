@@ -219,49 +219,55 @@ export default function CanvaPage() {
           <div className="grid gap-6 md:grid-cols-2">
             <VerticalCard
               vertical="Higher Education"
-              title="Lecturer, UniSA Creative (2016 – 2018)"
-              body="Postgraduate teaching inside the Graduate Diploma in Communication. Developed and delivered Australia's first postgraduate Social Media Management course in 2016. Worked inside university faculty governance, curriculum approval and assessment standards."
+              title="Teaching postgraduate marketers at University of South Australia"
+              body="Lectured inside the Graduate Diploma in Communication at UniSA Creative from 2016 to 2018. Developed and delivered Australia's first postgraduate Social Media Management course in 2016. Worked inside university faculty governance, curriculum approval and assessment standards."
               image="/canva/rubina-lecturing-unisa.jpg"
               imageAlt="Rubina lecturing at UniSA Creative."
             />
             <VerticalCard
               vertical="Higher Education"
-              title="UniSA School of Communication Industry Advisory Panel (2015)"
-              body="Sat on the panel shaping industry alignment of the School's communication programmes. Direct exposure to school-level institutional decision-making and faculty-industry partnership norms."
+              title="Advising the School of Communication at University of South Australia"
+              body="Industry Advisory Panel member at UniSA School of Communication in 2015. Sat on the panel shaping industry alignment of the School's communication programmes. Direct exposure to school-level institutional decision-making and faculty-industry partnership norms."
+              image="/canva/unisa-logo.webp"
+              imageAlt="University of South Australia logo."
+              imageFit="contain"
             />
             <VerticalCard
               vertical="Higher Education"
-              title="Lecturer, TAFE SA School of Business and Marketing (2011 – 2018)"
-              body="Developed and delivered Australia's first tertiary social media course at TAFE SA in 2011. Ran a paid acquisition campaign that delivered 100 new student enquiries in a single month for the School."
+              title="Building Australia's first tertiary social media course at TAFE SA"
+              body="Developed and delivered the first social media unit at TAFE SA School of Business and Marketing in 2011, then stayed on faculty until 2018. Also ran paid student-acquisition campaigns for the School. Results: 100 new student enquiries in a single month."
               image="/canva/rubina-lecturing-tafe.jpg"
               imageAlt="Rubina recording video lectures on a green-screen set for TAFE SA."
             />
             <VerticalCard
               vertical="Higher Education"
-              title="UniSA executive growth programme (Refuel Creative)"
-              body="ABM campaign for the University of South Australia targeting CEOs, MDs and Business Owners. 3.8x over MQL target across four months."
+              title="Attracting students for University of South Australia"
+              body="Ran an ABM campaign targeting CEOs, MDs and Business Owners for the Australian Centre for Business Growth while at Refuel Creative. Results: 3.8x over MQL target across four months."
+              image="/canva/aucbg-testimonial.webp"
+              imageAlt="Five-star testimonial from Richard Littleton, Australian Centre for Business Growth, on social media leads delivered by Refuel Creative."
+              imageFit="contain"
             />
             <VerticalCard
               vertical="Real Estate"
-              title="Enterprise commercial real estate customers (90 Seconds, 2023 – current)"
-              body="Deliver client-specific sales enablement and account-based marketing for global enterprise customers in commercial real estate, including some of the largest commercial property firms in the world. Relationship-led GTM, with vertical-specific assets built per account."
+              title="Sales enablement for global commercial real estate firms at 90 Seconds"
+              body="Deliver client-specific sales enablement and account-based marketing for enterprise customers in commercial real estate at 90 Seconds today, including some of the largest commercial property firms in the world. Relationship-led GTM, with vertical-specific assets built per account."
             />
             <VerticalCard
               vertical="Regulated / Financial Services"
-              title="Enterprise financial services customers (90 Seconds, 2023 – current)"
-              body="Same relationship-led GTM and account-specific sales enablement model applied to enterprise financial services customers at 90 Seconds. The procurement-and-compliance shape familiar from the Adelaide Bank work years earlier, now at a larger scale."
+              title="Sales enablement for global financial services firms at 90 Seconds"
+              body="Same relationship-led GTM and account-specific sales enablement model applied to enterprise financial services customers at 90 Seconds. The procurement-and-compliance shape familiar from earlier Adelaide Bank work, now at a larger scale."
             />
             <VerticalCard
               vertical="Government"
-              title="SeaLink Bruny Island launch (2018)"
-              body="Stood up the SeaLink Bruny Island digital presence through a contested ferry-service change the local community didn't want. State-government and council stakeholders engaged on reputation management. Acted as official spokesperson inside local Facebook communities. Lifted NPS from -50 to +10."
+              title="Launching SeaLink Bruny Island through community pushback"
+              body="Stood up the SeaLink Bruny Island digital presence in 2018 through a contested ferry-service change the local community didn't want. Engaged state-government and council stakeholders on reputation management. Acted as official spokesperson inside local Facebook communities. Results: NPS lifted from -50 to +10."
               image="/canva/rubina-sealink-ferry.jpg"
               imageAlt="Rubina with a SeaLink ferry."
             />
             <VerticalCard
               vertical="Tourism"
-              title="SeaLink Kangaroo Island three-day sale (2018)"
-              body="SeaLink-led multi-channel sale across digital and above-the-line. $326,000+ in online sales over three days, up 97% year-on-year. Ran inside the broader Kangaroo Island destination programme where SA Tourism Commission was a stakeholder."
+              title="Selling Kangaroo Island for SeaLink"
+              body="Ran a multi-channel three-day sale across digital and above-the-line at SeaLink in 2018, inside the broader Kangaroo Island destination programme where SA Tourism Commission was a stakeholder. Results: $326,000+ in online sales over three days, up 97% year-on-year."
               image="/canva/sealink-ki-ad-thumbnail.jpg"
               imageAlt="Still from the SeaLink Kangaroo Island TV ad."
               link="https://www.youtube.com/watch?v=inYsiP_X8YY"
@@ -269,13 +275,19 @@ export default function CanvaPage() {
             />
             <VerticalCard
               vertical="Regulated"
-              title="Adelaide Bank B2B strategy (Nucleus, 2013 – 2015)"
-              body="B2B digital strategy for Adelaide Bank in regulated financial services. 30 new lender leads per month. The same procurement and compliance shape as the institutional buyers in Canva's vertical mix."
+              title="Generating lender leads for Adelaide Bank"
+              body="Delivered B2B digital strategy on the Adelaide Bank account at Nucleus from 2013 to 2015. The same procurement-and-compliance shape as the institutional buyers in Canva's vertical mix. Results: 30 new lender leads per month."
+              image="/canva/adelaide-bank-logo.png"
+              imageAlt="Adelaide Bank logo."
+              imageFit="contain"
             />
             <VerticalCard
               vertical="Government"
-              title="Lot Fourteen social media strategy (Refuel Creative, 2021 – 2023)"
-              body="Won and delivered the social media strategy contract for Lot Fourteen, SA's state-government-owned innovation precinct. Multi-stakeholder, multi-tenant, all the usual."
+              title="Telling the story of Lot Fourteen"
+              body="Won and delivered the social media strategy contract for Lot Fourteen, SA's state-government-owned innovation precinct, while at Refuel Creative (2021 – 2023). Multi-stakeholder, multi-tenant, all the usual."
+              image="/canva/lot-fourteen-logo.jpg"
+              imageAlt="Lot Fourteen logo."
+              imageFit="contain"
             />
           </div>
         </div>
@@ -561,6 +573,7 @@ function VerticalCard({
   body,
   image,
   imageAlt,
+  imageFit,
   link,
   linkLabel,
 }: {
@@ -569,19 +582,25 @@ function VerticalCard({
   body: string;
   image?: string;
   imageAlt?: string;
+  imageFit?: "cover" | "contain";
   link?: string;
   linkLabel?: string;
 }) {
+  const fit = imageFit || "cover";
   return (
     <div className="border border-navy/15 bg-cream rounded-lg overflow-hidden hover:border-crimson/50 transition flex flex-col">
       {image && (
-        <div className="relative w-full aspect-[3/2] bg-navy/5">
+        <div
+          className={`relative w-full aspect-[3/2] ${
+            fit === "contain" ? "bg-white p-8" : "bg-navy/5"
+          }`}
+        >
           <Image
             src={image}
             alt={imageAlt || ""}
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
-            className="object-cover"
+            className={fit === "contain" ? "object-contain" : "object-cover"}
           />
         </div>
       )}
