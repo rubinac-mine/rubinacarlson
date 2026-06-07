@@ -142,14 +142,13 @@ export default function CanvaPage() {
               financial services.
             </p>
             <p>
-              Underneath that, five years inside B2B tech and SaaS at 90
-              Seconds and Refuel Creative. The Canva-company context the
-              role needs to live in day to day.
+              Plus five years inside B2B tech and SaaS at 90 Seconds and
+              Refuel Creative.
             </p>
             <p>
-              Then the AI-builder layer. Canva is a creative AI platform.
-              The stack Canva is built on, and the stack your enterprise
-              buyers are evaluating, is the stack I already live in.
+              And AI. Canva is a creative AI platform. The stack Canva is
+              built on, and the stack your enterprise buyers are
+              evaluating, is the stack I already live in.
             </p>
           </div>
         </div>
@@ -389,8 +388,9 @@ export default function CanvaPage() {
               state-government and council stakeholders engaged on
               reputation management. NPS -50 to +10. At SeaLink in SA, I
               ran the Kangaroo Island three-day sale ($326K, up 97% YoY)
-              inside the broader destination programme SA Tourism
-              Commission stakeheld. Lot Fourteen social media strategy at
+              inside the broader destination programme where SA Tourism
+              Commission was a stakeholder. Lot Fourteen social media
+              strategy at
               Refuel Creative across SA's state-government-owned
               innovation precinct. Adelaide Bank B2B strategy at Nucleus
               in regulated financial services (30 new lender leads per
@@ -443,15 +443,13 @@ export default function CanvaPage() {
             </p>
 
             <p>
-              On the title. I am not a career product marketer, and the
-              JD asks for 5+ years of direct PMM or solutions marketing
-              experience. That is the lane stretch. The verticals
-              themselves are not, I have lived inside all three. I am
-              applying anyway because Canva has been on my wish-list for
-              years, and because what I bring (vertical credibility
-              across all three, AI-builder fluency rare in the PMM pool
-              today, and sales enablement work already shipped) is the
-              kind of stack that does not show up twice.
+              I'm not a career product marketer. The JD asks for 5+
+              years of direct PMM or solutions marketing experience, and
+              I'd be a stretch on that. Not on the verticals though, I
+              have lived inside all three. I am applying because Canva
+              has been on my wish-list for years, and because the AI
+              stack your customers are evaluating is the AI stack I
+              already build with daily.
             </p>
 
             <p>
