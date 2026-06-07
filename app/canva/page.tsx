@@ -221,6 +221,8 @@ export default function CanvaPage() {
               vertical="Higher Education"
               title="Lecturer, UniSA Creative (2016 – 2018)"
               body="Postgraduate teaching inside the Graduate Diploma in Communication. Developed and delivered Australia's first postgraduate Social Media Management course in 2016. Worked inside university faculty governance, curriculum approval and assessment standards."
+              image="/canva/rubina-lecturing-unisa.jpg"
+              imageAlt="Rubina lecturing at UniSA Creative."
             />
             <VerticalCard
               vertical="Higher Education"
@@ -231,6 +233,8 @@ export default function CanvaPage() {
               vertical="Higher Education"
               title="Lecturer, TAFE SA School of Business and Marketing (2011 – 2018)"
               body="Developed and delivered Australia's first tertiary social media course at TAFE SA in 2011. Ran a paid acquisition campaign that delivered 100 new student enquiries in a single month for the School."
+              image="/canva/rubina-lecturing-tafe.jpg"
+              imageAlt="Rubina recording video lectures on a green-screen set for TAFE SA."
             />
             <VerticalCard
               vertical="Higher Education"
@@ -251,11 +255,17 @@ export default function CanvaPage() {
               vertical="Government"
               title="SeaLink Bruny Island launch (2018)"
               body="Stood up the SeaLink Bruny Island digital presence through a contested ferry-service change the local community didn't want. State-government and council stakeholders engaged on reputation management. Acted as official spokesperson inside local Facebook communities. Lifted NPS from -50 to +10."
+              image="/canva/rubina-sealink-ferry.jpg"
+              imageAlt="Rubina with a SeaLink ferry."
             />
             <VerticalCard
               vertical="Tourism"
               title="SeaLink Kangaroo Island three-day sale (2018)"
               body="SeaLink-led multi-channel sale across digital and above-the-line. $326,000+ in online sales over three days, up 97% year-on-year. Ran inside the broader Kangaroo Island destination programme where SA Tourism Commission was a stakeholder."
+              image="/canva/sealink-ki-ad-thumbnail.jpg"
+              imageAlt="Still from the SeaLink Kangaroo Island TV ad."
+              link="https://www.youtube.com/watch?v=inYsiP_X8YY"
+              linkLabel="Watch the ad"
             />
             <VerticalCard
               vertical="Regulated"
@@ -549,18 +559,49 @@ function VerticalCard({
   vertical,
   title,
   body,
+  image,
+  imageAlt,
+  link,
+  linkLabel,
 }: {
   vertical: string;
   title: string;
   body: string;
+  image?: string;
+  imageAlt?: string;
+  link?: string;
+  linkLabel?: string;
 }) {
   return (
-    <div className="border border-navy/15 bg-cream rounded-lg p-8 hover:border-crimson/50 transition">
-      <p className="text-crimson font-semibold tracking-wide uppercase text-xs mb-3">
-        {vertical}
-      </p>
-      <h3 className="text-lg font-semibold mb-3 text-navy">{title}</h3>
-      <p className="text-navy/80 leading-relaxed">{body}</p>
+    <div className="border border-navy/15 bg-cream rounded-lg overflow-hidden hover:border-crimson/50 transition flex flex-col">
+      {image && (
+        <div className="relative w-full aspect-[3/2] bg-navy/5">
+          <Image
+            src={image}
+            alt={imageAlt || ""}
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+            className="object-cover"
+          />
+        </div>
+      )}
+      <div className="p-8 flex flex-col flex-1">
+        <p className="text-crimson font-semibold tracking-wide uppercase text-xs mb-3">
+          {vertical}
+        </p>
+        <h3 className="text-lg font-semibold mb-3 text-navy">{title}</h3>
+        <p className="text-navy/80 leading-relaxed">{body}</p>
+        {link && (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener"
+            className="mt-4 inline-flex items-center text-crimson font-medium hover:underline underline-offset-4"
+          >
+            {linkLabel || "View"} →
+          </a>
+        )}
+      </div>
     </div>
   );
 }
