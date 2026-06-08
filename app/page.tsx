@@ -208,11 +208,6 @@ export default function Home() {
             </h2>
             <div className="space-y-5 text-lg leading-relaxed text-navy/85">
               <p>
-                Based in Adelaide. Australian citizen. Certified Practising
-                Marketer (CPM) through the Australian Marketing Institute.
-                Bachelor of Media in Marketing, University of Adelaide.
-              </p>
-              <p>
                 Industry experience across tech and SaaS (90 Seconds),
                 agency-side B2B (Refuel Creative), and tourism (SeaLink Travel
                 Group). Recognised by HubSpot Impact Awards in 2020 (twice) and
@@ -222,6 +217,11 @@ export default function Home() {
                 The thing I get most excited about right now: how AI lets a
                 marketing team punch well above its weight. Less template,
                 more bespoke. Less throughput pressure, more thinking time.
+              </p>
+              <p>
+                Based in Adelaide. Australian citizen. Certified Practising
+                Marketer (CPM) through the Australian Marketing Institute.
+                Bachelor of Media in Marketing, University of Adelaide.
               </p>
               <Link
                 href="/about"
