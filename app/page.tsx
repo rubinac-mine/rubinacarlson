@@ -170,21 +170,22 @@ export default function Home() {
       <section className="bg-navy text-cream">
         <div className="mx-auto max-w-3xl px-6 py-20 sm:py-24 text-center">
           <p className="text-2xl sm:text-3xl leading-snug font-medium">
-            &ldquo;Rubina is a strategic thinker and someone you can bounce
-            ideas off. Adaptable, reliable, and a life-long learner.&rdquo;
+            &ldquo;She applies vision, anticipation, leadership and technical
+            expertise all in one &mdash; as well as being an amazing
+            person.&rdquo;
           </p>
           <p className="mt-8 text-sm tracking-wide uppercase text-crimson-light">
-            Hamish Cameron
+            Richard Littleton
           </p>
           <p className="mt-2 text-sm text-cream/70 leading-relaxed">
-            Founder @ AccuFind.ai | Non-executive Director | former CIO | AI
-            Strategy &amp; Execution
+            Business Development | Research | Marketing | Strategic
+            Communications &mdash; Client at Refuel Creative
           </p>
           <Link
             href="/testimonials"
             className="inline-block mt-8 text-sm text-cream/70 hover:text-crimson-light underline-offset-4 hover:underline"
           >
-            More voices →
+            More recommendations →
           </Link>
         </div>
       </section>

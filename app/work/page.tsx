@@ -26,6 +26,56 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "90 Seconds",
+    role: "Head of Marketing",
+    year: "2023 – present",
+    outcome:
+      "Leading the global marketing function from APAC. New brand and website delivered in the first two months. $5M in pipeline opportunities since June 2024 across inbound, paid, ABM, lifecycle and field.",
+    href: "/work/90-seconds",
+    metric: "$5M",
+    metricLabel: "pipeline since June 2024",
+  },
+  {
+    title: "Scout — Customer Agent",
+    role: "90 Seconds",
+    year: "2026",
+    outcome:
+      "Configured the brand AI chat agent end-to-end — tone of voice, scripted responses, guardrails and custom instructions. Handles top-of-funnel enquiries in the 90 Seconds brand voice.",
+    href: "/work/scout",
+    metric: "Live",
+    metricLabel: "on 90seconds.com",
+  },
+  {
+    title: "Web Attribution",
+    role: "90 Seconds",
+    year: "2026",
+    outcome:
+      "Built full-funnel attribution from zero. GTM container, GA4, PostHog identify on every form submission, HubSpot sync. Every visitor tracked from first touch to CRM.",
+    href: "/work/web-attribution",
+    metric: "GTM → PostHog",
+    metricLabel: "full funnel tracked",
+  },
+  {
+    title: "City Blog Programme",
+    role: "90 Seconds",
+    year: "2026",
+    outcome:
+      "28 city video-production posts written to informational intent — deliberately separated from the commercial location pages to capture search queries without cannibalising the transactional pages.",
+    href: "/work/city-blog-programme",
+    metric: "28",
+    metricLabel: "city posts, live",
+  },
+  {
+    title: "Q2 Nurture + EOFY Emails",
+    role: "90 Seconds",
+    year: "2026",
+    outcome:
+      "End-to-end email programme for enterprise marketing leaders. 8 fortnightly nurture emails, HubSpot workflow setup, Tier-0 market targeting and suppression list. Plus EOFY campaign and enrolment broadcast.",
+    href: "/work/q2-nurture",
+    metric: "8",
+    metricLabel: "nurture emails",
+  },
+  {
     title: "Digital Adelaide",
     role: "Director",
     year: "2015 – 2025",

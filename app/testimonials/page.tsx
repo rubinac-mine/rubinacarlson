@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Voices — Rubina Carlson",
+  title: "Recommendations — Rubina Carlson",
   description:
     "Recommendations from clients, colleagues, mentees and the wider Adelaide marketing community.",
 };
@@ -152,7 +152,7 @@ export default function Testimonials() {
       {/* Hero */}
       <section className="mx-auto max-w-5xl px-6 pt-16 pb-12 sm:pt-20 sm:pb-16">
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[0.95] text-navy">
-          Voices.
+          Recommendations.
         </h1>
         <p className="mt-8 max-w-2xl text-lg leading-relaxed text-navy/80">
           Recommendations from clients, colleagues, mentees and the wider

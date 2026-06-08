@@ -199,7 +199,7 @@ export default function SeaLink() {
             href="/testimonials"
             className="inline-block mt-6 text-sm text-cream/70 hover:text-crimson-light underline-offset-4 hover:underline"
           >
-            More voices →
+            More recommendations →
           </Link>
         </div>
       </section>

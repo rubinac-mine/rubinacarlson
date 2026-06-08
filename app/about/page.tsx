@@ -111,9 +111,8 @@ export default function About() {
               Refuel Creative. Tech and SaaS at 90 Seconds.
             </p>
             <p>
-              The through-line across all three: built the digital lane from
-              the inside, on small teams, with limited budgets, against
-              numbers. At SeaLink, took the Bruny Island NPS from{" "}
+              The through-line across all three: small teams, limited budgets,
+              against real numbers. At SeaLink, took the Bruny Island NPS from{" "}
               <span className="text-crimson">−50 to +10</span> launching a
               new ferry service into a community that did not want it. At
               Refuel, won the 2023 HubSpot Impact Award for Platform
@@ -133,7 +132,7 @@ export default function About() {
           </div>
 
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mt-16 mb-8">
-            The current lane.
+            Right now.
           </h2>
           <div className="space-y-5 text-lg leading-relaxed text-navy/85">
             <p>
@@ -143,18 +142,17 @@ export default function About() {
               US, UK and EMEA on go-to-market.
             </p>
             <p>
-              Parallel to the marketing leadership, an{" "}
-              <span className="text-soft-blue">AI builder lane</span> built
-              on Replit, Claude Code and the Anthropic API. Live tools
-              include 90Labs, a sales-enablement workspace hosting 29+
-              assets and a Pitch Builder used daily by the global sales
-              team. Helping build out the GTM OS, an internal operations
-              platform, alongside our VP of Product. Configured the HubSpot
-              Customer Agent for production. Migrated 300+ pages using an
-              AI-scored content inventory and an automated migrator.
+              Alongside the marketing work, I build. Replit, Claude Code and
+              the Anthropic API are daily tools. Live builds include 90Labs, a
+              sales-enablement workspace with 29+ assets and a Pitch Builder in
+              beta with the global sales team. Contributed to the GTM OS, an
+              internal operations platform, alongside our VP of Product.
+              Configured Scout, the 90 Seconds HubSpot Customer Agent. Migrated
+              300+ pages using an AI-scored content inventory and an
+              Anthropic-API-powered automated migrator.
             </p>
             <p>
-              The lanes feed each other. The marketing work tells me what
+              The two things feed each other. The marketing work tells me what
               the team actually needs. The build work means I can ship the
               thing rather than write a brief for someone else to ship.
             </p>
