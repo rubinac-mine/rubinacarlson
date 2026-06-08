@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "City Blog Programme — Rubina Carlson",
   description:
-    "28 city video-production blog posts written to informational intent — deliberately separated from the commercial location pages to capture search without cannibalisation.",
+    "28 city video-production blog posts written to informational intent, deliberately separated from the commercial location pages to capture search without cannibalisation.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -75,7 +75,7 @@ export default function CityBlogProgramme() {
         </h2>
         <div className="space-y-5 text-lg leading-relaxed text-navy/85">
           <p>
-            90 Seconds had strong transactional location pages — commercial
+            90 Seconds had strong transactional location pages. Commercial
             pages targeting buyers searching for video production in specific
             cities. They were performing. The risk with adding blog content
             targeting the same cities was simple: if we were not careful, we
@@ -84,7 +84,7 @@ export default function CityBlogProgramme() {
           <p>
             At the same time, there was a real opportunity. People searching
             "how much does video production cost in Singapore" or "best
-            locations to film in Sydney" are not yet in buying mode — but they
+            locations to film in Sydney" are not yet in buying mode. But they
             are our audience. Leaving that traffic on the table was a waste.
           </p>
         </div>
@@ -95,7 +95,7 @@ export default function CityBlogProgramme() {
         <div className="space-y-5 text-lg leading-relaxed text-navy/85">
           <p>
             Intent separation. Every city post was written to informational
-            search intent — answering the research questions a buyer has before
+            search intent, answering the research questions a buyer has before
             they are ready to engage. None of them targeted the same transactional
             keywords as the location pages.
           </p>
@@ -121,7 +121,7 @@ export default function CityBlogProgramme() {
         </h2>
         <div className="space-y-5 text-lg leading-relaxed text-navy/85">
           <p>
-            28 posts live across priority cities — including Sydney, Melbourne,
+            28 posts live across priority cities including Sydney, Melbourne,
             Singapore, Hong Kong, London, New York and more. Each with a
             Cloudinary hero, correct intent-separated title and meta description.
           </p>

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Scout — Customer Agent · Rubina Carlson",
   description:
-    "Configured the 90 Seconds AI chat agent from scratch — tone of voice, scripted responses, guardrails and custom instructions. Live on 90seconds.com.",
+    "Configured the 90 Seconds AI chat agent from scratch: tone of voice, scripted responses, guardrails and custom instructions. Live on 90seconds.com.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -60,7 +60,7 @@ export default function Scout() {
         <div className="mx-auto max-w-5xl px-6 py-16">
           <div className="grid gap-10 sm:grid-cols-3 text-center">
             <Metric value="Live" label="on 90seconds.com" />
-            <Metric value="100%" label="sole author — tone to guardrails" />
+            <Metric value="100%" label="sole author, tone to guardrails" />
             <Metric value="Zero" label="fabricated prices, stats or promises" />
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function Scout() {
           </p>
           <p>
             HubSpot released their Customer Agent feature. We had the tool.
-            What we needed was a brain behind it — one that sounded like us,
+            What we needed was a brain behind it. One that sounded like us,
             knew its limits, and handed off cleanly when the conversation
             outgrew it.
           </p>
@@ -99,7 +99,7 @@ export default function Scout() {
             <li>
               <strong className="text-navy">Tone and response style.</strong>{" "}
               Warm, direct, unhurried. Matches the voice we use across the
-              rest of the site — no corporate hedging, no hollow enthusiasm.
+              rest of the site. No corporate hedging, no hollow enthusiasm.
             </li>
             <li>
               <strong className="text-navy">Scripted responses.</strong>{" "}
@@ -110,7 +110,7 @@ export default function Scout() {
             <li>
               <strong className="text-navy">Guardrails.</strong> No
               fabricated prices, stats or delivery dates. No legal promises.
-              No sensitive data collection. Locked terminology — "video
+              No sensitive data collection. Locked terminology: "video
               creation", not "video production". Every guardrail documented
               with the reason behind it.
             </li>
@@ -129,7 +129,7 @@ export default function Scout() {
             limitations so the team had a reference for what to expect.
           </p>
           <p>
-            The full config lives in the GTM OS repo — version-controlled,
+            The full config lives in the GTM OS repo, version-controlled,
             so every change to Scout is tracked and reversible. HubSpot stays
             the live source; the repo is the record.
           </p>
@@ -142,7 +142,7 @@ export default function Scout() {
           <p>
             Scout launched site-wide on 90seconds.com in June 2026. It handles
             incoming customer queries in brand voice without a human in the loop
-            — and hands off clearly when the conversation needs one.
+            It hands off clearly when the conversation needs one.
           </p>
           <p>
             The guardrail design means it cannot overpromise on pricing or

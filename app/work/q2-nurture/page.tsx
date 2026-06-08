@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Q2 Nurture + EOFY Emails — Rubina Carlson",
   description:
-    "End-to-end email programme for enterprise marketing leaders at 90 Seconds — 8 fortnightly nurture emails, HubSpot workflow, Tier-0 targeting, and EOFY campaign.",
+    "End-to-end email programme for enterprise marketing leaders at 90 Seconds: 8 fortnightly nurture emails, HubSpot workflow, Tier-0 targeting, and EOFY campaign.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -53,7 +53,7 @@ export default function Q2Nurture() {
         <p className="mt-8 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
           A full email programme for enterprise marketing leaders.{" "}
           <span className="text-crimson">
-            Copy, visuals, HubSpot workflow and targeting — end-to-end.
+            Copy, visuals, HubSpot workflow and targeting. End-to-end.
           </span>
         </p>
       </section>
@@ -77,7 +77,7 @@ export default function Q2Nurture() {
         <div className="space-y-5 text-lg leading-relaxed text-navy/85">
           <p>
             90 Seconds had no structured nurture programme for enterprise
-            prospects. The buying cycle is long — months, sometimes longer —
+            prospects. The buying cycle is long, sometimes months or more,
             and without a reason to stay in contact, warm leads went cold.
             We were investing in demand generation but had no systematic way
             to hold the relationship while prospects were still deciding.
@@ -95,7 +95,7 @@ export default function Q2Nurture() {
         </h2>
         <div className="space-y-5 text-lg leading-relaxed text-navy/85">
           <p>
-            I built the programme from scratch — copy, design brief, HubSpot
+            I built the programme from scratch: copy, design brief, HubSpot
             setup and targeting logic. Everything.
           </p>
 
@@ -104,7 +104,7 @@ export default function Q2Nurture() {
           </h3>
           <p>
             Eight "Our Thinking" emails targeting enterprise marketing leaders,
-            sent fortnightly. Each email leads with a useful idea — not a
+            sent fortnightly. Each email leads with a useful idea, not a
             product push. The editorial angle reflects how senior marketers
             think about brand, production quality, and the content formats that
             move buyers.
@@ -158,7 +158,7 @@ export default function Q2Nurture() {
         </h2>
         <div className="space-y-5 text-lg leading-relaxed text-navy/85">
           <p>
-            The Q2 nurture sequence went into HubSpot ready to send — copy
+            The Q2 nurture sequence went into HubSpot ready to send. Copy
             locked, renders delivered, workflow documented so the team could
             build the sequence in one sitting rather than piecing it together
             across multiple sessions.
@@ -170,7 +170,7 @@ export default function Q2Nurture() {
           </p>
           <p>
             For the first time, 90 Seconds had a structured lifecycle
-            programme — not a collection of one-off sends, but a coherent
+            programme. Not a collection of one-off sends. A coherent
             reason to stay in contact with enterprise prospects across the
             full buying cycle.
           </p>

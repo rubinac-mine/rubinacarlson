@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Web Attribution — Rubina Carlson",
   description:
-    "Built full-funnel attribution for 90 Seconds from zero — GTM container, GA4, PostHog identify, HubSpot sync. Every visitor tracked from first touch to CRM.",
+    "Built full-funnel attribution for 90 Seconds from zero: GTM container, GA4, PostHog identify, HubSpot sync. Every visitor tracked from first touch to CRM.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -77,13 +77,13 @@ export default function WebAttribution() {
           <p>
             When I joined 90 Seconds, we had no reliable way to know where
             pipeline came from. The site had some tracking in place, but it was
-            inconsistent — pixels firing twice, SPA navigation not registering
+            inconsistent: pixels firing twice, SPA navigation not registering
             as page views, form submissions not connecting an anonymous visitor
             to a HubSpot contact.
           </p>
           <p>
             That made attribution guesswork. We were investing in paid, SEO,
-            email and events — and could not say with confidence what was
+            email and events, and could not say with confidence what was
             working. Going into go-live on the new React site, this had to be
             fixed properly.
           </p>
@@ -94,8 +94,7 @@ export default function WebAttribution() {
         </h2>
         <div className="space-y-5 text-lg leading-relaxed text-navy/85">
           <p>
-            I built the attribution stack end-to-end. This was my initiative —
-            I scoped, designed and shipped it.
+            I built the attribution stack end-to-end. I scoped, designed and shipped it.
           </p>
           <ul className="space-y-3 list-disc list-outside ml-6 marker:text-crimson">
             <li>
@@ -105,7 +104,7 @@ export default function WebAttribution() {
               <code className="text-sm bg-navy/5 px-1 rounded">
                 system_settings
               </code>{" "}
-              table with an admin UI — so tracking IDs could be updated
+              table with an admin UI, so tracking IDs could be updated
               without a deploy.
             </li>
             <li>
@@ -114,7 +113,7 @@ export default function WebAttribution() {
               instrumentation, GA4 only sees the initial load. I wired
               route-change events to push{" "}
               <code className="text-sm bg-navy/5 px-1 rounded">page_view</code>{" "}
-              to the dataLayer on every navigation — so GA4 sees the full
+              to the dataLayer on every navigation, so GA4 sees the full
               journey.
             </li>
             <li>
@@ -122,7 +121,7 @@ export default function WebAttribution() {
               every HubSpot form submission, I fire a PostHog{" "}
               <code className="text-sm bg-navy/5 px-1 rounded">identify</code>{" "}
               call with the submitter&apos;s email. That stitches the anonymous
-              visitor session to a known person — so PostHog&apos;s person
+              visitor session to a known person, so PostHog&apos;s person
               timeline becomes a real attribution record from first click to
               form fill.
             </li>
@@ -133,7 +132,7 @@ export default function WebAttribution() {
             </li>
             <li>
               <strong className="text-navy">HubSpot sync.</strong> Confirmed
-              the form-to-contact flow was clean — submissions creating or
+              the form-to-contact flow was clean, with submissions creating or
               updating contacts in HubSpot with correct attribution fields.
             </li>
           </ul>

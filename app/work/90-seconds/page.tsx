@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "90 Seconds — Rubina Carlson",
   description:
-    "Head of Marketing at 90 Seconds since December 2023. Leading the global marketing function from APAC — brand, website, pipeline, and AI builds.",
+    "Head of Marketing at 90 Seconds since December 2023. Leading the global marketing function from APAC across brand, website, pipeline, and AI builds.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -52,7 +52,7 @@ export default function NinetySeconds() {
         <p className="mt-8 text-2xl sm:text-3xl leading-snug max-w-3xl text-navy">
           Leading the global marketing function from APAC.{" "}
           <span className="text-crimson">
-            New brand, new website, $5M in pipeline — and a stack of AI builds
+            New brand, new website, $5M in pipeline. And a stack of AI builds
             alongside.
           </span>
         </p>
@@ -76,13 +76,13 @@ export default function NinetySeconds() {
         </h2>
         <div className="space-y-5 text-lg leading-relaxed text-navy/85">
           <p>
-            90 Seconds is a global video creation platform — enterprise brands
+            90 Seconds is a global video creation platform. Enterprise brands
             use it to brief, produce and deliver video at scale across more than
             160 countries. I joined as Head of Marketing in December 2023,
             reporting to the CEO and sitting on the Leadership Team.
           </p>
           <p>
-            The team is APAC-based. The scope is global — go-to-market across
+            The team is APAC-based. The scope is global. Go-to-market across
             the US, UK, APAC and EMEA, partnering with sales counterparts in
             each market. Two direct reports, both in APAC.
           </p>
@@ -93,7 +93,7 @@ export default function NinetySeconds() {
         </div>
 
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mt-16 mb-8">
-          Brand and website — first two months.
+          Brand and website: first two months.
         </h2>
         <div className="space-y-5 text-lg leading-relaxed text-navy/85">
           <p>
@@ -103,7 +103,7 @@ export default function NinetySeconds() {
             foundation for everything that followed.
           </p>
           <p>
-            In 2026, the site was rebuilt again — this time as a full React
+            In 2026, the site was rebuilt again. This time as a full React
             build, 100% vibe-coded with Claude Code and Replit. The legacy
             WordPress content (300+ pages) was migrated using an AI-scored
             content inventory and a fleet of Anthropic-API agents that crawled,
@@ -123,7 +123,7 @@ export default function NinetySeconds() {
               $5M in pipeline opportunities
             </span>{" "}
             since June 2024 through inbound, paid, ABM, lifecycle and field.
-            That number spans all channels — not attributed to a single
+            That number spans all channels. Not attributed to a single
             campaign or build.
           </p>
           <p>
@@ -150,10 +150,10 @@ export default function NinetySeconds() {
                   href="/work/scout"
                   className="hover:text-crimson underline-offset-2 hover:underline"
                 >
-                  Scout — HubSpot Customer Agent.
+                  Scout: HubSpot Customer Agent.
                 </Link>
               </strong>{" "}
-              Configured the 90 Seconds AI chat agent from scratch — tone,
+              Configured the 90 Seconds AI chat agent from scratch: tone,
               scripted responses, guardrails, custom instructions. Live on
               90seconds.com.
             </li>
@@ -166,7 +166,7 @@ export default function NinetySeconds() {
                   Web Attribution.
                 </Link>
               </strong>{" "}
-              Built full-funnel attribution from zero — GTM container, GA4, PostHog
+              Built full-funnel attribution from zero: GTM container, GA4, PostHog
               identify on every form submission, HubSpot sync.
             </li>
             <li>
@@ -176,7 +176,7 @@ export default function NinetySeconds() {
             </li>
             <li>
               <strong className="text-navy">GTM OS.</strong> Contributed to an
-              internal operations platform alongside our VP of Product — joining
+              internal operations platform alongside our VP of Product, joining
               CRM and SEO data to automate market mapping and content coverage
               analysis.
             </li>
@@ -201,7 +201,7 @@ export default function NinetySeconds() {
                   Q2 Nurture + EOFY Emails.
                 </Link>
               </strong>{" "}
-              End-to-end email programme — 8 nurture emails, HubSpot workflow,
+              End-to-end email programme: 8 nurture emails, HubSpot workflow,
               Tier-0 targeting, suppression list, plus EOFY campaign.
             </li>
           </ul>

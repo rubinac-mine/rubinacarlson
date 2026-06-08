@@ -40,7 +40,7 @@ const projects: Project[] = [
     role: "90 Seconds",
     year: "2026",
     outcome:
-      "Configured the brand AI chat agent end-to-end — tone of voice, scripted responses, guardrails and custom instructions. Handles top-of-funnel enquiries in the 90 Seconds brand voice.",
+      "Configured the brand AI chat agent end-to-end: tone of voice, scripted responses, guardrails and custom instructions. Handles top-of-funnel enquiries in the 90 Seconds brand voice.",
     href: "/work/scout",
     metric: "Live",
     metricLabel: "on 90seconds.com",
@@ -60,7 +60,7 @@ const projects: Project[] = [
     role: "90 Seconds",
     year: "2026",
     outcome:
-      "28 city video-production posts written to informational intent — deliberately separated from the commercial location pages to capture search queries without cannibalising the transactional pages.",
+      "28 city video-production posts written to informational intent, deliberately separated from the commercial location pages to capture search queries without cannibalising the transactional pages.",
     href: "/work/city-blog-programme",
     metric: "28",
     metricLabel: "city posts, live",
