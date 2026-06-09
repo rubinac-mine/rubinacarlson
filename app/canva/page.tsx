@@ -362,18 +362,10 @@ export default function CanvaPage() {
 
       {/* Section 7 - Credentials strip */}
       <section className="mx-auto max-w-5xl px-6 py-16 sm:py-20">
-        <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-5 text-sm text-navy/85 items-start">
+        <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-5 text-sm text-navy/85">
           <Credential text="15+ years of marketing experience" />
-          <Credential
-            text="Certified Practising Marketer, AMI"
-            badge="/canva/ami-cpm-badge.png"
-            badgeAlt="Australian Marketing Institute Certified Practising Marketer badge."
-          />
-          <Credential
-            text="2023 HubSpot Impact Award, Platform Excellence (172% lead lift)"
-            badge="/canva/hubspot-impact-award.png"
-            badgeAlt="HubSpot Impact Award 2023 badge."
-          />
+          <Credential text="Certified Practising Marketer, AMI" />
+          <Credential text="2023 HubSpot Impact Award, Platform Excellence (172% lead lift)" />
           <Credential text="Director, Digital Adelaide (40 to 200+ delegates over 10 years)" />
           <Credential text="B. Media in Marketing, University of Adelaide" />
         </ul>
@@ -675,29 +667,8 @@ function DayBlock({
   );
 }
 
-function Credential({
-  text,
-  badge,
-  badgeAlt,
-}: {
-  text: string;
-  badge?: string;
-  badgeAlt?: string;
-}) {
+function Credential({ text }: { text: string }) {
   return (
-    <li className="border-l-2 border-crimson pl-4 leading-snug">
-      {badge && (
-        <div className="relative w-16 h-16 mb-3">
-          <Image
-            src={badge}
-            alt={badgeAlt || ""}
-            fill
-            sizes="4rem"
-            className="object-contain object-left"
-          />
-        </div>
-      )}
-      {text}
-    </li>
+    <li className="border-l-2 border-crimson pl-4 leading-snug">{text}</li>
   );
 }
