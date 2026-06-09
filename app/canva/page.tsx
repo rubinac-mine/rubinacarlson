@@ -250,12 +250,16 @@ export default function CanvaPage() {
             <VerticalCard
               vertical="Real Estate"
               title="Sales enablement for global commercial real estate firms at 90 Seconds"
-              body="Deliver client-specific sales enablement and account-based marketing for enterprise customers in commercial real estate at 90 Seconds today, including some of the largest commercial property firms in the world. Relationship-led GTM, with vertical-specific assets built per account."
+              body="Built customer-specific landing pages and account-based assets for enterprise customers in commercial real estate at 90 Seconds, including some of the largest commercial property firms in the world. Relationship-led GTM, with vertical-specific assets built per account. The example shown: an account landing page tracking eight years of partnership, 409 videos, 295 shoots, 21 countries. Customer logo redacted."
+              image="/canva/real-estate-landing-page.jpg"
+              imageAlt="Custom 90 Seconds account landing page built for a global commercial real estate customer, with the customer logo redacted. Hero reads 'Global reach. Local expertise. Eight years as partners.' alongside metrics for 409 videos, 295 shoots, 21 countries."
             />
             <VerticalCard
               vertical="Regulated / Financial Services"
               title="Sales enablement for global financial services firms at 90 Seconds"
-              body="Same relationship-led GTM and account-specific sales enablement model applied to enterprise financial services customers at 90 Seconds. The procurement-and-compliance shape familiar from earlier Adelaide Bank work, now at a larger scale."
+              body="Same model applied to enterprise financial services customers at 90 Seconds. The procurement-and-compliance shape familiar from earlier Adelaide Bank work, now at a larger scale. The example shown: an account landing page tracking nine years of partnership, 288 videos, 164 orders, 13 countries. Customer logo redacted."
+              image="/canva/financial-services-landing-page.jpg"
+              imageAlt="Custom 90 Seconds account landing page built for a global financial services customer, with the customer logo redacted. Hero reads '288 videos. 13 countries. One global partnership.' with breakdown stats for years of partnership, videos delivered and orders."
             />
             <VerticalCard
               vertical="Government"
