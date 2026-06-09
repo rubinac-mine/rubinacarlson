@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { SiteHeader } from "@/app/components/SiteHeader";
 
 export const metadata: Metadata = {
   title: "Rubina Carlson — Marketing leader. AI builder. Storyteller.",
@@ -17,34 +18,7 @@ const CV_AI = "/Rubina-your-next-AI-builder.pdf";
 export default function Home() {
   return (
     <main className="flex-1">
-      {/* Header */}
-      <header className="border-b border-navy/10 bg-cream/90 backdrop-blur sticky top-0 z-10">
-        <div className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between gap-4">
-          <span className="font-semibold tracking-tight text-navy">
-            Rubina Carlson
-          </span>
-          <nav className="flex items-center gap-5 text-sm">
-            <Link
-              href="/work"
-              className="text-navy/70 hover:text-crimson transition"
-            >
-              Work
-            </Link>
-            <Link
-              href="/about"
-              className="text-navy/70 hover:text-crimson transition"
-            >
-              About
-            </Link>
-            <a
-              href={MAILTO}
-              className="font-medium text-crimson hover:underline underline-offset-4"
-            >
-              Get in touch →
-            </a>
-          </nav>
-        </div>
-      </header>
+      <SiteHeader />
 
       {/* Hero */}
       <section className="mx-auto max-w-5xl px-6 pt-16 pb-20 sm:pt-24 sm:pb-28">

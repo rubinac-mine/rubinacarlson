@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { SiteHeader } from "@/app/components/SiteHeader";
 
 export const metadata: Metadata = {
   title: "Digital Adelaide — Rubina Carlson",
@@ -43,23 +44,7 @@ const gallery = [
 export default function DigitalAdelaide() {
   return (
     <main className="flex-1">
-      {/* Header */}
-      <header className="border-b border-navy/10 bg-cream/90 backdrop-blur sticky top-0 z-10">
-        <div className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between gap-4">
-          <Link
-            href="/"
-            className="font-semibold tracking-tight text-navy hover:text-crimson transition"
-          >
-            ← Rubina Carlson
-          </Link>
-          <a
-            href={MAILTO}
-            className="text-sm font-medium text-crimson hover:underline underline-offset-4"
-          >
-            Get in touch →
-          </a>
-        </div>
-      </header>
+      <SiteHeader />
 
       {/* Breadcrumb */}
       <div className="mx-auto max-w-5xl px-6 pt-8">
