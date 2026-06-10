@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { SiteHeader } from "@/app/components/SiteHeader";
 
@@ -138,6 +139,58 @@ export default function Scout() {
         </div>
       </section>
 
+      {/* Receipts */}
+      <section className="bg-navy/[0.04] border-y border-navy/10">
+        <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
+          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
+            Receipts.
+          </h2>
+          <p className="text-lg text-navy/70 mb-12 max-w-2xl">
+            A short tour of the Scout configuration, the live chat, and the
+            reports that show it working.
+          </p>
+
+          <ScreenshotGroup label="Setup">
+            <Screenshot
+              src="/work/scout/setup-identity.png"
+              alt="Scout identity setup in HubSpot Customer Agent."
+              caption="Identity. Persona, tone and naming, all locked to the 90 Seconds voice guide."
+            />
+            <Screenshot
+              src="/work/scout/setup-knowledge.png"
+              alt="Scout knowledge setup in HubSpot Customer Agent."
+              caption="Knowledge. Curated sources Scout is allowed to draw from. Nothing else."
+            />
+          </ScreenshotGroup>
+
+          <ScreenshotGroup label="In action">
+            <Screenshot
+              src="/work/scout/chat-welcome.png"
+              alt="Scout chat welcome message on 90seconds.com."
+              caption="The opener. Warm, direct, no corporate hedging."
+            />
+            <Screenshot
+              src="/work/scout/chat-qa.png"
+              alt="Scout answering a customer question on 90seconds.com."
+              caption="A live question and answer. In brand voice, inside the guardrails."
+            />
+          </ScreenshotGroup>
+
+          <ScreenshotGroup label="Results">
+            <Screenshot
+              src="/work/scout/report-deflection.png"
+              alt="Scout deflection over time report."
+              caption="Deflection over time. Conversations Scout handles without a human."
+            />
+            <Screenshot
+              src="/work/scout/report-handle-rate.png"
+              alt="Scout handle rate report."
+              caption="Handle rate. Reliability across the full conversation volume."
+            />
+          </ScreenshotGroup>
+        </div>
+      </section>
+
       {/* Footer nav */}
       <section className="mx-auto max-w-5xl px-6 py-16 text-center">
         <Link
@@ -168,5 +221,49 @@ function Metric({ value, label }: { value: string; label: string }) {
         {label}
       </p>
     </div>
+  );
+}
+
+function ScreenshotGroup({
+  label,
+  children,
+}: {
+  label: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="mb-12 last:mb-0">
+      <p className="text-xs uppercase tracking-wider font-semibold text-crimson mb-4">
+        {label}
+      </p>
+      <div className="grid gap-6 md:grid-cols-2">{children}</div>
+    </div>
+  );
+}
+
+function Screenshot({
+  src,
+  alt,
+  caption,
+}: {
+  src: string;
+  alt: string;
+  caption: string;
+}) {
+  return (
+    <figure>
+      <div className="relative aspect-[16/10] w-full overflow-hidden rounded-lg border border-navy/15 bg-white">
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover object-top"
+        />
+      </div>
+      <figcaption className="text-sm text-navy/70 mt-3 leading-relaxed">
+        {caption}
+      </figcaption>
+    </figure>
   );
 }

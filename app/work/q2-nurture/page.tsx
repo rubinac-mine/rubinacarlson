@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { SiteHeader } from "@/app/components/SiteHeader";
 
@@ -162,6 +163,68 @@ export default function Q2Nurture() {
         </div>
       </section>
 
+      {/* Receipts */}
+      <section className="bg-navy/[0.04] border-y border-navy/10">
+        <div className="mx-auto max-w-6xl px-6 py-20 sm:py-24">
+          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
+            Receipts.
+          </h2>
+          <p className="text-lg text-navy/70 mb-12 max-w-2xl">
+            The full eight-email Q2 2026 nurture sequence, in order.
+          </p>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <EmailScreenshot
+              src="/work/q2-nurture/email-01.png"
+              alt="Q2 2026 nurture email 1."
+              n="01"
+              title="In-housing global capabilities"
+            />
+            <EmailScreenshot
+              src="/work/q2-nurture/email-02.png"
+              alt="Q2 2026 nurture email 2."
+              n="02"
+              title="Video trends report"
+            />
+            <EmailScreenshot
+              src="/work/q2-nurture/email-03.png"
+              alt="Q2 2026 nurture email 3."
+              n="03"
+              title="Long-form content"
+            />
+            <EmailScreenshot
+              src="/work/q2-nurture/email-04.png"
+              alt="Q2 2026 nurture email 4."
+              n="04"
+              title="Production wallet"
+            />
+            <EmailScreenshot
+              src="/work/q2-nurture/email-05.png"
+              alt="Q2 2026 nurture email 5."
+              n="05"
+              title="Video podcasting"
+            />
+            <EmailScreenshot
+              src="/work/q2-nurture/email-06.png"
+              alt="Q2 2026 nurture email 6."
+              n="06"
+              title="Real-world examples"
+            />
+            <EmailScreenshot
+              src="/work/q2-nurture/email-07.png"
+              alt="Q2 2026 nurture email 7."
+              n="07"
+              title="AI-assisted services"
+            />
+            <EmailScreenshot
+              src="/work/q2-nurture/email-08.png"
+              alt="Q2 2026 nurture email 8."
+              n="08"
+              title="Customer stories"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Footer nav */}
       <section className="mx-auto max-w-5xl px-6 py-16 text-center">
         <Link
@@ -192,5 +255,37 @@ function Metric({ value, label }: { value: string; label: string }) {
         {label}
       </p>
     </div>
+  );
+}
+
+function EmailScreenshot({
+  src,
+  alt,
+  n,
+  title,
+}: {
+  src: string;
+  alt: string;
+  n: string;
+  title: string;
+}) {
+  return (
+    <figure>
+      <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg border border-navy/15 bg-white">
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+          className="object-cover object-top"
+        />
+      </div>
+      <figcaption className="mt-3">
+        <p className="text-xs uppercase tracking-wider font-semibold text-crimson">
+          Email {n}
+        </p>
+        <p className="text-sm text-navy/80 leading-snug mt-1">{title}</p>
+      </figcaption>
+    </figure>
   );
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { SiteHeader } from "@/app/components/SiteHeader";
 
@@ -193,6 +194,58 @@ export default function NinetySeconds() {
         </div>
       </section>
 
+      {/* Receipts */}
+      <section className="bg-navy/[0.04] border-y border-navy/10">
+        <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
+          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
+            Receipts.
+          </h2>
+          <p className="text-lg text-navy/70 mb-12 max-w-2xl">
+            A short tour of the website rebuild, city pages, and the 90Labs
+            sales-enablement workspace.
+          </p>
+
+          <ScreenshotGroup label="Website: before and after">
+            <Screenshot
+              src="/work/90-seconds/website-old.png"
+              alt="The previous 90 Seconds website."
+              caption="Before. The legacy WordPress site I inherited."
+            />
+            <Screenshot
+              src="/work/90-seconds/website-new.png"
+              alt="The new 90 Seconds website."
+              caption="After. React rebuild, vibe-coded with Claude Code and Replit."
+            />
+          </ScreenshotGroup>
+
+          <ScreenshotGroup label="City pages, served from the location framework">
+            <Screenshot
+              src="/work/90-seconds/website-sydney.png"
+              alt="The 90 Seconds Sydney location page."
+              caption="Sydney. One of 90+ location and service pages built out from the framework."
+            />
+            <Screenshot
+              src="/work/90-seconds/website-singapore.png"
+              alt="The 90 Seconds Singapore location page."
+              caption="Singapore. Same framework, market-adapted copy."
+            />
+          </ScreenshotGroup>
+
+          <ScreenshotGroup label="90Labs: Pitch Builder">
+            <Screenshot
+              src="/work/90-seconds/90labs-pitch-builder-home.png"
+              alt="The 90Labs Pitch Builder homepage."
+              caption="Pitch Builder homepage. The marquee tool inside 90Labs."
+            />
+            <Screenshot
+              src="/work/90-seconds/90labs-pitch-builder-action.png"
+              alt="The 90Labs Pitch Builder mid-pitch."
+              caption="Pitch Builder mid-flow. Composing a tailored pitch in minutes, not hours."
+            />
+          </ScreenshotGroup>
+        </div>
+      </section>
+
       {/* Footer nav */}
       <section className="mx-auto max-w-5xl px-6 py-16 text-center">
         <Link
@@ -223,5 +276,49 @@ function Metric({ value, label }: { value: string; label: string }) {
         {label}
       </p>
     </div>
+  );
+}
+
+function ScreenshotGroup({
+  label,
+  children,
+}: {
+  label: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="mb-12 last:mb-0">
+      <p className="text-xs uppercase tracking-wider font-semibold text-crimson mb-4">
+        {label}
+      </p>
+      <div className="grid gap-6 md:grid-cols-2">{children}</div>
+    </div>
+  );
+}
+
+function Screenshot({
+  src,
+  alt,
+  caption,
+}: {
+  src: string;
+  alt: string;
+  caption: string;
+}) {
+  return (
+    <figure>
+      <div className="relative aspect-[16/10] w-full overflow-hidden rounded-lg border border-navy/15 bg-white">
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover object-top"
+        />
+      </div>
+      <figcaption className="text-sm text-navy/70 mt-3 leading-relaxed">
+        {caption}
+      </figcaption>
+    </figure>
   );
 }

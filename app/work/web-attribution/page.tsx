@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { SiteHeader } from "@/app/components/SiteHeader";
 
@@ -142,6 +143,44 @@ export default function WebAttribution() {
         </div>
       </section>
 
+      {/* Receipts */}
+      <section className="bg-navy/[0.04] border-y border-navy/10">
+        <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
+          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
+            Receipts.
+          </h2>
+          <p className="text-lg text-navy/70 mb-12 max-w-2xl">
+            What the attribution stack actually surfaces, end to end.
+          </p>
+
+          <ScreenshotGroup label="GA4: full-funnel visibility">
+            <Screenshot
+              src="/work/web-attribution/ga4-pages-convert.png"
+              alt="GA4 last 28 days, pages that convert."
+              caption="Pages that convert. Which pages are driving form submissions, last 28 days."
+            />
+            <Screenshot
+              src="/work/web-attribution/ga4-traffic-acquisition.png"
+              alt="GA4 last 28 days, traffic acquisition."
+              caption="Traffic acquisition. Channel mix for the same window."
+            />
+          </ScreenshotGroup>
+
+          <ScreenshotGroup label="PostHog and HubSpot: identified all the way through">
+            <Screenshot
+              src="/work/web-attribution/posthog.png"
+              alt="PostHog analytics with identified contacts."
+              caption="PostHog. Every HubSpot form submitter identified end-to-end across sessions."
+            />
+            <Screenshot
+              src="/work/web-attribution/hubspot-sync.png"
+              alt="HubSpot ongoing sync surfacing campaign data on deals."
+              caption="HubSpot. Channel and campaign data flowing onto deals automatically."
+            />
+          </ScreenshotGroup>
+        </div>
+      </section>
+
       {/* Footer nav */}
       <section className="mx-auto max-w-5xl px-6 py-16 text-center">
         <Link
@@ -172,5 +211,49 @@ function Metric({ value, label }: { value: string; label: string }) {
         {label}
       </p>
     </div>
+  );
+}
+
+function ScreenshotGroup({
+  label,
+  children,
+}: {
+  label: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="mb-12 last:mb-0">
+      <p className="text-xs uppercase tracking-wider font-semibold text-crimson mb-4">
+        {label}
+      </p>
+      <div className="grid gap-6 md:grid-cols-2">{children}</div>
+    </div>
+  );
+}
+
+function Screenshot({
+  src,
+  alt,
+  caption,
+}: {
+  src: string;
+  alt: string;
+  caption: string;
+}) {
+  return (
+    <figure>
+      <div className="relative aspect-[16/10] w-full overflow-hidden rounded-lg border border-navy/15 bg-white">
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover object-top"
+        />
+      </div>
+      <figcaption className="text-sm text-navy/70 mt-3 leading-relaxed">
+        {caption}
+      </figcaption>
+    </figure>
   );
 }
