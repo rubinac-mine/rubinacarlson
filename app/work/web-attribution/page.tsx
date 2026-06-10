@@ -141,43 +141,53 @@ export default function WebAttribution() {
             what attribution is supposed to do.
           </p>
         </div>
-      </section>
 
-      {/* Receipts */}
-      <section className="bg-navy/[0.04] border-y border-navy/10">
-        <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
-            Receipts.
-          </h2>
-          <p className="text-lg text-navy/70 mb-12 max-w-2xl">
-            What the attribution stack actually surfaces, end to end.
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mt-16 mb-8">
+          GA4: full-funnel visibility.
+        </h2>
+        <div className="space-y-5 text-lg leading-relaxed text-navy/85 mb-10">
+          <p>
+            GA4 reports now answer the two questions every marketing leader
+            needs to answer in a Monday standup: which pages drive form
+            submissions, and which channels drive the traffic that gets
+            there.
           </p>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2 mb-4">
+          <Screenshot
+            src="/work/web-attribution/ga4-pages-convert.png"
+            alt="GA4 last 28 days, pages that convert."
+            caption="Pages that convert. Which pages are driving form submissions, last 28 days."
+          />
+          <Screenshot
+            src="/work/web-attribution/ga4-traffic-acquisition.png"
+            alt="GA4 last 28 days, traffic acquisition."
+            caption="Traffic acquisition. Channel mix for the same window."
+          />
+        </div>
 
-          <ScreenshotGroup label="GA4: full-funnel visibility">
-            <Screenshot
-              src="/work/web-attribution/ga4-pages-convert.png"
-              alt="GA4 last 28 days, pages that convert."
-              caption="Pages that convert. Which pages are driving form submissions, last 28 days."
-            />
-            <Screenshot
-              src="/work/web-attribution/ga4-traffic-acquisition.png"
-              alt="GA4 last 28 days, traffic acquisition."
-              caption="Traffic acquisition. Channel mix for the same window."
-            />
-          </ScreenshotGroup>
-
-          <ScreenshotGroup label="PostHog and HubSpot: identified all the way through">
-            <Screenshot
-              src="/work/web-attribution/posthog.png"
-              alt="PostHog analytics with identified contacts."
-              caption="PostHog. Every HubSpot form submitter identified end-to-end across sessions."
-            />
-            <Screenshot
-              src="/work/web-attribution/hubspot-sync.png"
-              alt="HubSpot ongoing sync surfacing campaign data on deals."
-              caption="HubSpot. Channel and campaign data flowing onto deals automatically."
-            />
-          </ScreenshotGroup>
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mt-16 mb-8">
+          PostHog and HubSpot: identified end to end.
+        </h2>
+        <div className="space-y-5 text-lg leading-relaxed text-navy/85 mb-10">
+          <p>
+            PostHog now identifies every HubSpot form submitter the moment they
+            convert, with the identity following them across sessions. HubSpot
+            picks up the channel and campaign context on every deal
+            automatically, so attribution shows up where the deals already live.
+          </p>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2">
+          <Screenshot
+            src="/work/web-attribution/posthog.png"
+            alt="PostHog analytics with identified contacts."
+            caption="PostHog. Every HubSpot form submitter identified end-to-end across sessions."
+          />
+          <Screenshot
+            src="/work/web-attribution/hubspot-sync.png"
+            alt="HubSpot ongoing sync surfacing campaign data on deals."
+            caption="HubSpot. Channel and campaign data flowing onto deals automatically."
+          />
         </div>
       </section>
 
@@ -210,23 +220,6 @@ function Metric({ value, label }: { value: string; label: string }) {
       <p className="mt-2 text-sm uppercase tracking-wider text-cream/70">
         {label}
       </p>
-    </div>
-  );
-}
-
-function ScreenshotGroup({
-  label,
-  children,
-}: {
-  label: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="mb-12 last:mb-0">
-      <p className="text-xs uppercase tracking-wider font-semibold text-crimson mb-4">
-        {label}
-      </p>
-      <div className="grid gap-6 md:grid-cols-2">{children}</div>
     </div>
   );
 }

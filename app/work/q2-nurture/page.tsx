@@ -163,14 +163,15 @@ export default function Q2Nurture() {
         </div>
       </section>
 
-      {/* Receipts */}
+      {/* The eight emails */}
       <section className="bg-navy/[0.04] border-y border-navy/10">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-24">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
-            Receipts.
+            The eight emails.
           </h2>
           <p className="text-lg text-navy/70 mb-12 max-w-2xl">
-            The full eight-email Q2 2026 nurture sequence, in order.
+            The full Q2 2026 nurture sequence, in send order. Educational
+            first, then commercial, then proof and close.
           </p>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             <EmailScreenshot

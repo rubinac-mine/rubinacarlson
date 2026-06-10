@@ -98,8 +98,47 @@ export default function NinetySeconds() {
             weeks.
           </p>
         </div>
+        <div className="grid gap-6 md:grid-cols-2 mt-10">
+          <Screenshot
+            src="/work/90-seconds/website-old.png"
+            alt="The previous 90 Seconds website."
+            caption="Before. The legacy WordPress site I inherited."
+          />
+          <Screenshot
+            src="/work/90-seconds/website-new.png"
+            alt="The new 90 Seconds website."
+            caption="After. React rebuild, vibe-coded with Claude Code and Replit."
+          />
+        </div>
 
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mt-16 mb-8">
+          City pages, at scale.
+        </h2>
+        <div className="space-y-5 text-lg leading-relaxed text-navy/85 mb-10">
+          <p>
+            90+ location and service pages now run off a single framework.
+            Sydney and Singapore look the same structurally, with the copy and
+            local proof points adapted to each market. The page model means a
+            new city can ship without a rebuild.
+          </p>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2">
+          <Screenshot
+            src="/work/90-seconds/website-sydney.png"
+            alt="The 90 Seconds Sydney location page."
+            caption="Sydney. One of 90+ location and service pages built out from the framework."
+          />
+          <Screenshot
+            src="/work/90-seconds/website-singapore.png"
+            alt="The 90 Seconds Singapore location page."
+            caption="Singapore. Same framework, market-adapted copy."
+          />
+        </div>
+
+        <h2
+          id="pipeline"
+          className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mt-16 mb-8 scroll-mt-24"
+        >
           Pipeline.
         </h2>
         <div className="space-y-5 text-lg leading-relaxed text-navy/85">
@@ -192,57 +231,29 @@ export default function NinetySeconds() {
             </li>
           </ul>
         </div>
-      </section>
 
-      {/* Receipts */}
-      <section className="bg-navy/[0.04] border-y border-navy/10">
-        <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
-            Receipts.
-          </h2>
-          <p className="text-lg text-navy/70 mb-12 max-w-2xl">
-            A short tour of the website rebuild, city pages, and the 90Labs
-            sales-enablement workspace.
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mt-16 mb-8">
+          90Labs Pitch Builder.
+        </h2>
+        <div className="space-y-5 text-lg leading-relaxed text-navy/85 mb-10">
+          <p>
+            90Labs is a sales-enablement workspace I built in Replit. Pitch
+            Builder is the marquee tool inside it. A rep walks through a short
+            flow and the tool composes a tailored pitch in minutes rather than
+            hours, drawing from a curated asset library.
           </p>
-
-          <ScreenshotGroup label="Website: before and after">
-            <Screenshot
-              src="/work/90-seconds/website-old.png"
-              alt="The previous 90 Seconds website."
-              caption="Before. The legacy WordPress site I inherited."
-            />
-            <Screenshot
-              src="/work/90-seconds/website-new.png"
-              alt="The new 90 Seconds website."
-              caption="After. React rebuild, vibe-coded with Claude Code and Replit."
-            />
-          </ScreenshotGroup>
-
-          <ScreenshotGroup label="City pages, served from the location framework">
-            <Screenshot
-              src="/work/90-seconds/website-sydney.png"
-              alt="The 90 Seconds Sydney location page."
-              caption="Sydney. One of 90+ location and service pages built out from the framework."
-            />
-            <Screenshot
-              src="/work/90-seconds/website-singapore.png"
-              alt="The 90 Seconds Singapore location page."
-              caption="Singapore. Same framework, market-adapted copy."
-            />
-          </ScreenshotGroup>
-
-          <ScreenshotGroup label="90Labs: Pitch Builder">
-            <Screenshot
-              src="/work/90-seconds/90labs-pitch-builder-home.png"
-              alt="The 90Labs Pitch Builder homepage."
-              caption="Pitch Builder homepage. The marquee tool inside 90Labs."
-            />
-            <Screenshot
-              src="/work/90-seconds/90labs-pitch-builder-action.png"
-              alt="The 90Labs Pitch Builder mid-pitch."
-              caption="Pitch Builder mid-flow. Composing a tailored pitch in minutes, not hours."
-            />
-          </ScreenshotGroup>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2">
+          <Screenshot
+            src="/work/90-seconds/90labs-pitch-builder-home.png"
+            alt="The 90Labs Pitch Builder homepage."
+            caption="Pitch Builder homepage. The marquee tool inside 90Labs."
+          />
+          <Screenshot
+            src="/work/90-seconds/90labs-pitch-builder-action.png"
+            alt="The 90Labs Pitch Builder mid-pitch."
+            caption="Pitch Builder mid-flow. Composing a tailored pitch in minutes, not hours."
+          />
         </div>
       </section>
 
@@ -275,23 +286,6 @@ function Metric({ value, label }: { value: string; label: string }) {
       <p className="mt-2 text-sm uppercase tracking-wider text-cream/70">
         {label}
       </p>
-    </div>
-  );
-}
-
-function ScreenshotGroup({
-  label,
-  children,
-}: {
-  label: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="mb-12 last:mb-0">
-      <p className="text-xs uppercase tracking-wider font-semibold text-crimson mb-4">
-        {label}
-      </p>
-      <div className="grid gap-6 md:grid-cols-2">{children}</div>
     </div>
   );
 }

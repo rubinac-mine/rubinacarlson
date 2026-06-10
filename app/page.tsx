@@ -110,12 +110,14 @@ export default function Home() {
             title="Building AI tools at 90 Seconds"
             role="Head of Marketing · 2024 – present"
             body="Built 90Labs, a sales-enablement workspace hosting 29+ assets and a Pitch Builder used daily by the global sales team. Helping build out the GTM OS, our internal operations platform, alongside our VP of Product."
+            href="/work/90-seconds"
             accent="soft-blue"
           />
           <ProofCard
             title="$5M pipeline at 90 Seconds"
             role="Head of Marketing · 2024 – 2026"
             body="$5M in pipeline opportunities through inbound lead generation and performance optimisation across HubSpot, paid, and content."
+            href="/work/90-seconds#pipeline"
           />
           <ProofCard
             title="K-TIG, Refuel Creative"
