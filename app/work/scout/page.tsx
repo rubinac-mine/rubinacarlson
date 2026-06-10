@@ -122,72 +122,80 @@ export default function Scout() {
         </div>
 
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mt-16 mb-8">
-          The outcome.
+          Setup.
         </h2>
-        <div className="space-y-5 text-lg leading-relaxed text-navy/85">
+        <div className="space-y-5 text-lg leading-relaxed text-navy/85 mb-10">
           <p>
-            Scout launched site-wide on 90seconds.com in June 2026. It handles
-            incoming customer queries in brand voice without a human in the loop
-            It hands off clearly when the conversation needs one.
+            Identity, knowledge and guardrails are the three configuration
+            screens that determine whether the agent reads as on-brand and
+            in-bounds. I wrote each one from scratch, grounded in the 90
+            Seconds voice guide and the brand glossary.
           </p>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2 mb-4">
+          <Screenshot
+            src="/work/scout/setup-identity.png"
+            alt="Scout identity setup in HubSpot Customer Agent."
+            caption="Identity. Persona, tone and naming, all locked to the 90 Seconds voice guide."
+          />
+          <Screenshot
+            src="/work/scout/setup-knowledge.png"
+            alt="Scout knowledge setup in HubSpot Customer Agent."
+            caption="Knowledge. Curated sources Scout is allowed to draw from. Nothing else."
+          />
+        </div>
+
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mt-16 mb-8">
+          In action.
+        </h2>
+        <div className="space-y-5 text-lg leading-relaxed text-navy/85 mb-10">
           <p>
-            The guardrail design means it cannot overpromise on pricing or
+            Scout launched site-wide on 90seconds.com in June 2026. It opens
+            with warmth, not corporate hedging. It answers questions in brand
+            voice, inside the guardrails. It hands off clearly when the
+            conversation needs a human.
+          </p>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2 mb-4">
+          <Screenshot
+            src="/work/scout/chat-welcome.png"
+            alt="Scout chat welcome message on 90seconds.com."
+            caption="The opener. Warm, direct, no corporate hedging."
+          />
+          <Screenshot
+            src="/work/scout/chat-qa.png"
+            alt="Scout answering a customer question on 90seconds.com."
+            caption="A live question and answer. In brand voice, inside the guardrails."
+          />
+        </div>
+
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mt-16 mb-8">
+          Results.
+        </h2>
+        <div className="space-y-5 text-lg leading-relaxed text-navy/85 mb-10">
+          <p>
+            The guardrail design means Scout cannot overpromise on pricing or
             delivery, which is the most common failure mode for B2B chat
             agents in our category. The version-controlled config means any
             update goes through a proper review, not a quiet settings change.
           </p>
-        </div>
-      </section>
-
-      {/* Receipts */}
-      <section className="bg-navy/[0.04] border-y border-navy/10">
-        <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
-            Receipts.
-          </h2>
-          <p className="text-lg text-navy/70 mb-12 max-w-2xl">
-            A short tour of the Scout configuration, the live chat, and the
-            reports that show it working.
+          <p>
+            The reports below show deflection (conversations Scout handles
+            without a human) and handle rate (reliability across the full
+            conversation volume).
           </p>
-
-          <ScreenshotGroup label="Setup">
-            <Screenshot
-              src="/work/scout/setup-identity.png"
-              alt="Scout identity setup in HubSpot Customer Agent."
-              caption="Identity. Persona, tone and naming, all locked to the 90 Seconds voice guide."
-            />
-            <Screenshot
-              src="/work/scout/setup-knowledge.png"
-              alt="Scout knowledge setup in HubSpot Customer Agent."
-              caption="Knowledge. Curated sources Scout is allowed to draw from. Nothing else."
-            />
-          </ScreenshotGroup>
-
-          <ScreenshotGroup label="In action">
-            <Screenshot
-              src="/work/scout/chat-welcome.png"
-              alt="Scout chat welcome message on 90seconds.com."
-              caption="The opener. Warm, direct, no corporate hedging."
-            />
-            <Screenshot
-              src="/work/scout/chat-qa.png"
-              alt="Scout answering a customer question on 90seconds.com."
-              caption="A live question and answer. In brand voice, inside the guardrails."
-            />
-          </ScreenshotGroup>
-
-          <ScreenshotGroup label="Results">
-            <Screenshot
-              src="/work/scout/report-deflection.png"
-              alt="Scout deflection over time report."
-              caption="Deflection over time. Conversations Scout handles without a human."
-            />
-            <Screenshot
-              src="/work/scout/report-handle-rate.png"
-              alt="Scout handle rate report."
-              caption="Handle rate. Reliability across the full conversation volume."
-            />
-          </ScreenshotGroup>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2">
+          <Screenshot
+            src="/work/scout/report-deflection.png"
+            alt="Scout deflection over time report."
+            caption="Deflection over time. Conversations Scout handles without a human."
+          />
+          <Screenshot
+            src="/work/scout/report-handle-rate.png"
+            alt="Scout handle rate report."
+            caption="Handle rate. Reliability across the full conversation volume."
+          />
         </div>
       </section>
 
@@ -220,23 +228,6 @@ function Metric({ value, label }: { value: string; label: string }) {
       <p className="mt-2 text-sm uppercase tracking-wider text-cream/70">
         {label}
       </p>
-    </div>
-  );
-}
-
-function ScreenshotGroup({
-  label,
-  children,
-}: {
-  label: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="mb-12 last:mb-0">
-      <p className="text-xs uppercase tracking-wider font-semibold text-crimson mb-4">
-        {label}
-      </p>
-      <div className="grid gap-6 md:grid-cols-2">{children}</div>
     </div>
   );
 }
