@@ -250,6 +250,50 @@ export default function BDOPage() {
         </div>
       </section>
 
+      {/* Section 4.5 — From the work */}
+      <section className="mx-auto max-w-6xl px-6 py-20 sm:py-24">
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
+          From the work.
+        </h2>
+        <p className="text-lg text-navy/70 mb-14 max-w-2xl">
+          A short visual tour of what I have shipped at 90 Seconds in the past
+          year, plus the marketing community I have built in Adelaide over a
+          decade.
+        </p>
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <Shot
+            src="/work/90-seconds/website-new.png"
+            alt="The new 90 Seconds website, rebuilt in 2026."
+            caption="The new 90 Seconds website. Rebuilt with Claude Code and Replit, with 300+ legacy pages migrated via Anthropic-API agents."
+          />
+          <Shot
+            src="/work/90-seconds/90labs-pitch-builder-home.png"
+            alt="The 90Labs Pitch Builder homepage."
+            caption="90Labs Pitch Builder. A sales-enablement tool I built in Replit, now in beta with the global sales team."
+          />
+          <Shot
+            src="/work/scout/chat-welcome.png"
+            alt="The HubSpot Customer Agent live on the 90 Seconds website."
+            caption="HubSpot Customer Agent, live on 90seconds.com. Configured end to end: tone of voice, scripted answers, guardrails."
+          />
+          <Shot
+            src="/work/web-attribution/hubspot-sync.png"
+            alt="HubSpot lifecycle sync from the 90 Seconds web stack."
+            caption="Full-funnel web attribution. GTM, GA4, PostHog and HubSpot wired together so every visitor is tracked from first touch to CRM."
+          />
+          <Shot
+            src="/work/digital-adelaide/crowd-oval.webp"
+            alt="Digital Adelaide attendees at Adelaide Oval."
+            caption="Digital Adelaide at Adelaide Oval. The marketing conference I have grown from 40 to 270+ delegates as a Director over nine years."
+          />
+          <Shot
+            src="/work/q2-nurture/email-01.png"
+            alt="A Q2 nurture email designed for 90 Seconds enterprise marketing buyers."
+            caption="Q2 nurture programme for enterprise marketing leaders. Eight fortnightly emails, HubSpot workflows, Tier-0 targeting and suppression."
+          />
+        </div>
+      </section>
+
       {/* Section 5 — Credentials strip */}
       <section className="mx-auto max-w-5xl px-6 py-16 sm:py-20">
         <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-5 text-sm text-navy/85">
@@ -436,5 +480,32 @@ function DayBlock({
 function Credential({ text }: { text: string }) {
   return (
     <li className="border-l-2 border-crimson pl-4 leading-snug">{text}</li>
+  );
+}
+
+function Shot({
+  src,
+  alt,
+  caption,
+}: {
+  src: string;
+  alt: string;
+  caption: string;
+}) {
+  return (
+    <figure className="border border-navy/10 bg-cream rounded-lg overflow-hidden">
+      <div className="relative w-full aspect-[16/10] bg-navy/5">
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className="object-cover object-top"
+        />
+      </div>
+      <figcaption className="px-5 py-4 text-sm text-navy/80 leading-snug">
+        {caption}
+      </figcaption>
+    </figure>
   );
 }
