@@ -90,11 +90,11 @@ export default function BDOPage() {
           </h2>
           <div className="space-y-6 text-lg leading-relaxed text-navy/85">
             <p>
-              The Manager, Digital Marketing role reads like a clean match to
-              what I do today. Own the digital strategy across social, website,
-              email and paid. Run the lead generation engine on HubSpot. Coach a
-              small team of specialists. Report performance into the leadership
-              table.
+              The Manager, Digital Marketing role appeals to me because it
+              would enable me to own the digital strategy across social,
+              website, email and paid, run the lead generation engine on
+              HubSpot, coach a small team of specialists and report
+              performance into leadership.
             </p>
             <p>
               The professional services buyer is familiar territory. At Refuel
