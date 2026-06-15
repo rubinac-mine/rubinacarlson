@@ -48,11 +48,15 @@ export default function BDOPage() {
               </span>
             </p>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-navy/80">
-              $5M in opportunities at 90 Seconds since June 2024 across
-              inbound, paid, content, ABM and lifecycle. 172% lead lift for an industrial B2B
-              client through a HubSpot rebuild that won the 2023 HubSpot Impact Award. 82x ROAS
-              on a Google Search Ads campaign at Refuel Creative. Ten years building Digital
-              Adelaide from 40 marketers to over 270 delegates.
+              Since joining 90 Seconds I have generated $5M in opportunities
+              across inbound, paid, content, ABM and lifecycle. Before that I
+              led a four-person team at Refuel Creative to a HubSpot Impact
+              Award for Platform Excellence (172% lead lift) and an 82x ROAS
+              Google Search campaign worth roughly $410,000 in revenue. For
+              the past ten years I have also served as a Director of Digital
+              Adelaide, growing it from a 40-person meetup into South
+              Australia&apos;s largest marketing conference with over 270
+              delegates.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
@@ -118,89 +122,129 @@ export default function BDOPage() {
       {/* Section 3 — Three pillars */}
       <section className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-14 max-w-2xl">
-          Three reasons I am the right Manager, Digital Marketing.
+          What I would bring to the BDO marketing function.
         </h2>
         <div className="grid gap-12 md:grid-cols-3">
           <div>
             <h3 className="text-xl font-semibold mb-3 text-navy">
-              HubSpot at award depth.
+              Award-winning HubSpot Expert.
             </h3>
             <p className="text-navy/80 leading-relaxed">
-              Two-time HubSpot Impact Award winner. The 2023 award for Platform
-              Excellence came from a K-TIG rebuild that lifted leads 172% within
-              three months, with 307 custom reports across 17 dashboards. The
-              2020 award for Grow Better Sales came from a SaaS startup nurture
-              programme that delivered a 445% subscription increase. Marketing
-              automation is the spine of how I run a digital function.
+              HubSpot is the spine of how I run a digital marketing function,
+              and I know it end to end. I have won two HubSpot Impact Awards:
+              Platform Excellence in 2023 for the K-TIG rebuild that lifted
+              leads by 172% within three months, and Grow Better Sales in 2020
+              for a SaaS startup nurture programme that drove a 445%
+              subscription increase. At 90 Seconds the same HubSpot muscle now
+              sits behind the $5M pipeline number, with the Customer Agent
+              configured to handle inbound queries as a first touch.
             </p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-3 text-navy">
-              Paid performance, owned end to end.
+              Proven Paid Performance Manager.
             </h3>
             <p className="text-navy/80 leading-relaxed">
-              82x ROAS on a Google Search Ads campaign for a national hostel
-              chain at Refuel. 3.8x over MQL target on an executive-audience
-              programme at the University of South Australia. 500,000+ app
-              installs across six countries for a UK mobile game developer at a
-              20% reduced CPI. Multi-channel budgets above $900K, owned end to
-              end, year on year.
+              I have managed multi-channel paid budgets above $900K year on
+              year and I know what a good return looks like in the numbers and
+              in the daily pacing. For a national hostel chain at Refuel I
+              delivered an 82x ROAS on Google Search Ads, approximately
+              $410,000 in revenue from a single campaign. For an executive
+              growth programme at the University of South Australia I exceeded
+              the MQL target by 3.8x, and for a UK mobile game developer I
+              helped acquire 500,000+ users across six countries at a 20%
+              reduced CPI.
             </p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-3 text-navy">
-              AI-builder modern toolkit.
+              Innovative AI Builder.
             </h3>
             <p className="text-navy/80 leading-relaxed">
-              Two years building practical AI tooling with Replit, Claude Code
-              and the Anthropic API. HubSpot Customer Agent in production at 90
-              Seconds. 300+ page website migration via Anthropic-API agents.
-              I market AI-enabled products today and I build with AI every day.
-              Useful muscle for a function that wants to keep its toolkit modern.
+              Beyond running the marketing function, I have spent the past two
+              years building practical AI tooling with Replit, Claude Code and
+              the Anthropic API. I configured the HubSpot Customer Agent at 90
+              Seconds, led a 300+ page website migration using Anthropic-API
+              agents, and built 90Labs, a sales-enablement workspace now in
+              beta with the global sales team. I market AI-enabled products
+              today and I build with AI every day. For a firm whose clients
+              are weighing how AI changes their function, that double fluency
+              is genuinely useful.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Section 4 — Selected receipts */}
+      {/* Section 3.5 — 90-day plan */}
+      <section className="bg-cream-light border-y border-navy/10">
+        <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
+          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
+            What the first 90 days could look like.
+          </h2>
+          <p className="text-lg text-navy/70 mb-14 max-w-2xl">
+            Written before knowing the internal context. Treat as direction,
+            not commitment.
+          </p>
+          <div className="grid gap-12 md:grid-cols-3">
+            <DayBlock
+              range="Days 1 to 30"
+              heading="Listen and learn."
+              body="Spend the first month with the digital team, the marketing leadership, and the partners across the advisory practices who own the growth priorities I am here to support. Audit the current HubSpot setup, the live paid campaigns, the channel performance and the reporting cadence into leadership. Listen carefully to what is already working, what has drifted, and where the team is feeling the friction. The first month is about earning context, not making changes."
+            />
+            <DayBlock
+              range="Days 31 to 60"
+              heading="Shape three plays."
+              body="Pick three digital plays that compound. My first guesses, subject to what the inventory reveals: a HubSpot lifecycle rebuild for the highest-value demand pathway, a paid performance audit and pacing reset across the largest budget lines, and an account-based motion targeting the CFO and CEO audiences BDO advises. Each play stands up with a clean measurement frame against pipeline contribution."
+            />
+            <DayBlock
+              range="Days 61 to 90"
+              heading="Ship and report."
+              body="First HubSpot lifecycle build live. First paid optimisation cycle reported with before-and-after metrics. First account-based cohort in flight against a defined target list. First clean performance read into the marketing leadership meeting, with sourced and influenced pipeline broken out. Lessons documented for the next quarter."
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Section 4 — My Best Results */}
       <section className="bg-navy text-cream">
         <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-3">
-            Selected receipts.
+            My Best Results.
           </h2>
           <p className="text-lg text-cream/70 mb-14 max-w-2xl">
-            A short tour of the work behind the numbers.
+            I&apos;m proud of these achievements. Results that genuinely moved
+            the needle.
           </p>
           <div className="grid gap-6 md:grid-cols-2">
             <ReceiptCard
-              title="$5M in opportunities at 90 Seconds"
-              tagline="Inbound, paid, content, ABM and lifecycle. Since June 2024."
-              body="Total marketing pipeline sourced and influenced into a complex enterprise sales motion. Reported into the leadership team each cycle."
+              title="From zero to $5M in pipeline at 90 Seconds"
+              tagline="Built a global demand engine in eighteen months."
+              body="When I joined 90 Seconds, the marketing function had to rebuild the demand engine from scratch. Eighteen months later, $5M in opportunities sourced and influenced across inbound, paid, content, ABM and lifecycle, feeding a complex enterprise sales motion. The number is reported into the leadership team every cycle. Credit belongs to a small team punching above its weight."
             />
             <ReceiptCard
               title="172% lead lift for K-TIG"
               tagline="HubSpot Impact Award, Platform Excellence, 2023."
-              body="Shaped a full HubSpot rebuild across Marketing, Sales, Service and CMS Hubs for an industrial B2B SaaS client. 307 granular custom reports across 17 dashboards."
+              body="K-TIG sell advanced TIG welding technology to a global industrial buyer. The HubSpot rebuild had to handle Marketing, Sales, Service and CMS in one connected system, with 307 custom reports across 17 dashboards. Three months after launch, leads were up 172%. HubSpot named it Platform Excellence at the 2023 Impact Awards."
             />
             <ReceiptCard
               title="82x ROAS for a national hostel chain"
-              tagline="Google Search Ads, approx $410K in revenue."
-              body="B2C paid performance campaign at Refuel Creative. Built and tuned by the team I led, with clean reporting into a weekly client review."
+              tagline="Paid search treated as a craft worth honing."
+              body="Tight audience work, ruthless keyword pruning and weekly creative iteration delivered an 82x return on ad spend on Google Search Ads. Approximately $410,000 in attributable revenue from a single campaign, built and tuned by the team I led at Refuel Creative with clean reporting into a weekly client review."
             />
             <ReceiptCard
               title="NPS from -50 to +10 for SeaLink Bruny Island"
               tagline="A community-led launch in 2018."
-              body="Acted as official spokesperson in local Facebook groups. Stood up the website, the email programme and the social presence in parallel. Trust earned, not bought."
+              body="In 2018 SeaLink entered the Bruny Island market against a local community that had been vocal in its objections. I stood up the website, the email programme and the social presence in parallel, and acted as official spokesperson in local Facebook groups, answering every question that came in. Six months later, NPS had moved from -50 to +10. Trust earned, not bought."
             />
             <ReceiptCard
-              title="300+ page website migration"
-              tagline="AI-scored inventory and an automated migrator."
-              body="Led the 2026 90 Seconds website rebuild. Used Anthropic-API agents to crawl, classify, score and migrate. Compressed a multi-month migration into a few weeks."
+              title="300+ page website migration in weeks"
+              tagline="AI-scored inventory and Anthropic-API agents."
+              body="The 2026 90 Seconds website rebuild had 300+ legacy pages to migrate. The conventional path would have taken months. I built a fleet of Anthropic-API agents to crawl, classify, score and migrate the content automatically, with an AI-scored inventory guiding what stayed, what merged and what dropped. A multi-month migration compressed into a few weeks."
             />
             <ReceiptCard
-              title="Digital Adelaide from 40 to 270 delegates"
-              tagline="South Australia's largest marketing conference."
-              body="Nine years as a Director. Speaker programmes, national partners, COVID-19 pivot to virtual. The community-builder muscle behind every other number on this page."
+              title="Digital Adelaide, 40 to 270 delegates"
+              tagline="Nine years building South Australia&apos;s biggest marketing conference."
+              body="I took on Digital Adelaide (then Social Media Day Adelaide) as a small community event for 40 marketers. Nine years later, it is South Australia&apos;s largest marketing conference, with over 270 delegates and a national speaker roster, hosted by three directors who run it on top of their day jobs. The community-builder muscle behind every other number on this page."
             />
           </div>
         </div>
@@ -217,87 +261,86 @@ export default function BDOPage() {
         </ul>
       </section>
 
-      {/* Section 6 — The full pitch */}
+      {/* Section 6 — My full pitch */}
       <section className="bg-cream-light border-y border-navy/10">
         <div className="mx-auto max-w-3xl px-6 py-20 sm:py-24">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-12">
-            The full pitch.
+            My full pitch.
           </h2>
           <div className="space-y-6 text-lg leading-relaxed text-navy/85">
             <p>
-              15+ years of marketing experience. Certified Practising Marketer.
-              Today Head of Marketing at 90 Seconds, a global B2B video creation
-              platform. I lead the global marketing function from APAC. Two
-              direct reports in the region. Daily collaboration with sales and
-              marketing counterparts across the US, UK and EMEA. Since June 2024
-              I have generated $5M in opportunities through inbound, paid,
-              content, ABM and lifecycle programmes.
-            </p>
-
-            <h3 className="text-2xl font-semibold text-navy pt-4">
-              HubSpot at the spine.
-            </h3>
-            <p>
-              HubSpot is where my marketing automation reps have been done. The
-              K-TIG rebuild at Refuel won the 2023 HubSpot Impact Award for
-              Platform Excellence: 172% lift in leads within three months and
-              307 granular custom reports across 17 dashboards. The FlatRateNOW
-              work won the 2020 HubSpot Impact Award for Grow Better Sales:
-              445% subscription increase, plus a re-engagement workflow that
-              brought 1,000 inactive SaaS subscribers back at a 20% trial lift.
-              At 90 Seconds the same muscle now sits behind the $5M pipeline
-              number, with the HubSpot Customer Agent configured to handle
-              inbound queries with AI as a first touch.
-            </p>
-
-            <h3 className="text-2xl font-semibold text-navy pt-4">
-              Paid performance, owned end to end.
-            </h3>
-            <p>
-              82x ROAS on a Google Search Ads campaign for a national hostel
-              chain, approximately $410,000 in revenue. 3.8x over MQL target on
-              an executive growth programme at the University of South
-              Australia. 500,000+ app installs across six countries for a UK
-              mobile game developer at a 20% reduced CPI. Multi-channel budgets
-              above $900K at Refuel, with paid pacing, attribution and ROAS
-              reporting baked into the weekly cadence.
-            </p>
-
-            <h3 className="text-2xl font-semibold text-navy pt-4">
-              Team leadership, player-coach mode.
-            </h3>
-            <p>
-              4 direct reports at Refuel across creative, paid and content
-              specialists, with multi-million-dollar client portfolios on each.
-              2 direct reports at 90 Seconds today, supporting a global
-              business. Player-coach is the mode I already work in: brief
-              writing, coaching, capacity planning, quality oversight, and
-              still hands-on in the work that matters.
-            </p>
-
-            <h3 className="text-2xl font-semibold text-navy pt-4">
-              AI-builder modern toolkit.
-            </h3>
-            <p>
-              Beyond running the marketing function I have spent the past two
-              years building practical AI tooling with Replit, Claude Code and
-              the Anthropic API. Working with our VP of Product (who owned the
-              engineering) I contributed to an internal GTM operations platform
-              that integrates HubSpot CRM and SEMrush data to automate market
-              mapping and content coverage analysis. I built 90Labs, a
-              sales-enablement workspace hosting 29+ assets, with a Pitch
-              Builder now in beta rollout to the global sales team. I led the
-              300+ page website migration using an AI-scored inventory on the
-              Anthropic API. My lane is problem framing and rapid prototyping
-              with AI, not deep engineering. BDO sells advisory craft to
-              clients who are weighing how AI changes their function. The
-              modern toolkit is in the kit.
+              I&apos;m a Certified Practising Marketer with 15+ years of
+              marketing experience across B2B SaaS, professional services,
+              tourism and higher education. Today I&apos;m Head of Marketing at
+              90 Seconds, a global B2B video creation platform. I lead the
+              global marketing function from APAC, with two direct reports in
+              the region and daily partnership with sales and marketing
+              counterparts across the US, UK and EMEA. Since June 2024 I have
+              generated $5M in opportunities through inbound, paid, content,
+              ABM and lifecycle programmes feeding a complex enterprise sales
+              motion.
             </p>
 
             <p>
-              Adelaide-based. Australian citizen. Happy to travel for the
-              moments that matter. I would welcome a conversation about the
-              first 90 days of the BDO digital plan.
+              Before 90 Seconds I spent three years as Digital Marketing
+              Manager at Refuel Creative, leading a team of four through
+              multi-channel work for B2B and B2C clients across government,
+              defence, aged care, disability, higher education and SaaS
+              sectors. That period delivered two HubSpot Impact Awards:
+              Platform Excellence in 2023 for the K-TIG rebuild that lifted
+              leads 172%, and Grow Better Sales in 2020 for a SaaS startup
+              nurture programme that drove a 445% subscription increase. It
+              also delivered the kind of paid performance numbers that
+              don&apos;t happen by accident: an 82x ROAS on a Google Search
+              Ads campaign worth roughly $410,000 in revenue, 3.8x over MQL
+              target on an executive-audience programme at the University of
+              South Australia, and 500,000+ app installs across six countries
+              for a UK mobile game developer at a 20% reduced CPI.
+            </p>
+
+            <p>
+              Refuel itself made the BDO Fast Movers List in 2022. Working
+              inside an agency that BDO had recognised gave me a useful read
+              on what the firm values: growth fundamentals, commercial
+              discipline, and the kind of operators who can move quickly
+              without breaking things.
+            </p>
+
+            <p>
+              For the past two years I have also been building practical AI
+              tooling alongside the day-to-day marketing function. Working
+              with our VP of Product (who owned the engineering), I helped
+              architect an internal GTM operations platform that integrates
+              HubSpot CRM and SEMrush data to automate market mapping and
+              content coverage analysis. I built 90Labs, a sales-enablement
+              workspace hosting 29+ assets, with a Pitch Builder now in beta
+              with the global sales team. I led the 300+ page website
+              migration using Anthropic-API agents. I configured the HubSpot
+              Customer Agent so inbound queries are now handled with AI as a
+              first touch. My lane is problem framing and rapid prototyping
+              with AI, not deep engineering. BDO is advising clients who are
+              weighing how AI changes their business. The double fluency,
+              marketing AI-enabled products and building with AI daily, is
+              genuinely useful for a marketing team supporting that
+              conversation.
+            </p>
+
+            <p>
+              On team leadership: player-coach is the mode I already work in.
+              I had four direct reports at Refuel across creative, paid and
+              content specialists, each running multi-million-dollar client
+              portfolios. I have two direct reports at 90 Seconds today,
+              supporting a global business. Brief writing, coaching, capacity
+              planning, quality oversight, and still hands-on in the work
+              that matters. It is the mode this role calls for and the mode
+              I am most useful in.
+            </p>
+
+            <p>
+              I&apos;m Adelaide-based and an Australian citizen. I&apos;m happy
+              to travel for the moments that matter. I would welcome the
+              chance to talk through what the first 90 days of the BDO
+              digital plan could look like in practice.
             </p>
           </div>
         </div>
@@ -366,6 +409,26 @@ function ReceiptCard({
       <h3 className="text-xl font-semibold mb-2 text-cream">{title}</h3>
       <p className="text-crimson-light italic mb-4">{tagline}</p>
       <p className="text-cream/85 leading-relaxed">{body}</p>
+    </div>
+  );
+}
+
+function DayBlock({
+  range,
+  heading,
+  body,
+}: {
+  range: string;
+  heading: string;
+  body: string;
+}) {
+  return (
+    <div>
+      <p className="text-crimson font-semibold tracking-wide uppercase text-xs mb-3">
+        {range}
+      </p>
+      <h3 className="text-xl font-semibold mb-4 text-navy">{heading}</h3>
+      <p className="text-navy/85 leading-relaxed">{body}</p>
     </div>
   );
 }
