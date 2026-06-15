@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "For BDO. Rubina Carlson.",
+  title: "Rubina Carlson — your next Manager, Digital Marketing at BDO.",
   description:
-    "Rubina Carlson in the Manager, Digital Marketing seat at BDO. A two-time HubSpot Impact Award winner with paid performance depth and a modern AI-builder toolkit.",
+    "Rubina Carlson, your next Manager, Digital Marketing at BDO. A two-time HubSpot Impact Award winner who has spent fifteen years inside the professional-services buyer mindset.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -38,13 +38,14 @@ export default function BDOPage() {
         <div className="grid gap-12 sm:gap-16 md:grid-cols-[1fr_auto] md:items-start">
           <div>
             <h1 className="text-6xl sm:text-8xl lg:text-9xl font-bold tracking-tight leading-[0.95] text-navy">
-              For BDO.
+              Rubina Carlson.
             </h1>
             <p className="mt-8 text-2xl sm:text-3xl leading-snug text-navy">
-              Rubina Carlson in the Manager, Digital Marketing seat.
+              Your next Manager, Digital Marketing at BDO.
               <br />
               <span className="text-navy/70">
-                A two-time HubSpot Impact Award winner with paid performance depth and a modern AI-builder toolkit.
+                A two-time HubSpot Impact Award winner who has spent fifteen
+                years inside the professional-services buyer mindset.
               </span>
             </p>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-navy/80">
