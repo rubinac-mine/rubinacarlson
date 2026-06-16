@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "For Canva. Rubina Carlson.",
+  title: "Rubina Carlson — your next Senior B2B PMM, Vertical Strategy at Canva.",
   description:
-    "Rubina Carlson in the Senior B2B Product Marketing Manager, Vertical Strategy seat at Canva. A vertical GTM strategist with direct credibility across all three of Canva's target verticals (Higher Education, Real Estate, Government) plus AI-builder credentials.",
+    "Rubina Carlson, your next Senior B2B PMM, Vertical Strategy at Canva. I have lived inside all three of the verticals this role owns: Higher Education, Real Estate and Government.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -38,10 +38,10 @@ export default function CanvaPage() {
         <div className="grid gap-12 sm:gap-16 md:grid-cols-[1fr_auto] md:items-start">
           <div>
             <h1 className="text-6xl sm:text-8xl lg:text-9xl font-bold tracking-tight leading-[0.95] text-navy">
-              For Canva.
+              Rubina Carlson.
             </h1>
             <p className="mt-8 text-2xl sm:text-3xl leading-snug text-navy">
-              Rubina Carlson in the Senior B2B PMM, Vertical Strategy seat.
+              Your next Senior B2B PMM, Vertical Strategy at Canva.
               <br />
               <span className="text-navy/70">
                 I have lived inside all three of the verticals this role
