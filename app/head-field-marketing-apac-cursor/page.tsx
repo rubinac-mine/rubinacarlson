@@ -4,7 +4,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Rubina Carlson — your next Head of Field Marketing, APAC at Cursor.",
   description:
-    "Rubina Carlson, your next Head of Field Marketing, APAC at Cursor. A marketer who builds with AI daily and has run South Australia's largest marketing conference for the past nine years.",
+    "Rubina Carlson, your next Head of Field Marketing, APAC at Cursor. A player-coach who builds with AI daily, grew her last team from two to four with two HubSpot Impact Awards behind them, and has run South Australia's largest marketing conference for the past nine years.",
 };
 
 const EMAIL = "rubina.carlson@gmail.com";
@@ -44,7 +44,7 @@ export default function CursorPage() {
               Your next Head of Field Marketing, APAC at Cursor.
               <br />
               <span className="text-navy/70">
-                A marketer who builds with AI daily and has run South
+                A player-coach who builds with AI daily and has run South
                 Australia&apos;s largest marketing conference for the past
                 nine years.
               </span>
@@ -52,11 +52,12 @@ export default function CursorPage() {
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-navy/80">
               I market AI-enabled products today and I build with AI every
               day. Two years deep in Replit, Claude Code and the Anthropic
-              API. Nine years as a Director of Digital Adelaide, grown from
-              40 marketers to over 270 delegates. APAC marketing leader at
-              90 Seconds with $5M in opportunities generated since June
-              2024. The stack Cursor sells to is the stack I already live
-              in.
+              API. Grew my last team from two direct reports to four with
+              two HubSpot Impact Awards behind us. Nine years as a
+              Director of Digital Adelaide, grown from 40 marketers to
+              over 270 delegates. APAC marketing leader at 90 Seconds with
+              $5M in opportunities generated since June 2024. The stack
+              Cursor sells to is the stack I already live in.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
@@ -131,19 +132,18 @@ export default function CursorPage() {
         <div className="grid gap-12 md:grid-cols-3">
           <div>
             <h3 className="text-xl font-semibold mb-3 text-navy">
-              AI Builder, Hands-on.
+              Team Builder, Player-Coach.
             </h3>
             <p className="text-navy/80 leading-relaxed">
-              Two years building practical AI tooling with Replit, Claude
-              Code and the Anthropic API. HubSpot Customer Agent
-              configured at 90 Seconds, now handling inbound customer
-              service queries with AI as a first touch. 300+ page website
-              migration via Anthropic-API agents that crawled, classified,
-              scored and migrated content automatically. 90Labs
-              sales-enablement workspace built solo in Replit, with a
-              Pitch Builder in beta rollout with the global sales team.
-              GTM OS internal platform built in partnership with our VP of
-              Product.
+              Grew the marketing team at Refuel Creative from two direct
+              reports to four over 18 months. Hired and onboarded
+              specialists across paid, content and creative. The team
+              went on to win two HubSpot Impact Awards together (2020 and
+              2023). At 90 Seconds today I lead two direct reports in
+              APAC inside the global function. Seven years lecturing at
+              TAFE SA and UniSA Creative. Industry Advisory Panel member,
+              UniSA School of Communication. Player-coach has been the
+              mode I work in for a decade.
             </p>
           </div>
           <div>
@@ -164,16 +164,17 @@ export default function CursorPage() {
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-3 text-navy">
-              APAC Regional Leader.
+              AI Builder, Hands-on.
             </h3>
             <p className="text-navy/80 leading-relaxed">
-              Lead the global marketing function from APAC at 90 Seconds.
-              Two direct reports in the region. Daily partnership with
-              sales and marketing counterparts across US, UK and EMEA.
-              Comfortable being the marketing lead in a region, owning
-              pipeline accountability, adapting global campaigns for the
-              market and standing up the field and ABM motion from first
-              principles.
+              Two years building practical AI tooling with Replit, Claude
+              Code and the Anthropic API. HubSpot Customer Agent
+              configured at 90 Seconds, now handling inbound customer
+              service queries with AI as a first touch. 300+ page website
+              migration via Anthropic-API agents. 90Labs sales-enablement
+              workspace built solo in Replit, with a Pitch Builder in
+              beta rollout with the global sales team. GTM OS internal
+              platform built in partnership with our VP of Product.
             </p>
           </div>
         </div>
@@ -241,9 +242,9 @@ export default function CursorPage() {
               body="K-TIG sell advanced TIG welding technology to a global industrial buyer. The HubSpot rebuild had to handle Marketing, Sales, Service and CMS in one connected system, with 307 custom reports across 17 dashboards. Three months after launch, leads were up 172%. HubSpot named it Platform Excellence at the 2023 Impact Awards."
             />
             <ReceiptCard
-              title="82x ROAS for a national hostel chain"
-              tagline="Paid search treated as a craft worth honing."
-              body="Tight audience work, ruthless keyword pruning and weekly creative iteration delivered an 82x return on ad spend on Google Search Ads. Approximately $410,000 in attributable revenue from a single campaign, built and tuned by the team I led at Refuel Creative with clean reporting into a weekly client review."
+              title="Grew the Refuel team from two to four"
+              tagline="Player-coach across paid, content and creative."
+              body="Over 18 months at Refuel Creative I hired and onboarded specialists across paid media, content and creative, doubling the team. Each ran a multi-million-dollar client portfolio under briefing, coaching and capacity-planning support from me. The team went on to win two HubSpot Impact Awards together (Grow Better Sales 2020, Platform Excellence 2023). Refuel made the BDO Fast Movers List in 2022 with that team in place."
             />
             <ReceiptCard
               title="3.8x over MQL target for UniSA execs"
@@ -330,7 +331,62 @@ export default function CursorPage() {
             </p>
 
             <p>
-              Three parts of my work map straight onto the Cursor brief.
+              Four parts of my work map straight onto the Cursor brief.
+            </p>
+
+            <h3 className="text-2xl font-semibold text-navy pt-4">
+              Team building and player-coach leadership.
+            </h3>
+            <p>
+              I grew the marketing team at Refuel Creative from two
+              direct reports to four over 18 months. I hired and
+              onboarded specialists across paid media, content and
+              creative, and built the briefing, coaching and
+              capacity-planning rhythm that let each one run a
+              multi-million-dollar client portfolio. The team went on to
+              win two HubSpot Impact Awards together: Grow Better Sales
+              in 2020 and Platform Excellence in 2023. Refuel made the
+              BDO Fast Movers List in 2022 with that team in place. At
+              90 Seconds today I lead two direct reports in APAC inside
+              the global function. Beyond the day job: seven years
+              lecturing at TAFE SA and UniSA Creative, member of the
+              Industry Advisory Panel at the UniSA School of
+              Communication, designed and ran SeaLink&apos;s marketing
+              mentoring programme, two years chairing the Allenby Gardens
+              Primary School Governing Council. Player-coach has been
+              the mode I work in for a decade.
+            </p>
+
+            <h3 className="text-2xl font-semibold text-navy pt-4">
+              Field marketing at scale.
+            </h3>
+            <p>
+              I have been a Director of Digital Adelaide for the past nine
+              years. South Australia&apos;s largest marketing conference,
+              grown from about 40 marketers to over 270 delegates.
+              End-to-end ownership: regional strategy, speaker programmes,
+              sponsor sales and fulfilment, vendor sourcing, venue and
+              catering, on-the-day production, post-event reporting. This
+              is field marketing at scale, run year on year, with budget
+              responsibility and a sponsor list that compounds. The
+              executive-audience ABM work for the University of South
+              Australia (3.8x over MQL target) sits in the same vein.
+              Field marketers without a flagship regional event behind
+              them cannot show this.
+            </p>
+
+            <h3 className="text-2xl font-semibold text-navy pt-4">
+              APAC built from the ground up.
+            </h3>
+            <p>
+              My current APAC remit at 90 Seconds is the same build
+              Cursor needs, without the dedicated regional budget. I run
+              the regional plan end to end, partner with sales on the
+              pipeline number, adapt global brand and demand programmes
+              for the market, and act as the daily bridge between regional
+              sales and the global function. Comfortable being the
+              marketing lead in a region and standing up the muscle from
+              first principles.
             </p>
 
             <h3 className="text-2xl font-semibold text-navy pt-4">
@@ -353,41 +409,9 @@ export default function CursorPage() {
               GTM OS, an internal AI operations platform that integrates
               CRM and SEMrush data to automate market mapping and content
               coverage. He owned the engineering. I owned the marketing
-              logic, scoring criteria and prompt design. My lane is
+              logic, scoring criteria and prompt design. My focus is
               problem framing and rapid prototyping, not deep engineering.
               The stack Cursor sells to is the stack I already live in.
-            </p>
-
-            <h3 className="text-2xl font-semibold text-navy pt-4">
-              Field marketing at scale.
-            </h3>
-            <p>
-              I have been a Director of Digital Adelaide for the past nine
-              years. South Australia&apos;s largest marketing conference,
-              grown from about 40 marketers to over 270 delegates.
-              End-to-end ownership: regional strategy, speaker programmes,
-              sponsor sales and fulfilment, vendor sourcing, venue and
-              catering, on-the-day production, post-event reporting. This
-              is field marketing at scale, run year on year, with budget
-              responsibility and a sponsor list that compounds. The
-              executive-audience ABM work for the University of South
-              Australia (3.8x over MQL target) sits in the same lane.
-              Field marketers without a flagship regional event behind
-              them cannot show this.
-            </p>
-
-            <h3 className="text-2xl font-semibold text-navy pt-4">
-              APAC built from the ground up.
-            </h3>
-            <p>
-              My current APAC remit at 90 Seconds is the same build
-              Cursor needs, without the dedicated regional budget. I run
-              the regional plan end to end, partner with sales on the
-              pipeline number, adapt global brand and demand programmes
-              for the market, and act as the daily bridge between regional
-              sales and the global function. Comfortable being the
-              marketing lead in a region and standing up the muscle from
-              first principles.
             </p>
 
             <p>
@@ -398,9 +422,7 @@ export default function CursorPage() {
               in revenue. $900K+ in annual budgets managed at Refuel
               Creative. Fluent in MSAs, regional supplier agreements and
               Statements of Work through enterprise customer work at 90
-              Seconds. Four direct reports at Refuel, two at 90 Seconds,
-              seven years lecturing at TAFE SA and UniSA. Player-coach is
-              the mode I already work in.
+              Seconds.
             </p>
 
             <p>
