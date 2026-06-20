@@ -142,6 +142,42 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Playbook resource */}
+      <section className="mx-auto max-w-5xl px-6 pb-20 sm:pb-24">
+        <div className="rounded-lg border border-soft-blue/40 bg-soft-blue/[0.06] p-8 sm:p-12">
+          <div className="grid gap-8 md:grid-cols-[3fr_2fr] md:items-center">
+            <div>
+              <p className="text-sm uppercase tracking-wider text-soft-blue font-semibold">
+                Free resource · built with Claude Code
+              </p>
+              <h2 className="mt-3 text-2xl sm:text-3xl font-bold tracking-tight text-navy">
+                The Marketing Playbook.
+              </h2>
+              <p className="mt-4 text-lg leading-relaxed text-navy/80">
+                A practical, no-code guide for any B2B marketer. Capture how
+                your marketing works, then use AI to help you deliver it. It is
+                the clearest example of what I mean when I say I build with AI
+                every day.
+              </p>
+            </div>
+            <div className="flex flex-col gap-3 sm:items-start md:items-end">
+              <Link
+                href="/marketing-playbook"
+                className="inline-block bg-crimson text-cream px-6 py-3 rounded-md font-medium hover:bg-crimson-dark transition"
+              >
+                Read the playbook →
+              </Link>
+              <a
+                href="/Marketing-Playbook-Guide.pdf"
+                className="text-sm font-medium text-navy/70 hover:text-crimson underline-offset-4 hover:underline"
+              >
+                Or download the PDF
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Pull quote */}
       <section className="bg-navy text-cream">
         <div className="mx-auto max-w-3xl px-6 py-20 sm:py-24 text-center">

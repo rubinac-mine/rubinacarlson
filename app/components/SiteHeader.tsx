@@ -32,6 +32,12 @@ export function SiteHeader() {
           >
             Speaking
           </Link>
+          <Link
+            href="/marketing-playbook"
+            className="text-navy/70 hover:text-crimson transition"
+          >
+            Playbook
+          </Link>
           <a
             href={MAILTO}
             className="font-medium text-crimson hover:underline underline-offset-4"
