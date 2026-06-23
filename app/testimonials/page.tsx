@@ -21,6 +21,25 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
   {
+    name: "Tim Lillyman",
+    role: "Head of Marketing & AI Automation at XPON Technologies Group",
+    relationship: "Peer in the Generate AI community",
+    date: "June 2026",
+    quote: [
+      "Rubina is an excellent marketer who possesses one of the most critical skillsets in today's marketing landscape: a technical nous and the ability to problem-solve and build AI solutions that tangibly improve execution and outcomes. When faced with a complex marketing challenge, she strips it down to its core logic and creates custom AI workflows to solve it. While most marketing leaders are still just talking about what AI could do, Rubina is actively rolling up her sleeves and building the systems that actually get it done.",
+    ],
+  },
+  {
+    name: "Juliana Rixen-Capo",
+    role: "Head of Marketing at Intelliworx Managed IT",
+    relationship: "Peer in the Generate AI community",
+    date: "June 2026",
+    quote: [
+      "Just wanted to give a little shoutout to the Generate Community, and especially to Rubina. We had a 1:1 a while back, and when I asked about social media agents here in the tools channel, she jumped on another call with me and shared so many tips, insights, and ideas. She even went the extra mile and put together a playbook to help me get started.",
+      "It genuinely helped me make more strategic decisions around AI and actually take action. Feeling very grateful for this community today.",
+    ],
+  },
+  {
     name: "Richard Littleton",
     role: "Business Development | Research | Marketing | Strategic Communications | Engagement",
     relationship: "Client at Refuel Creative",
@@ -141,8 +160,8 @@ export default function Testimonials() {
         </h1>
         <p className="mt-8 max-w-2xl text-lg leading-relaxed text-navy/80">
           Recommendations from clients, colleagues, mentees and the wider
-          Adelaide marketing community. All collected from LinkedIn and
-          reproduced in full.
+          marketing community. Collected from LinkedIn and community
+          channels, reproduced in full.
         </p>
       </section>
 
