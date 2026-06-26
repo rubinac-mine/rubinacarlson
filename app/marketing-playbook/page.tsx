@@ -121,6 +121,34 @@ export default function MarketingPlaybook() {
         </p>
       </section>
 
+      {/* Where to go next */}
+      <section className="bg-navy/[0.04] border-y border-navy/10">
+        <div className="mx-auto max-w-5xl px-6 py-16 sm:py-20">
+          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-navy mb-3">
+            Where to go next.
+          </h2>
+          <p className="text-lg text-navy/70 mb-10 max-w-2xl">
+            Once your playbook is written, these two open-source collections are
+            the best starting points I know for giving an AI agent real skills.
+            Both work with Claude Code. Drop them in alongside your folder.
+          </p>
+          <div className="grid gap-6 md:grid-cols-2">
+            <RepoCard
+              eyebrow="Marketing skills"
+              title="Corey Haines · Conversion Factory"
+              body="50+ ready-made skills for conversion, copywriting, SEO, analytics and growth. Built for marketers who want an AI agent doing the craft work with them."
+              href="https://github.com/coreyhaines31/marketingskills"
+            />
+            <RepoCard
+              eyebrow="Builder's toolkit"
+              title="Garry Tan · Y Combinator"
+              body="gstack turns Claude Code into a virtual team, with a clear flow from planning to shipping. A strong base if you want to build, not just write."
+              href="https://github.com/garrytan/gstack"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-navy text-cream">
         <div className="mx-auto max-w-3xl px-6 py-16 text-center">
@@ -176,5 +204,34 @@ function InsideCard({
       <h3 className="mt-2 text-xl font-semibold text-navy">{title}</h3>
       <p className="mt-3 text-base leading-relaxed text-navy/80">{body}</p>
     </div>
+  );
+}
+
+function RepoCard({
+  eyebrow,
+  title,
+  body,
+  href,
+}: {
+  eyebrow: string;
+  title: string;
+  body: string;
+  href: string;
+}) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener"
+      className="block border border-navy/15 bg-cream rounded-lg p-8 hover:border-crimson/50 hover:shadow-sm transition"
+    >
+      <p className="text-xs uppercase tracking-wider text-crimson font-semibold">
+        {eyebrow}
+      </p>
+      <h3 className="mt-3 text-xl font-semibold text-navy">
+        {title} <span className="text-crimson">↗</span>
+      </h3>
+      <p className="mt-3 text-base leading-relaxed text-navy/80">{body}</p>
+    </a>
   );
 }
