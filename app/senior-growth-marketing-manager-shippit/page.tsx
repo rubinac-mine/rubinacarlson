@@ -250,6 +250,34 @@ export default function ShippitPage() {
         </div>
       </section>
 
+      {/* Section 4.5 - From the work */}
+      <section className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
+          From the work.
+        </h2>
+        <p className="text-lg text-navy/70 mb-12 max-w-2xl">
+          Leading the community, sharing the AI work, and bringing people with
+          me.
+        </p>
+        <div className="grid gap-6 sm:grid-cols-3">
+          <WorkPhoto
+            image="/senior-growth-marketing-manager-shippit/digital-adelaide.jpg"
+            alt="Rubina at Digital Adelaide, the marketing conference she has directed for nine years."
+            caption="Directing Digital Adelaide, the state's largest marketing event, for nine years."
+          />
+          <WorkPhoto
+            image="/senior-growth-marketing-manager-shippit/ai-panel.jpg"
+            alt="Rubina on an AI panel at the Women in Media SA event, June 2026."
+            caption="On the AI panel at Women in Media SA, championing how marketers can build with AI."
+          />
+          <WorkPhoto
+            image="/senior-growth-marketing-manager-shippit/rubina-teaching.jpg"
+            alt="Rubina recording video lectures on a green-screen set as a marketing lecturer."
+            caption="Teaching the next generation of marketers at UniSA and TAFE SA."
+          />
+        </div>
+      </section>
+
       {/* Section 5 - The builds I'm proudest of */}
       <section className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-navy mb-3">
@@ -264,21 +292,29 @@ export default function ShippitPage() {
             title="HubSpot Customer Agent"
             tagline="AI in production, with real customer load."
             body="Configured and shipped HubSpot's AI Customer Agent at 90 Seconds. Live, handling incoming customer service queries with AI-led triage. Vendor AI capability moved into a real workflow, with the change management to make it stick across the team."
+            image="/senior-growth-marketing-manager-shippit/scout-customer-agent.png"
+            imageAlt="Scout, the HubSpot Customer Agent Rubina configured for 90 Seconds, in a live chat window."
           />
           <BuildCard
             title="GTM Playbook"
             tagline="Market mapping and content coverage, automated."
             body="An internal AI operations platform that integrates HubSpot and SEMrush data to automate market mapping and content coverage analysis by segment. I build and maintain the marketing logic and automations the team relies on."
+            image="/senior-growth-marketing-manager-shippit/gtm-playbook.png"
+            imageAlt="The GTM Playbook tool Rubina built, showing ICP and market-mapping logic."
           />
           <BuildCard
             title="90Labs"
             tagline="Sales enablement workspace built in Replit."
             body="Designed and built via Replit, with Claude and Claude Code doing the engineering under my prompts. Hosts 29+ assets and a Pitch Builder in beta with the global sales team, giving reps tailored pitches in minutes."
+            image="/senior-growth-marketing-manager-shippit/90labs-pitch-builder.png"
+            imageAlt="The 90Labs Pitch Builder homepage, a sales-enablement tool Rubina built in Replit."
           />
           <BuildCard
             title="The 300-page migration"
             tagline="Website rebuild with a fleet of AI agents."
             body="Rebuilt the 90 Seconds website as a fully vibe-coded build, then migrated 300+ legacy pages through Anthropic-API agents that crawled, classified, scored and migrated content automatically. A multi-month job compressed into weeks."
+            image="/senior-growth-marketing-manager-shippit/website-migration.png"
+            imageAlt="The WordPress-to-React migration engine Rubina built on the Anthropic API."
           />
         </div>
       </section>
@@ -535,20 +571,64 @@ function ProofCard({
   );
 }
 
+function WorkPhoto({
+  image,
+  alt,
+  caption,
+}: {
+  image: string;
+  alt: string;
+  caption: string;
+}) {
+  return (
+    <figure className="flex flex-col">
+      <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden border border-navy/15 bg-navy/5">
+        <Image
+          src={image}
+          alt={alt}
+          fill
+          sizes="(max-width: 640px) 100vw, 33vw"
+          className="object-cover"
+        />
+      </div>
+      <figcaption className="mt-3 text-sm leading-snug text-navy/70">
+        {caption}
+      </figcaption>
+    </figure>
+  );
+}
+
 function BuildCard({
   title,
   tagline,
   body,
+  image,
+  imageAlt,
 }: {
   title: string;
   tagline: string;
   body: string;
+  image?: string;
+  imageAlt?: string;
 }) {
   return (
-    <div className="border border-navy/15 bg-cream rounded-lg p-8 hover:border-crimson/50 transition">
-      <h3 className="text-xl font-semibold mb-2 text-navy">{title}</h3>
-      <p className="text-crimson italic mb-4">{tagline}</p>
-      <p className="text-navy/80 leading-relaxed">{body}</p>
+    <div className="border border-navy/15 bg-cream rounded-lg overflow-hidden hover:border-crimson/50 transition flex flex-col">
+      {image && (
+        <div className="relative w-full aspect-[16/10] bg-navy/5 border-b border-navy/10">
+          <Image
+            src={image}
+            alt={imageAlt || ""}
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+            className="object-cover object-top"
+          />
+        </div>
+      )}
+      <div className="p-8">
+        <h3 className="text-xl font-semibold mb-2 text-navy">{title}</h3>
+        <p className="text-crimson italic mb-4">{tagline}</p>
+        <p className="text-navy/80 leading-relaxed">{body}</p>
+      </div>
     </div>
   );
 }
