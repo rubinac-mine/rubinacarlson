@@ -408,6 +408,16 @@ export default function SquarePage() {
               linkedin.com/in/rubinacarlson
             </a>
           </li>
+          <li>
+            <a
+              href="https://github.com/rubinac-mine"
+              target="_blank"
+              rel="noopener"
+              className="hover:text-crimson underline-offset-4 hover:underline"
+            >
+              github.com/rubinac-mine
+            </a>
+          </li>
           <li className="text-navy/60 text-base">
             Adelaide, South Australia. Available fully remote. Australian
             citizen.
